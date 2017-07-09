@@ -74,8 +74,8 @@ public class TableTextSeparateUpdate {
 			}
 			//}
 			sentence.put("biaoge", biaogeSentenceList);
-			sentence.put("text", textSentenceList);
 			entitySentenceMap.put(company, sentence);
+			sentence.put("text", textSentenceList);
 
 		}
 	}
@@ -111,6 +111,12 @@ public class TableTextSeparateUpdate {
 				sectionSentence=tableSentence(companyText,entityName,indexEntity);//找出表格实体所在的段或句子
 			}else {//对实体所在文本进行分析
 				sectionSentence=findTextSetence(companyText,entityName,indexEntity);
+				if (sectionSentence!=null && (!sectionSentence.contains(entityName))) {
+					sectionSentence=null;
+				}
+				if (sectionSentence!=null && (sectionSentence.indexOf("报告期，")>0)) {
+					sectionSentence=sectionSentence.substring(sectionSentence.indexOf("报告期，")+"报告期，".length());
+				}
 			}
 		}
 		if (sectionSentence!=null) {
@@ -189,7 +195,7 @@ public class TableTextSeparateUpdate {
 						}
 					}
 				}
-				if (yanfa>0) {
+				if (bufenSentence==null && yanfa>0) {
 					int yanju=reportText.indexOf("。", yanfa);
 					if (yanfa>bushiyong && xmx>yanfa) {
 						bufenSentence=reportText.substring(yanfa,xmx);
@@ -324,7 +330,7 @@ public class TableTextSeparateUpdate {
 			}
 			sentence=sentence.replace("□ 适用 √ 不适用", "");
 		}
-
+		
 		return sentence;
 	}
 }

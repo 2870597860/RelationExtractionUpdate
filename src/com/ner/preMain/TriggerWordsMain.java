@@ -1,4 +1,4 @@
-package com.ner.Main;
+package com.ner.preMain;
 
 import java.io.IOException;
 import java.io.OutputStreamWriter;
@@ -8,7 +8,7 @@ import java.util.Map;
 
 import com.ner.nlp.WordSegmentation;
 import com.ner.textpreprocess.ObjectAndDataCollection;
-import com.ner.textpreprocess.OnlyTriggerWordSentencesList;
+import com.ner.textpreprocess.OnlySentencesList;
 import com.ner.textpreprocess.WordsFilter;
 import com.ner.tfidf.TFIDF;
 
@@ -85,9 +85,9 @@ public class TriggerWordsMain {
 		/*
 		 * 整理句子集合
 		 */
-		OnlyTriggerWordSentencesList sl=new OnlyTriggerWordSentencesList();
+		OnlySentencesList sl=new OnlySentencesList();
 		ObjectAndDataCollection.getEntitysTextsMapObject();
-		List<String> sentencesLists=sl.getSentencesListOnlyTriggerWord(ObjectAndDataCollection.entitySentenceMap);
+		List<String> sentencesLists=sl.getSentencesList(ObjectAndDataCollection.entitySentenceMap);
 		System.out.println("触发词所需句子集合获取完毕！");
 		//开始对句子集合进行处理
 		System.out.println("开始对句子集合进行处理。。。");

@@ -13,7 +13,7 @@ public class WordSegmentation {
 	 * @return
 	 */
 	private static WordSegmentation ws=new WordSegmentation();
-	LoadModels lm=null;
+	public LoadModels lm=null;
 /*	StopWords sw=null;
 	CWSTagger cwst=null;
 	POSTagger tag=null;*/

@@ -1,4 +1,4 @@
-package com.ner.Main;
+package com.ner.preMain;
 
 import com.ner.textpreprocess.GuiLeiZhengLi;
 /*

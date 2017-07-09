@@ -11,7 +11,7 @@ public class GuiLeiZhengLi {
 	public void getEntitySentenceMap(){
 		/*EntitysTextsMap et=new EntitysTextsMap();
 		et.getCompanys_entitys_types();
-		
+
 		TableTextSeparateUpdate tts=new TableTextSeparateUpdate();
 		tts.companys_entitys_types=et.companys_entitys_types;
 		tts.companys_texts=et.companys_texts;
@@ -35,27 +35,29 @@ public class GuiLeiZhengLi {
 		StringBuilder sb=new StringBuilder();
 		WriteContent wc=new WriteContent();
 		for (String company : companys) {
-			 HashMap<String, List<String>> flagSentences=entitySentenceMap.get(company);
-			 Set<String> setFlags=flagSentences.keySet();
-			 for (String flag : setFlags) {
-				 sb.append(flag+"->"+"\n");
-				 List<String> sentences=flagSentences.get(flag);
-				 for (String sentence : sentences) {
+			HashMap<String, List<String>> flagSentences=entitySentenceMap.get(company);
+			Set<String> setFlags=flagSentences.keySet();
+			for (String flag : setFlags) {
+				sb.append(flag+"->"+"\n");
+				List<String> sentences=flagSentences.get(flag);
+				for (String sentence : sentences) {
 					String[] arr=sentence.split("~");
-					String entity=arr[0];
-					String sen=arr[1].replace("['   ']+"," ").replace("\n", " ");
-					String type="";
-					if (companys_entitys_types.containsKey(company)) {
-						type=companys_entitys_types.get(company).get(entity);
+					if (arr.length>1) {
+						String entity=arr[0];
+						String sen=arr[1].replace("['   ']+"," ").replace("\n", " ");
+						String type="";
+						if (companys_entitys_types.containsKey(company)) {
+							type=companys_entitys_types.get(company).get(entity);
+						}
+						sb.append(entity+" : "+type+" : "+sen);
+						sb.append("\n");
 					}
-					sb.append(entity+" : "+type+"  "+sen);
-					sb.append("\n");
 				}
 			}
-			 wc.writeCon(sb.toString(), "./data/companys/"+company);
-			 sb.setLength(0);
+			wc.writeCon(sb.toString(), "./data/companys/"+company);
+			sb.setLength(0);
 		}
 	}
-	
-	
+
+
 }

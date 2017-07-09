@@ -7,8 +7,8 @@ import java.util.Set;
 /*
  * 获取触发词所需要分析的句子
  */
-public class OnlyTriggerWordSentencesList {
-	public List<String> getSentencesListOnlyTriggerWord(HashMap<String, HashMap<String, List<String>>> entitySentenceMap){		
+public class OnlySentencesList {
+	public List<String> getSentencesList(HashMap<String, HashMap<String, List<String>>> entitySentenceMap){		
 		List<String> sentencesLists=new ArrayList<>();
 		Set<String> companys=entitySentenceMap.keySet();
 		System.out.println("获取所有句子集合。。。");

@@ -3,6 +3,7 @@ package com.ner.tfidf;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
+import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.Map.Entry;
@@ -49,9 +50,33 @@ public class TFIDF {
 		}
 		return wordsIDF;
 	}
+	public static Double gettfidf(List<String> sentences,String wordType,Double tf,HashMap<String, TreeMap<String,String>> companys_entitys_types){
+		//公式IDF＝log(|D|/(1+|Dt|))，其中|D|表示文档总数，|Dt|表示包含关键词t的文档数量。
+		double tfidf=0.0;
+		double Dt=1;
+		double D=sentences.size();
+		Set<String> companys=companys_entitys_types.keySet();
+		for (String company : companys) {
+			 TreeMap<String,String> entitysType=companys_entitys_types.get(company);
+			 Set<String> entitys=entitysType.keySet();
+				for (String entity : entitys) {
+					if (entitysType.get(entity).equals(wordType)) {
+						for (String sentence : sentences) {
+							if (sentence.contains(entity)) {
+								Dt+=1;//Dt表示含有此类型实体的句子数
+							}
+						}
+					}
+				}
+		}
+		
+		tfidf=log(D/(1 + Dt), 10.0);
+		return tfidf;
+	}
+
 	private static Double log(Double value, Double base) {
-        return (Double) (Math.log(value) / Math.log(base));
-    }
+		return (Double) (Math.log(value) / Math.log(base));
+	}
 	public static void SortMap(Map<String,Double> oldmap){    
 
 		list = new ArrayList<Map.Entry<String,Double>>(oldmap.entrySet());    
