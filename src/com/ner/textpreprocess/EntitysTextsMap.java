@@ -17,8 +17,8 @@ public class EntitysTextsMap {
 	HashMap<String, TreeMap<String,String>> companys_entitys_types=null;
 	HashMap<String, String> companys_texts=null;
 	
-	public void getCompanys_entitys_types(){
-		String entityPath="E:\\SES和企业信息\\股票期刊论文\\词频统计和分析\\report\\entity";
+	public void getCompanys_entitys_types(String entityPath,String textPath){
+		//String entityPath="E:\\SES和企业信息\\股票期刊论文\\词频统计和分析\\report\\entity";
 		if (companys_entitys_types==null) {
 			companys_entitys_types=new HashMap<>();
 		}
@@ -39,7 +39,7 @@ public class EntitysTextsMap {
 
 				companys_entitys_types.put(companyName, entitys_types);
 				//获取文本
-				String textPath="E:\\SES和企业信息\\股票期刊论文\\词频统计和分析\\report\\testdoing\\"+companyName+".txt";
+				textPath=textPath+companyName+".txt";
 				String text=readText(textPath);
 				companys_texts.put(companyName, text);
 			}

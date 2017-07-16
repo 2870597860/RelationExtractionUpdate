@@ -8,11 +8,11 @@ public class ObjectAndDataCollection{
 	public static HashMap<String, TreeMap<String,String>> companys_entitys_types=new HashMap<>();
 	public static  HashMap<String, String> companys_texts=new HashMap<>();
 	public static HashMap<String, HashMap<String, List<String>>> entitySentenceMap=new HashMap<>();
-	public static void getEntitysTextsMapObject(){
+	public static void getEntitysTextsMapObject(String entityPath,String textPath){
 		EntitysTextsMap et=new EntitysTextsMap();
 		et.companys_entitys_types=companys_entitys_types;
 		et.companys_texts=companys_texts;
-		et.getCompanys_entitys_types();
+		et.getCompanys_entitys_types( entityPath, textPath);
 		
 		TableTextSeparateUpdate tts=new TableTextSeparateUpdate();
 		tts.entitySentenceMap=entitySentenceMap;

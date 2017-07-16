@@ -8,7 +8,7 @@ import java.util.TreeMap;
 import cn.ner.readwrite.WriteContent;
 
 public class GuiLeiZhengLi {
-	public void getEntitySentenceMap(){
+	public void getEntitySentenceMap(String entityPath,String textPath){
 		/*EntitysTextsMap et=new EntitysTextsMap();
 		et.getCompanys_entitys_types();
 
@@ -21,7 +21,7 @@ public class GuiLeiZhengLi {
 		System.out.println("获取实体和句子结束");
 		//归类整理
 		gz.guiLeiWrite(et.companys_entitys_types, entitySentenceMap);*/
-		ObjectAndDataCollection.getEntitysTextsMapObject();
+		ObjectAndDataCollection.getEntitysTextsMapObject(entityPath,textPath);
 		//获取实体和句子
 		HashMap<String, HashMap<String, List<String>>> entitySentenceMap=ObjectAndDataCollection.entitySentenceMap;
 		guiLeiWrite(ObjectAndDataCollection.companys_entitys_types, entitySentenceMap);
@@ -54,7 +54,7 @@ public class GuiLeiZhengLi {
 					}
 				}
 			}
-			wc.writeCon(sb.toString(), "./data/companys/"+company);
+			wc.writeCon(sb.toString(), "./data/traincorpus/companys/"+company);
 			sb.setLength(0);
 		}
 	}

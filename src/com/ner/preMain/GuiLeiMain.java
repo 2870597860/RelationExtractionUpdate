@@ -6,8 +6,10 @@ import com.ner.textpreprocess.GuiLeiZhengLi;
  */
 public class GuiLeiMain {
 	public static void main(String[] args) {
+		String entityPath="E:\\SES和企业信息\\股票期刊论文\\词频统计和分析\\report\\entity";
+		String textPath="E:\\SES和企业信息\\股票期刊论文\\词频统计和分析\\report\\testdoing\\";
 		GuiLeiZhengLi sc=new GuiLeiZhengLi();
-		sc.getEntitySentenceMap();
+		sc.getEntitySentenceMap(entityPath, textPath);;
 		System.out.println("归类结束");
 	}
 }

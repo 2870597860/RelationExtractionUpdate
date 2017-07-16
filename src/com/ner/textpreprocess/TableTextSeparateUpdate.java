@@ -135,6 +135,9 @@ public class TableTextSeparateUpdate {
 	private String tableSentence(String reportText,String entity,int indexEntity){
 		int xu=reportText.lastIndexOf("序", indexEntity);
 		int mc=reportText.lastIndexOf("名称", indexEntity);
+		if(entity.equals("甲磺酸左氧氟")){
+			System.out.println();
+		}
 		String sentence=null;
 		if (xu>0) {
 			sentence=findBiaogeSentence(xu, reportText, entity, indexEntity);
@@ -185,14 +188,17 @@ public class TableTextSeparateUpdate {
 						bufenSentence=reportText.substring(juhao+"。".length(), xmx);
 					}
 					if (bufenSentence.getBytes().length==bufenSentence.length()||bufenSentence.split("\n").length>5) {
-						int ke=reportText.lastIndexOf("客户情况", indexEntity);
-						int gong=reportText.lastIndexOf("供应商情况",indexEntity);
-						if (gong>0 &&  ke>gong ) {
-							bufenSentence=reportText.substring(ke-6, xmx);
+						if(bufenSentence.contains("客户情况")||bufenSentence.contains("供应商情况")){
+							int ke=reportText.lastIndexOf("客户情况", indexEntity);
+							int gong=reportText.lastIndexOf("供应商情况",indexEntity);
+							if (gong>0 &&  ke>gong ) {
+								bufenSentence=reportText.substring(ke-6, xmx);
+							}
+							if (ke>0 && gong>ke ) {
+								bufenSentence=reportText.substring(gong-4, xmx);
+							}
 						}
-						if (ke>0 && gong>ke ) {
-							bufenSentence=reportText.substring(gong-4, xmx);
-						}
+
 					}
 				}
 				if (bufenSentence==null && yanfa>0) {
@@ -229,7 +235,7 @@ public class TableTextSeparateUpdate {
 						if (bufenSentence.getBytes().length==bufenSentence.length()||bufenSentence.length()<6||bufenSentence.length()>100||bufenSentence.split("\n").length>5) {
 							bufenSentence="研发投入,报告期公司已经进入注册程序的研发产品进展情况如下";//默认值
 							if (reportText.indexOf("主要控股参股公司")>0 && reportText.indexOf("主要控股参股公司")<indexEntity) {
-								
+
 							}else {
 								return bufenSentence;
 							}
@@ -326,11 +332,11 @@ public class TableTextSeparateUpdate {
 				sentence=sentence.substring(0,sentence.lastIndexOf("，", enTndex))+"。";
 			}
 			if(sentence.indexOf("：", enTndex)>0){
-			sentence=sentence.substring(0,sentence.indexOf("：", enTndex)-4)+"。";
+				sentence=sentence.substring(0,sentence.indexOf("：", enTndex)-4)+"。";
 			}
 			sentence=sentence.replace("□ 适用 √ 不适用", "");
 		}
-		
+
 		return sentence;
 	}
 }

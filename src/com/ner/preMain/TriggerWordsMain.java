@@ -85,8 +85,10 @@ public class TriggerWordsMain {
 		/*
 		 * 整理句子集合
 		 */
+		String entityPath="E:\\SES和企业信息\\股票期刊论文\\词频统计和分析\\report\\entity";
+		String textPath="E:\\SES和企业信息\\股票期刊论文\\词频统计和分析\\report\\testdoing\\";
 		OnlySentencesList sl=new OnlySentencesList();
-		ObjectAndDataCollection.getEntitysTextsMapObject();
+		ObjectAndDataCollection.getEntitysTextsMapObject( entityPath, textPath);
 		List<String> sentencesLists=sl.getSentencesList(ObjectAndDataCollection.entitySentenceMap);
 		System.out.println("触发词所需句子集合获取完毕！");
 		//开始对句子集合进行处理

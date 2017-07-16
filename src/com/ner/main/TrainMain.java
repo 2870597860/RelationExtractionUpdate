@@ -15,9 +15,11 @@ import com.ner.textpreprocess.OnlySentencesList;
 import cn.ner.readwrite.ReadFiles;
 import cn.ner.readwrite.WriteContent;
 
-public class Main {
+public class TrainMain {
 	public static void main(String[] args) {
-		ObjectAndDataCollection.getEntitysTextsMapObject();
+		String entityPath="E:\\SES和企业信息\\股票期刊论文\\词频统计和分析\\report\\entity";
+		String textPath="E:\\SES和企业信息\\股票期刊论文\\词频统计和分析\\report\\testdoing\\";
+		ObjectAndDataCollection.getEntitysTextsMapObject( entityPath, textPath);
 		FeatureVector fv=FeatureVector.getInstance();
 		
 		/*HashMap<String, TreeMap<String,String>> companys_entitys_types=ObjectAndDataCollection.companys_entitys_types;
@@ -26,15 +28,13 @@ public class Main {
 		List<String> sentencesLists=new OnlySentencesList().getSentencesList(entitySentenceMap);
 		Set<String> companys=companys_entitys_types.keySet();*/
 		
-		
-
 		List<String> fileLists=null;
 		WriteContent wc=new WriteContent();
 		OutputStreamWriter osw=wc.writeConAppend("./data/seeds/seeddatafile");
 		OutputStreamWriter oswtrain=wc.writeConAppend("./data/seeds/datafile");
 		try {
 			int count=0;
-			fileLists = ReadFiles.readDirs("data/companys");
+			fileLists = ReadFiles.readDirs("data/traincorpus/companys/");
 			Set<String> trainvector=new HashSet<>();
 			for (String file : fileLists) {
 				String str=ReadFiles.readRawData(file);
@@ -56,15 +56,31 @@ public class Main {
 						for (Double dou : vector) {
 							cacheVector.append(Double.parseDouble(String.format("%.2f",(dou/countAll)))+" ");
 						}
-						trainvector.add(cacheVector.toString());
+						if (bgArrArr[2].contains("子公司")||bgArrArr[2].contains("参股公司")) {
+							trainvector.add(cacheVector.toString()+" "+3 );
+						}
+						if (bgArrArr[2].contains("客户")) {
+							trainvector.add(cacheVector.toString()+" "+0 );
+						}
+						if (bgArrArr[2].contains("供应商")) {
+							trainvector.add(cacheVector.toString()+" "+1 );
+						}
+						if (bgArrArr[2].contains("研发")||bgArrArr[2].contains("注册")) {
+							trainvector.add(cacheVector.toString()+" "+2 );
+						}						
 						osw.write(bgArrArr[0]+"~"+cacheVector.toString()+"\n");						
 						osw.flush();
 					}					
 				}
 				
 				String text=str.substring(str.indexOf("text->")+"text->\n".length());
-				
-				
+				String[] sentenceArr=text.split("\n");
+				for (int i = 0; i < sentenceArr.length; i++) {
+					String[] senArr=sentenceArr[i].split(" : ");//数组中分别是实体、类型、句子
+					if (senArr.length>2) {
+						
+					}
+				}
 			}
 			StringBuilder sbb=new StringBuilder();
 			for (String string : trainvector) {
@@ -77,8 +93,6 @@ public class Main {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-		
-
 	}
 	public void textSentenceDepPro(String sentence){
 		
