@@ -9,6 +9,7 @@ import java.util.Set;
 import java.util.TreeMap;
 
 import com.ner.featurevector.FeatureVector;
+import com.ner.relationpattern.DepParsingMain;
 import com.ner.textpreprocess.ObjectAndDataCollection;
 import com.ner.textpreprocess.OnlySentencesList;
 
@@ -16,6 +17,7 @@ import cn.ner.readwrite.ReadFiles;
 import cn.ner.readwrite.WriteContent;
 
 public class TrainMain {
+	
 	public static void main(String[] args) {
 		String entityPath="E:\\SES和企业信息\\股票期刊论文\\词频统计和分析\\report\\entity";
 		String textPath="E:\\SES和企业信息\\股票期刊论文\\词频统计和分析\\report\\testdoing\\";
@@ -36,11 +38,13 @@ public class TrainMain {
 			int count=0;
 			fileLists = ReadFiles.readDirs("data/traincorpus/companys/");
 			Set<String> trainvector=new HashSet<>();
+		
 			for (String file : fileLists) {
 				String str=ReadFiles.readRawData(file);
 				//System.out.println(str);
 				String company=file.substring(file.lastIndexOf("\\")+"\\".length());
 				osw.write(company+"(:)\n");
+				
 				String biaoge=str.substring(str.indexOf("biaoge->")+"biaoge->\n".length(),str.indexOf("text->"));
 				String[] bgArr=biaoge.split("\n");
 				for (int i = 0; i < bgArr.length; i++) {
@@ -73,14 +77,7 @@ public class TrainMain {
 					}					
 				}
 				
-				String text=str.substring(str.indexOf("text->")+"text->\n".length());
-				String[] sentenceArr=text.split("\n");
-				for (int i = 0; i < sentenceArr.length; i++) {
-					String[] senArr=sentenceArr[i].split(" : ");//数组中分别是实体、类型、句子
-					if (senArr.length>2) {
-						
-					}
-				}
+								
 			}
 			StringBuilder sbb=new StringBuilder();
 			for (String string : trainvector) {
@@ -94,7 +91,5 @@ public class TrainMain {
 			e.printStackTrace();
 		}
 	}
-	public void textSentenceDepPro(String sentence){
-		
-	}
+	
 }

@@ -17,8 +17,7 @@ import org.dom4j.DocumentHelper;
 import org.dom4j.Element;
 import org.dom4j.io.SAXReader;
 
-import com.RE.dp.DepParsing;
-import com.txt.processing.ReadFiles;
+import cn.ner.readwrite.ReadFiles;
 
 public class DomParse {
 	String company="";
@@ -291,7 +290,7 @@ public class DomParse {
 		HashMap<String, List<String>> xmlParseResults=new HashMap<>();
 		try {
 			//返回文件的绝对路径
-			fileLists = ReadFiles.readDirs("SentenceXML");
+			fileLists = ReadFiles.readDirs("./data/xml");
 		} catch (IOException e1) {
 			// TODO Auto-generated catch block
 			e1.printStackTrace();
@@ -300,8 +299,8 @@ public class DomParse {
 			int[] count=new int[1];
 			count[0]=0;
 			for (String file : fileLists){
-				int len=file.indexOf("\\SentenceXML\\");
-				company=file.substring(len+"\\SentenceXML\\".length(),
+				int len=file.indexOf("\\xml\\");
+				company=file.substring(len+"\\xml\\".length(),
 						file.indexOf(".xml"));
 				System.out.println("\n========="+company+":");
 				try {
