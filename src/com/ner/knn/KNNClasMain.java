@@ -4,16 +4,11 @@ import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileReader;
 import java.util.ArrayList;
-import java.util.Collection;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Set;
 
 import org.apache.commons.collections4.CollectionUtils;
-
-import cn.ner.hibernate.domain.RelationAtrributes;
-import cn.ner.knn.KNN;
-import cn.ner.preprocession.GetFeaturesAndDpMain;
 import cn.ner.readwrite.WriteContent;
 
 public class KNNClasMain {
@@ -24,28 +19,26 @@ public class KNNClasMain {
 		return classifacResults;
 	}
 
-	public void getVectorDatas(GetFeaturesAndDpMain gfad){
+	public void getVectorDatas(){
 		//训练数据路径
-		String datafile = new File("").getAbsolutePath() + File.separator + "seedPattern"+File.separator+"datafile";
-		
-		HashMap<String, List<String>> vectorLianghua= gfad.getLianghuaResult();
-		Set<String> copmpanys=vectorLianghua.keySet();
-
+		String datafilePath = new File("").getAbsolutePath() + File.separator + "seeds"+File.separator+"seeddatafile";
 		//获取训练数据
 		List<List<Double>> trainDatas = new ArrayList<List<Double>>();
-		readDatas(trainDatas, datafile); 
-		
+		readDatas(trainDatas, datafilePath); 
+		//测试数据路径
+		String datafiletestPath = new File("").getAbsolutePath() + File.separator + "testcorpus"+File.separator+"datafiletest";
+		HashMap<String, List<String>> testDatas = new HashMap<>();
+		readDatas(testDatas, datafilePath);
+		Set<String> copmpanys=testDatas.keySet();
 		WriteContent wr=new WriteContent();	
 		StringBuffer parseResult=new StringBuffer();
 		
-		HashMap<String, HashMap<String,RelationAtrributes>> atrrsMap=gfad.atrrsMap;
-		
 		KNN knn = new KNN();
 		for (String company : copmpanys) {
-			List<String> vectors=vectorLianghua.get(company);
+			List<String> vectors=testDatas.get(company);
 			
-			HashMap<List<Double>,String> testMapVector=new HashMap<>();
-			List<List<Double>> testDatas = new ArrayList<List<Double>>();
+			/*HashMap<List<Double>,String> testMapVector=new HashMap<>();
+			List<List<Double>> testDatasList = new ArrayList<List<Double>>();*/
 			HashMap<String, String> entityResults=new HashMap<>();
 			
 			for (String entityVector : vectors) {
@@ -58,9 +51,9 @@ public class KNNClasMain {
 				/*if (arr[0].equals("长春佛吉亚排气系统有限公司")) {
 					System.out.println("=================================");
 				}*/
-				testMapVector.put( test,arr[0]);  
-				testDatas.add(test);//获取测试数据
-				
+				/*testMapVector.put( test,arr[0]);  
+				testDatasList.add(test);//获取测试数据
+*/				
 				System.out.print("测试元组 ("+arr[0]+"):"); //arr[0]为实体
 				while (test.size()<8) {
 					test.add(0.0);
@@ -77,9 +70,8 @@ public class KNNClasMain {
 				parseResult.append("测试元组 ("+arr[0]+"):"+"类别为: "+re+"\n");
 				//relaAtr
 			}
-			classifacResults.put(company, entityResults);
-			
-			wr.writeConAppend(company+":\n"+parseResult.toString(), "./seedPattern/parseResult");
+			classifacResults.put(company, entityResults);			
+			wr.writeCon(company+":\n"+parseResult.toString(), "./seedPattern/parseResult");
 			parseResult.setLength(0);
 			System.out.println("====================================================");
 		}
@@ -134,6 +126,29 @@ public class KNNClasMain {
 				datas.add(l);  
 				data = br.readLine();  
 			}  
+		} catch (Exception e) {  
+			e.printStackTrace();  
+		}  
+	}
+	private void readDatas(HashMap<String, List<String>> datas, String path){
+		try {  
+			BufferedReader br = new BufferedReader(new FileReader(new File(path)));  
+			String data = br.readLine();
+			String company="";
+			List<String> list=null;
+			while (data!=null) {
+				if (data.contains("(:)")) {
+					if (list!=null && list.size()>0) {
+						datas.put(company, list);
+					}
+					list=new ArrayList<>();
+					company=data.split("(:)")[0];
+				}else {
+					list.add(data);
+				}
+				data = br.readLine();
+			}
+			
 		} catch (Exception e) {  
 			e.printStackTrace();  
 		}  

@@ -1,17 +1,27 @@
 package com.ner.relationpattern;
 
+import java.io.IOException;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Set;
+import java.util.TreeMap;
+import java.util.TreeSet;
+
+import com.ner.textpreprocess.ObjectAndDataCollection;
+
+import cn.ner.readwrite.ReadFiles;
 
 public class ParseXmlResult {
-	HashMap<String, List<String>> xmlParseResults;
-	public void getTextRelationPattern(){
+	
+	public HashMap<String, List<String>> getTextRelationPattern(String path){
 		DomParse domPar=new DomParse();
-		xmlParseResults=domPar.XMLParseStart("");
-		Set<String> set=xmlParseResults.keySet();
-		for (String string : set) {
-			System.out.println("以上获取关系模式的公司为：："+string);
-		}
+		
+		
+		//HashMap<String, TreeMap<String,String>> companys_entitys_types=ObjectAndDataCollection.companys_entitys_types;
+		
+		
+		HashMap<String, List<String>> xmlParseResults=domPar.XMLParseStart(path);
+		return xmlParseResults;
 	}
+	
 }

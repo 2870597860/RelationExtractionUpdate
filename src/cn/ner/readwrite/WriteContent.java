@@ -17,6 +17,7 @@ public class WriteContent {
 			}
 			out=new OutputStreamWriter(new FileOutputStream(file), "utf-8");
 			out.write(content);
+			out.flush();
 			out.close();
 		} catch (UnsupportedEncodingException e) {
 			// TODO Auto-generated catch block

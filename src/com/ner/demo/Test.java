@@ -156,7 +156,10 @@ public class Test {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-		
+		String wordStr2="防守打法";
+		boolean h2=wordStr2.getBytes().length==wordStr2.length();
+System.out.println(wordStr2.getBytes().length+":"+wordStr2.length());
+		System.out.println(h2); 
 		
 	} 
 

@@ -29,6 +29,7 @@ public class EntitysTextsMap {
 			List<String> fileLists=ReadFiles.readDirs(entityPath);//返回文件的绝对路径
 			int count=0;
 			for (String file : fileLists) {
+				String textPath2=null;
 				count++;
 				System.out.println("第"+count+"篇");
 				String companyName=null;
@@ -39,8 +40,8 @@ public class EntitysTextsMap {
 
 				companys_entitys_types.put(companyName, entitys_types);
 				//获取文本
-				textPath=textPath+companyName+".txt";
-				String text=readText(textPath);
+				textPath2=textPath+companyName+".txt";
+				String text=readText(textPath2);
 				companys_texts.put(companyName, text);
 			}
 		} catch (IOException e) {

@@ -86,7 +86,7 @@ public class DepParsingMain {
 		StringBuffer sb=null;
 		try {
 			sb=LTPAPI_dp.sentenceDP(entitySentence);
-			System.out.println("处理的公司："+company);
+			//System.out.println("处理的公司："+company);
 			//System.out.println("xml:"+sb.toString());
 		} catch (IOException e) {
 			// TODO Auto-generated catch block

@@ -2,6 +2,7 @@ package com.ner.main;
 
 import java.io.IOException;
 import java.io.OutputStreamWriter;
+import java.util.HashMap;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
@@ -30,8 +31,8 @@ public class TestMain {
 		
 		List<String> fileLists=null;
 		WriteContent wc=new WriteContent();
-		OutputStreamWriter osw=wc.writeConAppend("./data/seeds/seeddatafile");
-		OutputStreamWriter oswtrain=wc.writeConAppend("./data/seeds/datafile");
+		OutputStreamWriter oswtrain=wc.writeConAppend("./data/seeds/seeddatafile");
+		OutputStreamWriter osw=wc.writeConAppend("./data/seeds/datafileAll");
 		try {
 			int count=0;
 			fileLists = ReadFiles.readDirs("data/traincorpus/companys/");
@@ -74,6 +75,7 @@ public class TestMain {
 					}					
 				}
 				
+				//句子依存分析，返回分析结果
 				String xml=textSentenceDepPro(str,company,sbuilderText);
 				wc.writeCon(xml, "./data/xml/"+company+".xml");
 				sbuilderText.setLength(0);
@@ -97,8 +99,9 @@ public class TestMain {
 			e.printStackTrace();
 		}
 		//分析句子依存分析xml文件，获取关系模式
-		new ParseXmlResult().getTextRelationPattern();;
-???????????????????????????????????????
+		String xmlPath="./data/xml";
+		HashMap<String, List<String>> xmlParseResults=new ParseXmlResult().getTextRelationPattern(xmlPath);
+		
 	}
 	public static String textSentenceDepPro(String str,String company,StringBuilder sb){
 		String text=str.substring(str.indexOf("text->")+"text->\n".length());

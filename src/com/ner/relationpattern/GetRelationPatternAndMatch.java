@@ -14,9 +14,8 @@ import java.util.Set;
 import java.util.TreeMap;
 import java.util.TreeSet;
 
-import com.similar.Simhash;
+import com.ner.relationpattern.similar.Simhash;
 
-import cn.ner.preprocession.GetEntitysAndText;
 import cn.ner.readwrite.WriteContent;
 
 //import src.main.edu.buaa.edu.wordsimilarity.WordSimilarity;
@@ -29,7 +28,6 @@ public class GetRelationPatternAndMatch {
 	public HashMap<String, HashMap<String, List<String>>> getMatchResults() {
 		return matchResults;
 	}
-
 	//关系模式匹配
 	public void matchRelaPatte(){
 		getEveryRelDePattAll();//获取关系模式种子

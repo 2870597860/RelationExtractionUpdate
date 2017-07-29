@@ -21,6 +21,7 @@ import cn.ner.readwrite.ReadFiles;
 
 public class DomParse {
 	String company="";
+	GetEnType get=new GetEnType("./data/xml");
 	/**
 	 * 获取依存分析关系模式（SBV-VOB形式）
 	 * @param wordNodeList 句子（节点sent）下的所有word节点（包含属性）
@@ -160,7 +161,7 @@ public class DomParse {
 	//获取sbv部分和VOB或者POB部分
 	public void getSBV_VOB(List<Element> wordNodeList,Element wordNode,boolean flag,
 			StringBuffer sbRP){
-		GetEnType getET=new GetEnType();
+		//GetEnType getET=new GetEnType();
 		TreeMap<Integer, String> treeMap=new TreeMap<>();
 		String cont=wordNode.attributeValue("cont");
 		String id=wordNode.attributeValue("id");
@@ -185,7 +186,7 @@ public class DomParse {
 			/*if (sbCache.toString().equals("人民制药")) {
 				System.out.println(sbCache);
 			}*/
-			String entityType=getET.startRead(company).get(sbCache.toString());//获取实体对应的实体类型
+			String entityType=get.startRead(company).get(sbCache.toString());//获取实体对应的实体类型
 			sbCache.append(":"+entityType);
 		}
 		sbRP.append(sbCache.toString());
@@ -282,7 +283,7 @@ public class DomParse {
 	 * 解析xml文本
 	 * @param sbSentenceSet xml文本
 	 */
-	public HashMap<String, List<String>> XMLParseStart(String sbSentenceSet){
+	public HashMap<String, List<String>> XMLParseStart(String path){
 		//读取XML文件,获得document对象 
 		SAXReader saxReader = new SAXReader();
 		Document document=null;
@@ -290,7 +291,7 @@ public class DomParse {
 		HashMap<String, List<String>> xmlParseResults=new HashMap<>();
 		try {
 			//返回文件的绝对路径
-			fileLists = ReadFiles.readDirs("./data/xml");
+			fileLists = ReadFiles.readDirs(path);
 		} catch (IOException e1) {
 			// TODO Auto-generated catch block
 			e1.printStackTrace();
@@ -368,7 +369,6 @@ public class DomParse {
 		System.out.println(xmlParseResult);
 		return xmlParseResult;
 	}
-	//测试
 	public static void main (String[] args) throws Exception{
 		String sentence="<xml4nlp>"
 				+"<doc>"
