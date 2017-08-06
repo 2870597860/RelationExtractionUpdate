@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xml4nlp>
+    <note sent="y" word="y" pos="y" ne="n" parser="y" semparser="n" lstmsemparser="n" wsd="n" srl="n" />
+    <doc>
+        <para id="0">
+            <sent id="0" cont="23.22%。">
+                <word id="0" cont="23.22%" pos="m" parent="-1" relate="HED" />
+                <word id="1" cont="。" pos="wp" parent="0" relate="WP" />
+            </sent>
+            <sent id="1" cont="④河北太龙医药有限公司注册资本1000.00万元，本公司持有其51%的股权。">
+                <word id="0" cont="④" pos="m" parent="8" relate="ATT" />
+                <word id="1" cont="河北" pos="ns" parent="4" relate="ATT" />
+                <word id="2" cont="太龙" pos="nz" parent="4" relate="ATT" />
+                <word id="3" cont="医药" pos="n" parent="4" relate="ATT" />
+                <word id="4" cont="有限公司" pos="n" parent="6" relate="ATT" />
+                <word id="5" cont="注册" pos="v" parent="6" relate="ATT" />
+                <word id="6" cont="资本" pos="n" parent="8" relate="ATT" />
+                <word id="7" cont="1000.00万" pos="m" parent="8" relate="ATT" />
+                <word id="8" cont="元" pos="q" parent="-1" relate="HED" />
+                <word id="9" cont="，" pos="wp" parent="8" relate="WP" />
+                <word id="10" cont="本" pos="r" parent="11" relate="ATT" />
+                <word id="11" cont="公司" pos="n" parent="12" relate="SBV" />
+                <word id="12" cont="持有" pos="v" parent="8" relate="COO" />
+                <word id="13" cont="其" pos="r" parent="14" relate="ATT" />
+                <word id="14" cont="51%" pos="m" parent="16" relate="ATT" />
+                <word id="15" cont="的" pos="u" parent="14" relate="RAD" />
+                <word id="16" cont="股权" pos="n" parent="12" relate="VOB" />
+                <word id="17" cont="。" pos="wp" parent="8" relate="WP" />
+            </sent>
+            <sent id="2" cont="收入及毛利增长。">
+                <word id="0" cont="收入" pos="v" parent="-1" relate="HED" />
+                <word id="1" cont="及" pos="c" parent="3" relate="LAD" />
+                <word id="2" cont="毛利" pos="n" parent="3" relate="SBV" />
+                <word id="3" cont="增长" pos="v" parent="0" relate="COO" />
+                <word id="4" cont="。" pos="wp" parent="0" relate="WP" />
+            </sent>
+            <sent id="3" cont="②河南太新龙医药有限公司注册资本2000万元，本公司持有其51%的股权。">
+                <word id="0" cont="②" pos="m" parent="9" relate="ADV" />
+                <word id="1" cont="河南" pos="ns" parent="5" relate="ATT" />
+                <word id="2" cont="太" pos="d" parent="3" relate="ADV" />
+                <word id="3" cont="新龙" pos="a" parent="5" relate="ATT" />
+                <word id="4" cont="医药" pos="n" parent="5" relate="ATT" />
+                <word id="5" cont="有限公司" pos="n" parent="7" relate="ATT" />
+                <word id="6" cont="注册" pos="v" parent="7" relate="ATT" />
+                <word id="7" cont="资本" pos="n" parent="9" relate="ATT" />
+                <word id="8" cont="2000万" pos="m" parent="9" relate="ATT" />
+                <word id="9" cont="元" pos="q" parent="-1" relate="HED" />
+                <word id="10" cont="，" pos="wp" parent="9" relate="WP" />
+                <word id="11" cont="本" pos="r" parent="12" relate="ATT" />
+                <word id="12" cont="公司" pos="n" parent="13" relate="SBV" />
+                <word id="13" cont="持有" pos="v" parent="9" relate="COO" />
+                <word id="14" cont="其" pos="r" parent="15" relate="ATT" />
+                <word id="15" cont="51%" pos="m" parent="17" relate="ATT" />
+                <word id="16" cont="的" pos="u" parent="15" relate="RAD" />
+                <word id="17" cont="股权" pos="n" parent="13" relate="VOB" />
+                <word id="18" cont="。" pos="wp" parent="9" relate="WP" />
+            </sent>
+            <sent id="4" cont="主要控股参股公司分析①河南桐君堂道地药材有限公司注册资本1000万元，本公司持有其98%的股权。">
+                <word id="0" cont="主要" pos="d" parent="3" relate="ATT" />
+                <word id="1" cont="控股" pos="v" parent="3" relate="ATT" />
+                <word id="2" cont="参股" pos="v" parent="3" relate="ATT" />
+                <word id="3" cont="公司" pos="n" parent="4" relate="SBV" />
+                <word id="4" cont="分析" pos="v" parent="-1" relate="HED" />
+                <word id="5" cont="①" pos="m" parent="12" relate="ATT" />
+                <word id="6" cont="河南" pos="ns" parent="7" relate="ATT" />
+                <word id="7" cont="桐君堂道" pos="ns" parent="10" relate="ATT" />
+                <word id="8" cont="地" pos="u" parent="7" relate="RAD" />
+                <word id="9" cont="药材" pos="n" parent="10" relate="ATT" />
+                <word id="10" cont="有限公司" pos="n" parent="12" relate="ATT" />
+                <word id="11" cont="注册" pos="v" parent="12" relate="ATT" />
+                <word id="12" cont="资本" pos="n" parent="14" relate="ATT" />
+                <word id="13" cont="1000万" pos="m" parent="14" relate="ATT" />
+                <word id="14" cont="元" pos="q" parent="4" relate="VOB" />
+                <word id="15" cont="，" pos="wp" parent="4" relate="WP" />
+                <word id="16" cont="本" pos="r" parent="17" relate="ATT" />
+                <word id="17" cont="公司" pos="n" parent="18" relate="SBV" />
+                <word id="18" cont="持有" pos="v" parent="4" relate="COO" />
+                <word id="19" cont="其" pos="r" parent="22" relate="ATT" />
+                <word id="20" cont="98%" pos="m" parent="22" relate="ATT" />
+                <word id="21" cont="的" pos="u" parent="20" relate="RAD" />
+                <word id="22" cont="股权" pos="n" parent="18" relate="VOB" />
+                <word id="23" cont="。" pos="wp" parent="4" relate="WP" />
+            </sent>
+            <sent id="5" cont="万元。">
+                <word id="0" cont="万" pos="m" parent="1" relate="ATT" />
+                <word id="1" cont="元" pos="q" parent="-1" relate="HED" />
+                <word id="2" cont="。" pos="wp" parent="1" relate="WP" />
+            </sent>
+            <sent id="6" cont="⑧河南桦玉实业有限公司注册资本8000.00万元，于2015年3月由本公司出资设立，本公司持有其100.00%的股权。">
+                <word id="0" cont="⑧" pos="wp" parent="8" relate="WP" />
+                <word id="1" cont="河南" pos="ns" parent="4" relate="ATT" />
+                <word id="2" cont="桦玉" pos="nz" parent="4" relate="ATT" />
+                <word id="3" cont="实业" pos="n" parent="4" relate="ATT" />
+                <word id="4" cont="有限公司" pos="n" parent="6" relate="ATT" />
+                <word id="5" cont="注册" pos="v" parent="6" relate="ATT" />
+                <word id="6" cont="资本" pos="n" parent="8" relate="ATT" />
+                <word id="7" cont="8000.00万" pos="m" parent="8" relate="ATT" />
+                <word id="8" cont="元" pos="q" parent="-1" relate="HED" />
+                <word id="9" cont="，" pos="wp" parent="8" relate="WP" />
+                <word id="10" cont="于" pos="p" parent="17" relate="ADV" />
+                <word id="11" cont="2015年" pos="nt" parent="12" relate="ATT" />
+                <word id="12" cont="3月" pos="nt" parent="10" relate="POB" />
+                <word id="13" cont="由" pos="p" parent="16" relate="ADV" />
+                <word id="14" cont="本" pos="r" parent="15" relate="ATT" />
+                <word id="15" cont="公司" pos="n" parent="13" relate="POB" />
+                <word id="16" cont="出资" pos="v" parent="17" relate="SBV" />
+                <word id="17" cont="设立" pos="v" parent="8" relate="COO" />
+                <word id="18" cont="，" pos="wp" parent="17" relate="WP" />
+                <word id="19" cont="本" pos="r" parent="20" relate="ATT" />
+                <word id="20" cont="公司" pos="n" parent="21" relate="SBV" />
+                <word id="21" cont="持有" pos="v" parent="17" relate="COO" />
+                <word id="22" cont="其" pos="r" parent="25" relate="ATT" />
+                <word id="23" cont="100.00%" pos="m" parent="25" relate="ATT" />
+                <word id="24" cont="的" pos="u" parent="23" relate="RAD" />
+                <word id="25" cont="股权" pos="n" parent="21" relate="VOB" />
+                <word id="26" cont="。" pos="wp" parent="8" relate="WP" />
+            </sent>
+            <sent id="7" cont="万元。">
+                <word id="0" cont="万" pos="m" parent="1" relate="ATT" />
+                <word id="1" cont="元" pos="q" parent="-1" relate="HED" />
+                <word id="2" cont="。" pos="wp" parent="1" relate="WP" />
+            </sent>
+            <sent id="8" cont="⑤河南河洛太龙制药有限公司注册资本5000.00万元，于2015年10月由本公司出资设立，本公司持有其100%的股权。">
+                <word id="0" cont="⑤" pos="m" parent="9" relate="ATT" />
+                <word id="1" cont="河南" pos="ns" parent="2" relate="ATT" />
+                <word id="2" cont="河洛" pos="ns" parent="5" relate="ATT" />
+                <word id="3" cont="太龙" pos="nz" parent="5" relate="ATT" />
+                <word id="4" cont="制药" pos="v" parent="5" relate="ATT" />
+                <word id="5" cont="有限公司" pos="n" parent="7" relate="ATT" />
+                <word id="6" cont="注册" pos="v" parent="7" relate="ATT" />
+                <word id="7" cont="资本" pos="n" parent="9" relate="ATT" />
+                <word id="8" cont="5000.00万" pos="m" parent="9" relate="ATT" />
+                <word id="9" cont="元" pos="q" parent="-1" relate="HED" />
+                <word id="10" cont="，" pos="wp" parent="9" relate="WP" />
+                <word id="11" cont="于" pos="p" parent="18" relate="ADV" />
+                <word id="12" cont="2015年" pos="nt" parent="13" relate="ATT" />
+                <word id="13" cont="10月" pos="nt" parent="11" relate="POB" />
+                <word id="14" cont="由" pos="p" parent="17" relate="ADV" />
+                <word id="15" cont="本" pos="r" parent="16" relate="ATT" />
+                <word id="16" cont="公司" pos="n" parent="14" relate="POB" />
+                <word id="17" cont="出资" pos="v" parent="18" relate="SBV" />
+                <word id="18" cont="设立" pos="v" parent="9" relate="COO" />
+                <word id="19" cont="，" pos="wp" parent="18" relate="WP" />
+                <word id="20" cont="本" pos="r" parent="21" relate="ATT" />
+                <word id="21" cont="公司" pos="n" parent="22" relate="SBV" />
+                <word id="22" cont="持有" pos="v" parent="18" relate="COO" />
+                <word id="23" cont="其" pos="r" parent="26" relate="ATT" />
+                <word id="24" cont="100%" pos="m" parent="26" relate="ATT" />
+                <word id="25" cont="的" pos="u" parent="24" relate="RAD" />
+                <word id="26" cont="股权" pos="n" parent="22" relate="VOB" />
+                <word id="27" cont="。" pos="wp" parent="9" relate="WP" />
+            </sent>
+        </para>
+    </doc>
+</xml4nlp>

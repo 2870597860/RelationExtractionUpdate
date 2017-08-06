@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xml4nlp>
+    <note sent="y" word="y" pos="y" ne="n" parser="y" semparser="n" lstmsemparser="n" wsd="n" srl="n" />
+    <doc>
+        <para id="0">
+            <sent id="0" cont="1、哈尔滨珍宝制药有限公司为医药制造企业，注册资本3200万元，为我公司全资子公司。">
+                <word id="0" cont="1" pos="m" parent="14" relate="ADV" />
+                <word id="1" cont="、" pos="wp" parent="0" relate="WP" />
+                <word id="2" cont="哈尔滨" pos="ns" parent="3" relate="ATT" />
+                <word id="3" cont="珍宝" pos="nz" parent="5" relate="ATT" />
+                <word id="4" cont="制药" pos="v" parent="5" relate="ATT" />
+                <word id="5" cont="有限公司" pos="n" parent="14" relate="SBV" />
+                <word id="6" cont="为" pos="p" parent="14" relate="ADV" />
+                <word id="7" cont="医药" pos="n" parent="8" relate="FOB" />
+                <word id="8" cont="制造" pos="v" parent="9" relate="ATT" />
+                <word id="9" cont="企业" pos="n" parent="6" relate="POB" />
+                <word id="10" cont="，" pos="wp" parent="6" relate="WP" />
+                <word id="11" cont="注册" pos="v" parent="12" relate="ATT" />
+                <word id="12" cont="资本" pos="n" parent="14" relate="ATT" />
+                <word id="13" cont="3200万" pos="m" parent="14" relate="ATT" />
+                <word id="14" cont="元" pos="q" parent="-1" relate="HED" />
+                <word id="15" cont="，" pos="wp" parent="14" relate="WP" />
+                <word id="16" cont="为" pos="p" parent="14" relate="COO" />
+                <word id="17" cont="我" pos="r" parent="18" relate="ATT" />
+                <word id="18" cont="公司" pos="n" parent="20" relate="ATT" />
+                <word id="19" cont="全资" pos="n" parent="20" relate="ATT" />
+                <word id="20" cont="子公司" pos="n" parent="16" relate="VOB" />
+                <word id="21" cont="。" pos="wp" parent="14" relate="WP" />
+            </sent>
+            <sent id="1" cont="2、哈尔滨珍宝岛医药贸易有限公司为医药销售企业，注册资本5000万元，为我公司全资子公司。">
+                <word id="0" cont="2" pos="m" parent="7" relate="ADV" />
+                <word id="1" cont="、" pos="wp" parent="6" relate="WP" />
+                <word id="2" cont="哈尔滨" pos="ns" parent="3" relate="ATT" />
+                <word id="3" cont="珍宝岛" pos="ns" parent="6" relate="ATT" />
+                <word id="4" cont="医药" pos="n" parent="5" relate="ATT" />
+                <word id="5" cont="贸易" pos="v" parent="6" relate="ATT" />
+                <word id="6" cont="有限公司" pos="n" parent="7" relate="SBV" />
+                <word id="7" cont="为" pos="v" parent="-1" relate="HED" />
+                <word id="8" cont="医药" pos="n" parent="9" relate="FOB" />
+                <word id="9" cont="销售" pos="v" parent="10" relate="ATT" />
+                <word id="10" cont="企业" pos="n" parent="7" relate="VOB" />
+                <word id="11" cont="，" pos="wp" parent="7" relate="WP" />
+                <word id="12" cont="注册" pos="v" parent="13" relate="ATT" />
+                <word id="13" cont="资本" pos="n" parent="15" relate="ATT" />
+                <word id="14" cont="5000万" pos="m" parent="15" relate="ATT" />
+                <word id="15" cont="元" pos="q" parent="7" relate="COO" />
+                <word id="16" cont="，" pos="wp" parent="15" relate="WP" />
+                <word id="17" cont="为" pos="p" parent="15" relate="COO" />
+                <word id="18" cont="我" pos="r" parent="19" relate="ATT" />
+                <word id="19" cont="公司" pos="n" parent="21" relate="ATT" />
+                <word id="20" cont="全资" pos="n" parent="21" relate="ATT" />
+                <word id="21" cont="子公司" pos="n" parent="17" relate="VOB" />
+                <word id="22" cont="。" pos="wp" parent="7" relate="WP" />
+            </sent>
+            <sent id="2" cont="3、文山天宝种植有限公司为药材种植企业，注册资本1000万元，我公司持有70%的股权。">
+                <word id="0" cont="3" pos="m" parent="5" relate="ADV" />
+                <word id="1" cont="、" pos="wp" parent="0" relate="WP" />
+                <word id="2" cont="文山天宝" pos="n" parent="4" relate="ATT" />
+                <word id="3" cont="种植" pos="v" parent="4" relate="ATT" />
+                <word id="4" cont="有限公司" pos="n" parent="5" relate="SBV" />
+                <word id="5" cont="为" pos="v" parent="-1" relate="HED" />
+                <word id="6" cont="药材" pos="n" parent="8" relate="ATT" />
+                <word id="7" cont="种植" pos="v" parent="8" relate="ATT" />
+                <word id="8" cont="企业" pos="n" parent="5" relate="VOB" />
+                <word id="9" cont="，" pos="wp" parent="5" relate="WP" />
+                <word id="10" cont="注册" pos="v" parent="11" relate="ATT" />
+                <word id="11" cont="资本" pos="n" parent="13" relate="ATT" />
+                <word id="12" cont="1000万" pos="m" parent="13" relate="ATT" />
+                <word id="13" cont="元" pos="q" parent="5" relate="COO" />
+                <word id="14" cont="，" pos="wp" parent="13" relate="WP" />
+                <word id="15" cont="我" pos="r" parent="16" relate="ATT" />
+                <word id="16" cont="公司" pos="n" parent="17" relate="SBV" />
+                <word id="17" cont="持有" pos="v" parent="13" relate="COO" />
+                <word id="18" cont="70%" pos="m" parent="20" relate="ATT" />
+                <word id="19" cont="的" pos="u" parent="18" relate="RAD" />
+                <word id="20" cont="股权" pos="n" parent="17" relate="VOB" />
+                <word id="21" cont="。" pos="wp" parent="5" relate="WP" />
+            </sent>
+            <sent id="3" cont="4、黑龙江金九药业股份有限公司为医药制造企业，注册资本22650486元，我公司持有51%的股权。">
+                <word id="0" cont="4" pos="m" parent="15" relate="ADV" />
+                <word id="1" cont="、" pos="wp" parent="0" relate="WP" />
+                <word id="2" cont="黑龙江" pos="ns" parent="6" relate="ATT" />
+                <word id="3" cont="金九" pos="nz" parent="6" relate="ATT" />
+                <word id="4" cont="药业" pos="n" parent="5" relate="ATT" />
+                <word id="5" cont="股份" pos="n" parent="6" relate="ATT" />
+                <word id="6" cont="有限公司" pos="n" parent="15" relate="SBV" />
+                <word id="7" cont="为" pos="p" parent="15" relate="ADV" />
+                <word id="8" cont="医药" pos="n" parent="9" relate="FOB" />
+                <word id="9" cont="制造" pos="v" parent="10" relate="ATT" />
+                <word id="10" cont="企业" pos="n" parent="7" relate="POB" />
+                <word id="11" cont="，" pos="wp" parent="7" relate="WP" />
+                <word id="12" cont="注册" pos="v" parent="13" relate="ATT" />
+                <word id="13" cont="资本" pos="n" parent="15" relate="ATT" />
+                <word id="14" cont="22650486" pos="m" parent="15" relate="ATT" />
+                <word id="15" cont="元" pos="q" parent="-1" relate="HED" />
+                <word id="16" cont="，" pos="wp" parent="15" relate="WP" />
+                <word id="17" cont="我" pos="r" parent="18" relate="ATT" />
+                <word id="18" cont="公司" pos="n" parent="19" relate="SBV" />
+                <word id="19" cont="持有" pos="v" parent="15" relate="COO" />
+                <word id="20" cont="51%" pos="m" parent="22" relate="ATT" />
+                <word id="21" cont="的" pos="u" parent="20" relate="RAD" />
+                <word id="22" cont="股权" pos="n" parent="19" relate="VOB" />
+                <word id="23" cont="。" pos="wp" parent="15" relate="WP" />
+            </sent>
+        </para>
+    </doc>
+</xml4nlp>

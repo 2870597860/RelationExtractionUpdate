@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xml4nlp>
+    <note sent="y" word="y" pos="y" ne="n" parser="y" semparser="n" lstmsemparser="n" wsd="n" srl="n" />
+    <doc>
+        <para id="0">
+            <sent id="0" cont="公司与乐六平签订《股权转让协议》，本公司拟将持有的广东乐源数字技术有限公司20.45%的股权转让给乐六平，转让金额为20450万元，本次交易预计产生资产处置收益约人民币11650万元（税前）（详见审计报告第十四项“资产负债表期后事项”）。">
+                <word id="0" cont="公司" pos="n" parent="3" relate="SBV" />
+                <word id="1" cont="与" pos="p" parent="3" relate="ADV" />
+                <word id="2" cont="乐六平" pos="nh" parent="1" relate="POB" />
+                <word id="3" cont="签订" pos="v" parent="-1" relate="HED" />
+                <word id="4" cont="《" pos="wp" parent="7" relate="WP" />
+                <word id="5" cont="股权" pos="n" parent="6" relate="FOB" />
+                <word id="6" cont="转让" pos="v" parent="7" relate="ATT" />
+                <word id="7" cont="协议" pos="n" parent="3" relate="VOB" />
+                <word id="8" cont="》" pos="wp" parent="7" relate="WP" />
+                <word id="9" cont="，" pos="wp" parent="3" relate="WP" />
+                <word id="10" cont="本" pos="r" parent="11" relate="ATT" />
+                <word id="11" cont="公司" pos="n" parent="20" relate="ATT" />
+                <word id="12" cont="拟" pos="v" parent="20" relate="ATT" />
+                <word id="13" cont="将" pos="d" parent="14" relate="ADV" />
+                <word id="14" cont="持有" pos="v" parent="20" relate="ATT" />
+                <word id="15" cont="的" pos="u" parent="14" relate="RAD" />
+                <word id="16" cont="广东" pos="ns" parent="20" relate="ATT" />
+                <word id="17" cont="乐源" pos="nz" parent="18" relate="ATT" />
+                <word id="18" cont="数字" pos="n" parent="19" relate="ATT" />
+                <word id="19" cont="技术" pos="n" parent="20" relate="ATT" />
+                <word id="20" cont="有限公司" pos="n" parent="24" relate="SBV" />
+                <word id="21" cont="20.45%" pos="m" parent="23" relate="ATT" />
+                <word id="22" cont="的" pos="u" parent="21" relate="RAD" />
+                <word id="23" cont="股权" pos="n" parent="24" relate="SBV" />
+                <word id="24" cont="转让" pos="v" parent="3" relate="COO" />
+                <word id="25" cont="给" pos="v" parent="24" relate="CMP" />
+                <word id="26" cont="乐六" pos="m" parent="27" relate="ADV" />
+                <word id="27" cont="平" pos="a" parent="25" relate="VOB" />
+                <word id="28" cont="，" pos="wp" parent="24" relate="WP" />
+                <word id="29" cont="转让" pos="v" parent="30" relate="ATT" />
+                <word id="30" cont="金额" pos="n" parent="31" relate="SBV" />
+                <word id="31" cont="为" pos="v" parent="24" relate="COO" />
+                <word id="32" cont="20450万" pos="m" parent="33" relate="ATT" />
+                <word id="33" cont="元" pos="q" parent="31" relate="VOB" />
+                <word id="34" cont="，" pos="wp" parent="31" relate="WP" />
+                <word id="35" cont="本次" pos="r" parent="36" relate="ATT" />
+                <word id="36" cont="交易" pos="v" parent="37" relate="SBV" />
+                <word id="37" cont="预计" pos="v" parent="3" relate="COO" />
+                <word id="38" cont="产生" pos="v" parent="37" relate="VOB" />
+                <word id="39" cont="资产" pos="n" parent="40" relate="SBV" />
+                <word id="40" cont="处置" pos="v" parent="38" relate="VOB" />
+                <word id="41" cont="收益" pos="n" parent="43" relate="ATT" />
+                <word id="42" cont="约" pos="v" parent="43" relate="ATT" />
+                <word id="43" cont="人民币" pos="n" parent="45" relate="ATT" />
+                <word id="44" cont="11650万" pos="m" parent="45" relate="ATT" />
+                <word id="45" cont="元" pos="q" parent="40" relate="VOB" />
+                <word id="46" cont="（" pos="wp" parent="48" relate="WP" />
+                <word id="47" cont="税" pos="n" parent="48" relate="ATT" />
+                <word id="48" cont="前" pos="nd" parent="45" relate="COO" />
+                <word id="49" cont="）" pos="wp" parent="48" relate="WP" />
+                <word id="50" cont="（" pos="wp" parent="61" relate="WP" />
+                <word id="51" cont="详见" pos="v" parent="61" relate="ATT" />
+                <word id="52" cont="审计" pos="v" parent="53" relate="ATT" />
+                <word id="53" cont="报告" pos="n" parent="61" relate="ATT" />
+                <word id="54" cont="第十四" pos="m" parent="55" relate="ATT" />
+                <word id="55" cont="项" pos="q" parent="61" relate="ATT" />
+                <word id="56" cont="“" pos="wp" parent="61" relate="WP" />
+                <word id="57" cont="资产" pos="n" parent="59" relate="ATT" />
+                <word id="58" cont="负债" pos="v" parent="59" relate="ATT" />
+                <word id="59" cont="表期" pos="n" parent="60" relate="ATT" />
+                <word id="60" cont="后" pos="nd" parent="61" relate="ATT" />
+                <word id="61" cont="事项" pos="n" parent="38" relate="COO" />
+                <word id="62" cont="”" pos="wp" parent="61" relate="WP" />
+                <word id="63" cont="）" pos="wp" parent="61" relate="WP" />
+                <word id="64" cont="。" pos="wp" parent="3" relate="WP" />
+            </sent>
+            <sent id="1" cont="惠州中京乐源智能科技有限公司-226220.2子公司物联网系统、养老50000009829604.469631921.020.00-226220.27管理系统、运动管0元理系统、健康管理系统、资金管理系统、大数据及云服务系统等项目的设计、开发。">
+                <word id="0" cont="惠州" pos="ns" parent="4" relate="ATT" />
+                <word id="1" cont="中京乐源" pos="nz" parent="4" relate="ATT" />
+                <word id="2" cont="智能" pos="n" parent="3" relate="ATT" />
+                <word id="3" cont="科技" pos="n" parent="4" relate="ATT" />
+                <word id="4" cont="有限公司" pos="n" parent="6" relate="ATT" />
+                <word id="5" cont="-226220.2" pos="m" parent="6" relate="ATT" />
+                <word id="6" cont="子公司" pos="n" parent="8" relate="ATT" />
+                <word id="7" cont="物联网" pos="n" parent="8" relate="ATT" />
+                <word id="8" cont="系统" pos="n" parent="38" relate="ATT" />
+                <word id="9" cont="、" pos="wp" parent="10" relate="WP" />
+                <word id="10" cont="养老" pos="v" parent="36" relate="ATT" />
+                <word id="11" cont="50000009829604.469631921.020.00-226220.27" pos="m" parent="13" relate="ATT" />
+                <word id="12" cont="管理" pos="v" parent="13" relate="ATT" />
+                <word id="13" cont="系统" pos="n" parent="36" relate="ATT" />
+                <word id="14" cont="、" pos="wp" parent="15" relate="WP" />
+                <word id="15" cont="运动" pos="v" parent="19" relate="ATT" />
+                <word id="16" cont="管0" pos="m" parent="17" relate="ATT" />
+                <word id="17" cont="元" pos="q" parent="19" relate="ATT" />
+                <word id="18" cont="理" pos="n" parent="19" relate="ATT" />
+                <word id="19" cont="系统" pos="n" parent="13" relate="COO" />
+                <word id="20" cont="、" pos="wp" parent="22" relate="WP" />
+                <word id="21" cont="健康" pos="a" parent="22" relate="ADV" />
+                <word id="22" cont="管理" pos="v" parent="23" relate="ATT" />
+                <word id="23" cont="系统" pos="n" parent="19" relate="COO" />
+                <word id="24" cont="、" pos="wp" parent="27" relate="WP" />
+                <word id="25" cont="资金" pos="n" parent="26" relate="FOB" />
+                <word id="26" cont="管理" pos="v" parent="27" relate="ATT" />
+                <word id="27" cont="系统" pos="n" parent="19" relate="COO" />
+                <word id="28" cont="、" pos="wp" parent="30" relate="WP" />
+                <word id="29" cont="大" pos="a" parent="30" relate="ATT" />
+                <word id="30" cont="数据" pos="n" parent="19" relate="COO" />
+                <word id="31" cont="及" pos="c" parent="34" relate="LAD" />
+                <word id="32" cont="云" pos="n" parent="33" relate="ATT" />
+                <word id="33" cont="服务" pos="v" parent="34" relate="ATT" />
+                <word id="34" cont="系统" pos="n" parent="19" relate="COO" />
+                <word id="35" cont="等" pos="u" parent="19" relate="RAD" />
+                <word id="36" cont="项目" pos="n" parent="8" relate="COO" />
+                <word id="37" cont="的" pos="u" parent="36" relate="RAD" />
+                <word id="38" cont="设计" pos="v" parent="-1" relate="HED" />
+                <word id="39" cont="、" pos="wp" parent="40" relate="WP" />
+                <word id="40" cont="开发" pos="v" parent="38" relate="COO" />
+                <word id="41" cont="。" pos="wp" parent="38" relate="WP" />
+            </sent>
+            <sent id="2" cont="惠州中盛科技企业孵化器有限公司参股公司202000167857715.560.00租赁及物业管理服560000元务。">
+                <word id="0" cont="惠州" pos="ns" parent="5" relate="ATT" />
+                <word id="1" cont="中盛" pos="nz" parent="5" relate="ATT" />
+                <word id="2" cont="科技" pos="n" parent="3" relate="ATT" />
+                <word id="3" cont="企业" pos="n" parent="5" relate="ATT" />
+                <word id="4" cont="孵化器" pos="n" parent="5" relate="ATT" />
+                <word id="5" cont="有限公司" pos="n" parent="7" relate="ATT" />
+                <word id="6" cont="参股" pos="v" parent="7" relate="ATT" />
+                <word id="7" cont="公司" pos="n" parent="10" relate="SBV" />
+                <word id="8" cont="202000167857715.56" pos="m" parent="9" relate="ATT" />
+                <word id="9" cont="0.00" pos="m" parent="10" relate="ATT" />
+                <word id="10" cont="租赁" pos="v" parent="-1" relate="HED" />
+                <word id="11" cont="及" pos="c" parent="13" relate="LAD" />
+                <word id="12" cont="物业" pos="n" parent="13" relate="ATT" />
+                <word id="13" cont="管理服" pos="n" parent="10" relate="COO" />
+                <word id="14" cont="560000" pos="m" parent="15" relate="ATT" />
+                <word id="15" cont="元" pos="q" parent="16" relate="ATT" />
+                <word id="16" cont="务" pos="n" parent="10" relate="COO" />
+                <word id="17" cont="。" pos="wp" parent="10" relate="WP" />
+            </sent>
+            <sent id="3" cont="广东乐源数字技术有限公司人民币出口。">
+                <word id="0" cont="广东" pos="ns" parent="4" relate="ATT" />
+                <word id="1" cont="乐源" pos="nz" parent="4" relate="ATT" />
+                <word id="2" cont="数字" pos="n" parent="3" relate="ATT" />
+                <word id="3" cont="技术" pos="n" parent="4" relate="ATT" />
+                <word id="4" cont="有限公司" pos="n" parent="5" relate="ATT" />
+                <word id="5" cont="人民币" pos="n" parent="6" relate="SBV" />
+                <word id="6" cont="出口" pos="v" parent="-1" relate="HED" />
+                <word id="7" cont="。" pos="wp" parent="6" relate="WP" />
+            </sent>
+            <sent id="4" cont="惠州中盛科技企业孵化器有限公司参股公司202000167857715.560.00租赁及物业管理服560000元务。">
+                <word id="0" cont="惠州" pos="ns" parent="5" relate="ATT" />
+                <word id="1" cont="中盛" pos="nz" parent="5" relate="ATT" />
+                <word id="2" cont="科技" pos="n" parent="3" relate="ATT" />
+                <word id="3" cont="企业" pos="n" parent="5" relate="ATT" />
+                <word id="4" cont="孵化器" pos="n" parent="5" relate="ATT" />
+                <word id="5" cont="有限公司" pos="n" parent="7" relate="ATT" />
+                <word id="6" cont="参股" pos="v" parent="7" relate="ATT" />
+                <word id="7" cont="公司" pos="n" parent="10" relate="SBV" />
+                <word id="8" cont="202000167857715.56" pos="m" parent="9" relate="ATT" />
+                <word id="9" cont="0.00" pos="m" parent="10" relate="ATT" />
+                <word id="10" cont="租赁" pos="v" parent="-1" relate="HED" />
+                <word id="11" cont="及" pos="c" parent="13" relate="LAD" />
+                <word id="12" cont="物业" pos="n" parent="13" relate="ATT" />
+                <word id="13" cont="管理服" pos="n" parent="10" relate="COO" />
+                <word id="14" cont="560000" pos="m" parent="15" relate="ATT" />
+                <word id="15" cont="元" pos="q" parent="16" relate="ATT" />
+                <word id="16" cont="务" pos="n" parent="10" relate="COO" />
+                <word id="17" cont="。" pos="wp" parent="10" relate="WP" />
+            </sent>
+            <sent id="5" cont="注册地址为：惠州市惠城区陈江街道办事处陈江村大陂，法人代表为杨林。">
+                <word id="0" cont="注册" pos="v" parent="1" relate="ATT" />
+                <word id="1" cont="地址" pos="n" parent="2" relate="SBV" />
+                <word id="2" cont="为" pos="v" parent="-1" relate="HED" />
+                <word id="3" cont="：" pos="wp" parent="2" relate="WP" />
+                <word id="4" cont="惠州市" pos="ns" parent="5" relate="ATT" />
+                <word id="5" cont="惠城区" pos="ns" parent="8" relate="ATT" />
+                <word id="6" cont="陈江" pos="ns" parent="7" relate="ATT" />
+                <word id="7" cont="街道" pos="n" parent="8" relate="ATT" />
+                <word id="8" cont="办事处" pos="n" parent="9" relate="ATT" />
+                <word id="9" cont="陈江村" pos="ns" parent="10" relate="ATT" />
+                <word id="10" cont="大陂" pos="n" parent="14" relate="SBV" />
+                <word id="11" cont="，" pos="wp" parent="10" relate="WP" />
+                <word id="12" cont="法人" pos="n" parent="13" relate="ATT" />
+                <word id="13" cont="代表" pos="n" parent="14" relate="SBV" />
+                <word id="14" cont="为" pos="v" parent="2" relate="VOB" />
+                <word id="15" cont="杨林" pos="nh" parent="14" relate="VOB" />
+                <word id="16" cont="。" pos="wp" parent="2" relate="WP" />
+            </sent>
+            <sent id="6" cont="济信息咨询。">
+                <word id="0" cont="济" pos="j" parent="1" relate="ATT" />
+                <word id="1" cont="信息" pos="n" parent="2" relate="FOB" />
+                <word id="2" cont="咨询" pos="v" parent="-1" relate="HED" />
+                <word id="3" cont="。" pos="wp" parent="2" relate="WP" />
+            </sent>
+            <sent id="7" cont="惠州中京乐源智能科技有限公司-226220.2子公司物联网系统、养老50000009829604.469631921.020.00-226220.27管理系统、运动管0元理系统、健康管理系统、资金管理系统、大数据及云服务系统等项目的设计、开发。">
+                <word id="0" cont="惠州" pos="ns" parent="4" relate="ATT" />
+                <word id="1" cont="中京乐源" pos="nz" parent="4" relate="ATT" />
+                <word id="2" cont="智能" pos="n" parent="3" relate="ATT" />
+                <word id="3" cont="科技" pos="n" parent="4" relate="ATT" />
+                <word id="4" cont="有限公司" pos="n" parent="6" relate="ATT" />
+                <word id="5" cont="-226220.2" pos="m" parent="6" relate="ATT" />
+                <word id="6" cont="子公司" pos="n" parent="8" relate="ATT" />
+                <word id="7" cont="物联网" pos="n" parent="8" relate="ATT" />
+                <word id="8" cont="系统" pos="n" parent="38" relate="ATT" />
+                <word id="9" cont="、" pos="wp" parent="10" relate="WP" />
+                <word id="10" cont="养老" pos="v" parent="36" relate="ATT" />
+                <word id="11" cont="50000009829604.469631921.020.00-226220.27" pos="m" parent="13" relate="ATT" />
+                <word id="12" cont="管理" pos="v" parent="13" relate="ATT" />
+                <word id="13" cont="系统" pos="n" parent="36" relate="ATT" />
+                <word id="14" cont="、" pos="wp" parent="15" relate="WP" />
+                <word id="15" cont="运动" pos="v" parent="19" relate="ATT" />
+                <word id="16" cont="管0" pos="m" parent="17" relate="ATT" />
+                <word id="17" cont="元" pos="q" parent="19" relate="ATT" />
+                <word id="18" cont="理" pos="n" parent="19" relate="ATT" />
+                <word id="19" cont="系统" pos="n" parent="13" relate="COO" />
+                <word id="20" cont="、" pos="wp" parent="22" relate="WP" />
+                <word id="21" cont="健康" pos="a" parent="22" relate="ADV" />
+                <word id="22" cont="管理" pos="v" parent="23" relate="ATT" />
+                <word id="23" cont="系统" pos="n" parent="19" relate="COO" />
+                <word id="24" cont="、" pos="wp" parent="27" relate="WP" />
+                <word id="25" cont="资金" pos="n" parent="26" relate="FOB" />
+                <word id="26" cont="管理" pos="v" parent="27" relate="ATT" />
+                <word id="27" cont="系统" pos="n" parent="19" relate="COO" />
+                <word id="28" cont="、" pos="wp" parent="30" relate="WP" />
+                <word id="29" cont="大" pos="a" parent="30" relate="ATT" />
+                <word id="30" cont="数据" pos="n" parent="19" relate="COO" />
+                <word id="31" cont="及" pos="c" parent="34" relate="LAD" />
+                <word id="32" cont="云" pos="n" parent="33" relate="ATT" />
+                <word id="33" cont="服务" pos="v" parent="34" relate="ATT" />
+                <word id="34" cont="系统" pos="n" parent="19" relate="COO" />
+                <word id="35" cont="等" pos="u" parent="19" relate="RAD" />
+                <word id="36" cont="项目" pos="n" parent="8" relate="COO" />
+                <word id="37" cont="的" pos="u" parent="36" relate="RAD" />
+                <word id="38" cont="设计" pos="v" parent="-1" relate="HED" />
+                <word id="39" cont="、" pos="wp" parent="40" relate="WP" />
+                <word id="40" cont="开发" pos="v" parent="38" relate="COO" />
+                <word id="41" cont="。" pos="wp" parent="38" relate="WP" />
+            </sent>
+            <sent id="8" cont="主要开展科技企业孵化业务和咨询服务。">
+                <word id="0" cont="主要" pos="d" parent="1" relate="ADV" />
+                <word id="1" cont="开展" pos="v" parent="-1" relate="HED" />
+                <word id="2" cont="科技" pos="n" parent="3" relate="ATT" />
+                <word id="3" cont="企业" pos="n" parent="5" relate="ATT" />
+                <word id="4" cont="孵化" pos="v" parent="5" relate="ATT" />
+                <word id="5" cont="业务" pos="n" parent="1" relate="VOB" />
+                <word id="6" cont="和" pos="c" parent="7" relate="LAD" />
+                <word id="7" cont="咨询" pos="v" parent="8" relate="ATT" />
+                <word id="8" cont="服务" pos="v" parent="5" relate="COO" />
+                <word id="9" cont="。" pos="wp" parent="1" relate="WP" />
+            </sent>
+            <sent id="9" cont="由惠州中京电子科技股份有限公司（占股比例40%）和盛雅投资有限公司（占股比例60%）共同出资设立。">
+                <word id="0" cont="由" pos="p" parent="-1" relate="HED" />
+                <word id="1" cont="惠州" pos="ns" parent="2" relate="ATT" />
+                <word id="2" cont="中" pos="nd" parent="7" relate="ATT" />
+                <word id="3" cont="京" pos="j" parent="2" relate="COO" />
+                <word id="4" cont="电子" pos="n" parent="5" relate="ATT" />
+                <word id="5" cont="科技" pos="n" parent="6" relate="ATT" />
+                <word id="6" cont="股份" pos="n" parent="7" relate="ATT" />
+                <word id="7" cont="有限公司" pos="n" parent="0" relate="POB" />
+                <word id="8" cont="（" pos="wp" parent="9" relate="WP" />
+                <word id="9" cont="占" pos="v" parent="7" relate="COO" />
+                <word id="10" cont="股" pos="n" parent="11" relate="ATT" />
+                <word id="11" cont="比例" pos="n" parent="12" relate="ATT" />
+                <word id="12" cont="40%" pos="m" parent="9" relate="VOB" />
+                <word id="13" cont="）" pos="wp" parent="12" relate="WP" />
+                <word id="14" cont="和" pos="c" parent="17" relate="LAD" />
+                <word id="15" cont="盛雅" pos="nz" parent="17" relate="ATT" />
+                <word id="16" cont="投资" pos="v" parent="17" relate="ATT" />
+                <word id="17" cont="有限公司" pos="n" parent="19" relate="SBV" />
+                <word id="18" cont="（" pos="wp" parent="19" relate="WP" />
+                <word id="19" cont="占" pos="v" parent="9" relate="COO" />
+                <word id="20" cont="股" pos="n" parent="21" relate="ATT" />
+                <word id="21" cont="比例" pos="n" parent="22" relate="ATT" />
+                <word id="22" cont="60%" pos="m" parent="19" relate="VOB" />
+                <word id="23" cont="）" pos="wp" parent="22" relate="WP" />
+                <word id="24" cont="共同" pos="d" parent="25" relate="ADV" />
+                <word id="25" cont="出资" pos="v" parent="19" relate="COO" />
+                <word id="26" cont="设立" pos="v" parent="25" relate="COO" />
+                <word id="27" cont="。" pos="wp" parent="0" relate="WP" />
+            </sent>
+            <sent id="10" cont="香港中京电子科技有限公司印制线路板的进出港币子公司口业务及相关耗材10000.06812334.96-96469.18143887691.40-89542.51-89542.51的进出口业务0元软件开发。">
+                <word id="0" cont="香港" pos="ns" parent="4" relate="ATT" />
+                <word id="1" cont="中京" pos="nz" parent="4" relate="ATT" />
+                <word id="2" cont="电子" pos="n" parent="3" relate="ATT" />
+                <word id="3" cont="科技" pos="n" parent="4" relate="ATT" />
+                <word id="4" cont="有限公司" pos="n" parent="5" relate="SBV" />
+                <word id="5" cont="印制" pos="v" parent="8" relate="SBV" />
+                <word id="6" cont="线路板" pos="n" parent="5" relate="VOB" />
+                <word id="7" cont="的" pos="u" parent="5" relate="RAD" />
+                <word id="8" cont="进出" pos="v" parent="-1" relate="HED" />
+                <word id="9" cont="港币" pos="n" parent="10" relate="ATT" />
+                <word id="10" cont="子公司" pos="n" parent="11" relate="ATT" />
+                <word id="11" cont="口" pos="n" parent="12" relate="ATT" />
+                <word id="12" cont="业务" pos="n" parent="22" relate="FOB" />
+                <word id="13" cont="及" pos="c" parent="15" relate="LAD" />
+                <word id="14" cont="相关" pos="v" parent="15" relate="ATT" />
+                <word id="15" cont="耗材" pos="n" parent="12" relate="COO" />
+                <word id="16" cont="10000.06812334.96-96469.18143887691.40-89542.51-89542.51" pos="m" parent="21" relate="ATT" />
+                <word id="17" cont="的" pos="u" parent="16" relate="RAD" />
+                <word id="18" cont="进出口" pos="v" parent="21" relate="ATT" />
+                <word id="19" cont="业务0" pos="m" parent="20" relate="ATT" />
+                <word id="20" cont="元" pos="q" parent="21" relate="ATT" />
+                <word id="21" cont="软件" pos="n" parent="22" relate="FOB" />
+                <word id="22" cont="开发" pos="v" parent="8" relate="COO" />
+                <word id="23" cont="。" pos="wp" parent="8" relate="WP" />
+            </sent>
+        </para>
+    </doc>
+</xml4nlp>

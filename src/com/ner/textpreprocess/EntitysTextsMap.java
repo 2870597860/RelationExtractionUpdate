@@ -37,7 +37,6 @@ public class EntitysTextsMap {
 				int laterCom=file.indexOf(".txt");
 				companyName=file.substring(preCom+"entity_".length(), laterCom);
 				TreeMap<String,String> entitys_types=getEntitys_types(file);
-
 				companys_entitys_types.put(companyName, entitys_types);
 				//获取文本
 				textPath2=textPath+companyName+".txt";

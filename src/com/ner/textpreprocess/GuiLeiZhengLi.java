@@ -56,9 +56,9 @@ public class GuiLeiZhengLi {
 			}
 			//测试和训练数据获取
 			//测试数据
-			wc.writeCon(sb.toString(), "./data/testcorpus/testcompanys/"+company);
+			//wc.writeCon(sb.toString(), "./data/testcorpus/testcompanys/"+company);
 			//训练数据
-			/*wc.writeCon(sb.toString(), "./data/traincorpus/companys/"+company);*/
+			wc.writeCon(sb.toString(), "./data/traincorpus/companys/"+company);
 			sb.setLength(0);
 		}
 	}

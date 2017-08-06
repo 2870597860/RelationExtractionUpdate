@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xml4nlp>
+    <note sent="y" word="y" pos="y" ne="n" parser="y" semparser="n" lstmsemparser="n" wsd="n" srl="n" />
+    <doc>
+        <para id="0">
+            <sent id="0" cont="山西普德药业股份有限公司收购发挥并购效益，丰富产品线，拓展业务领域。">
+                <word id="0" cont="山西" pos="ns" parent="1" relate="ATT" />
+                <word id="1" cont="普德" pos="ns" parent="4" relate="ATT" />
+                <word id="2" cont="药业" pos="n" parent="4" relate="ATT" />
+                <word id="3" cont="股份" pos="n" parent="4" relate="ATT" />
+                <word id="4" cont="有限公司" pos="n" parent="5" relate="SBV" />
+                <word id="5" cont="收购" pos="v" parent="-1" relate="HED" />
+                <word id="6" cont="发挥" pos="v" parent="5" relate="COO" />
+                <word id="7" cont="并购" pos="v" parent="8" relate="ATT" />
+                <word id="8" cont="效益" pos="n" parent="6" relate="VOB" />
+                <word id="9" cont="，" pos="wp" parent="5" relate="WP" />
+                <word id="10" cont="丰富" pos="v" parent="5" relate="COO" />
+                <word id="11" cont="产品线" pos="n" parent="10" relate="VOB" />
+                <word id="12" cont="，" pos="wp" parent="5" relate="WP" />
+                <word id="13" cont="拓展" pos="v" parent="5" relate="COO" />
+                <word id="14" cont="业务" pos="n" parent="15" relate="ATT" />
+                <word id="15" cont="领域" pos="n" parent="13" relate="VOB" />
+                <word id="16" cont="。" pos="wp" parent="5" relate="WP" />
+            </sent>
+            <sent id="1" cont="誉衡基因生物科技（深圳）有限公司新设布局基因服务。">
+                <word id="0" cont="誉衡" pos="v" parent="7" relate="ATT" />
+                <word id="1" cont="基因" pos="n" parent="2" relate="ATT" />
+                <word id="2" cont="生物" pos="n" parent="3" relate="ATT" />
+                <word id="3" cont="科技" pos="n" parent="7" relate="ATT" />
+                <word id="4" cont="（" pos="wp" parent="5" relate="WP" />
+                <word id="5" cont="深圳" pos="ns" parent="3" relate="COO" />
+                <word id="6" cont="）" pos="wp" parent="5" relate="WP" />
+                <word id="7" cont="有限公司" pos="n" parent="9" relate="SBV" />
+                <word id="8" cont="新" pos="d" parent="9" relate="ADV" />
+                <word id="9" cont="设" pos="v" parent="-1" relate="HED" />
+                <word id="10" cont="布局" pos="n" parent="11" relate="ATT" />
+                <word id="11" cont="基因" pos="n" parent="9" relate="VOB" />
+                <word id="12" cont="服务" pos="v" parent="9" relate="VOB" />
+                <word id="13" cont="。" pos="wp" parent="9" relate="WP" />
+            </sent>
+            <sent id="2" cont="深圳誉衡投资有限公司新设建立国内专业投资平台。">
+                <word id="0" cont="深圳" pos="ns" parent="1" relate="ATT" />
+                <word id="1" cont="誉衡" pos="nz" parent="3" relate="ATT" />
+                <word id="2" cont="投资" pos="v" parent="3" relate="ATT" />
+                <word id="3" cont="有限公司" pos="n" parent="5" relate="SBV" />
+                <word id="4" cont="新" pos="d" parent="5" relate="ADV" />
+                <word id="5" cont="设" pos="v" parent="-1" relate="HED" />
+                <word id="6" cont="建立" pos="v" parent="5" relate="VOB" />
+                <word id="7" cont="国内" pos="nl" parent="10" relate="ATT" />
+                <word id="8" cont="专业" pos="n" parent="10" relate="ATT" />
+                <word id="9" cont="投资" pos="v" parent="10" relate="ATT" />
+                <word id="10" cont="平台" pos="n" parent="6" relate="VOB" />
+                <word id="11" cont="。" pos="wp" parent="5" relate="WP" />
+            </sent>
+            <sent id="3" cont="主要产品有银杏达莫注射液、注射用脑蛋白水解物、注射用门冬氨酸钾镁、注射用12种复合维生素等。">
+                <word id="0" cont="主要" pos="b" parent="1" relate="ATT" />
+                <word id="1" cont="产品" pos="n" parent="2" relate="SBV" />
+                <word id="2" cont="有" pos="v" parent="-1" relate="HED" />
+                <word id="3" cont="银杏" pos="n" parent="4" relate="ATT" />
+                <word id="4" cont="达莫" pos="v" parent="5" relate="ATT" />
+                <word id="5" cont="注射液" pos="n" parent="2" relate="VOB" />
+                <word id="6" cont="、" pos="wp" parent="7" relate="WP" />
+                <word id="7" cont="注射" pos="v" parent="5" relate="COO" />
+                <word id="8" cont="用" pos="p" parent="7" relate="CMP" />
+                <word id="9" cont="脑蛋白" pos="n" parent="10" relate="ATT" />
+                <word id="10" cont="水解物" pos="n" parent="8" relate="POB" />
+                <word id="11" cont="、" pos="wp" parent="12" relate="WP" />
+                <word id="12" cont="注射" pos="v" parent="10" relate="COO" />
+                <word id="13" cont="用" pos="p" parent="12" relate="VOB" />
+                <word id="14" cont="门冬氨酸钾镁" pos="n" parent="13" relate="POB" />
+                <word id="15" cont="、" pos="wp" parent="16" relate="WP" />
+                <word id="16" cont="注射" pos="v" parent="13" relate="COO" />
+                <word id="17" cont="用" pos="v" parent="16" relate="COO" />
+                <word id="18" cont="12" pos="m" parent="19" relate="ATT" />
+                <word id="19" cont="种" pos="q" parent="21" relate="ATT" />
+                <word id="20" cont="复合" pos="v" parent="21" relate="ATT" />
+                <word id="21" cont="维生素" pos="n" parent="17" relate="VOB" />
+                <word id="22" cont="等" pos="u" parent="21" relate="RAD" />
+                <word id="23" cont="。" pos="wp" parent="2" relate="WP" />
+            </sent>
+            <sent id="4" cont="吉林省靶向生物医药科技有限公司出售降低管理成本。">
+                <word id="0" cont="吉林省" pos="ns" parent="1" relate="ATT" />
+                <word id="1" cont="靶向" pos="n" parent="5" relate="ATT" />
+                <word id="2" cont="生物" pos="n" parent="3" relate="ATT" />
+                <word id="3" cont="医药" pos="n" parent="4" relate="ATT" />
+                <word id="4" cont="科技" pos="n" parent="5" relate="ATT" />
+                <word id="5" cont="有限公司" pos="n" parent="6" relate="SBV" />
+                <word id="6" cont="出售" pos="v" parent="-1" relate="HED" />
+                <word id="7" cont="降低" pos="v" parent="6" relate="COO" />
+                <word id="8" cont="管理" pos="v" parent="9" relate="ATT" />
+                <word id="9" cont="成本" pos="n" parent="7" relate="VOB" />
+                <word id="10" cont="。" pos="wp" parent="6" relate="WP" />
+            </sent>
+        </para>
+    </doc>
+</xml4nlp>

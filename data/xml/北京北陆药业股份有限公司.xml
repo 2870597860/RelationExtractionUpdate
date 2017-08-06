@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xml4nlp>
+    <note sent="y" word="y" pos="y" ne="n" parser="y" semparser="n" lstmsemparser="n" wsd="n" srl="n" />
+    <doc>
+        <para id="0">
+            <sent id="0" cont="公司聘请中和资产评估有限公司对中美康士及纽赛尔截止2015年12月31日的股东权益公允价值重新评估，并通过初步减值测试，中美康士单体报表计提长期股权投资减值准备1422.75万元，合并报表计提商誉减值准备1327.59万元。">
+                <word id="0" cont="公司" pos="n" parent="1" relate="SBV" />
+                <word id="1" cont="聘请" pos="v" parent="-1" relate="HED" />
+                <word id="2" cont="中" pos="nd" parent="23" relate="ADV" />
+                <word id="3" cont="和" pos="c" parent="6" relate="LAD" />
+                <word id="4" cont="资产" pos="n" parent="5" relate="FOB" />
+                <word id="5" cont="评估" pos="v" parent="6" relate="ATT" />
+                <word id="6" cont="有限公司" pos="n" parent="2" relate="COO" />
+                <word id="7" cont="对" pos="p" parent="23" relate="ADV" />
+                <word id="8" cont="中" pos="j" parent="10" relate="ATT" />
+                <word id="9" cont="美" pos="j" parent="8" relate="COO" />
+                <word id="10" cont="康士" pos="n" parent="7" relate="POB" />
+                <word id="11" cont="及" pos="c" parent="12" relate="LAD" />
+                <word id="12" cont="纽赛尔" pos="ns" parent="10" relate="COO" />
+                <word id="13" cont="截止" pos="v" parent="19" relate="ATT" />
+                <word id="14" cont="2015年" pos="nt" parent="16" relate="ATT" />
+                <word id="15" cont="12月" pos="nt" parent="16" relate="ATT" />
+                <word id="16" cont="31日" pos="nt" parent="19" relate="ATT" />
+                <word id="17" cont="的" pos="u" parent="16" relate="RAD" />
+                <word id="18" cont="股东" pos="n" parent="19" relate="ATT" />
+                <word id="19" cont="权益" pos="n" parent="21" relate="ATT" />
+                <word id="20" cont="公允" pos="a" parent="21" relate="ATT" />
+                <word id="21" cont="价值" pos="n" parent="23" relate="FOB" />
+                <word id="22" cont="重新" pos="d" parent="23" relate="ADV" />
+                <word id="23" cont="评估" pos="v" parent="1" relate="VOB" />
+                <word id="24" cont="，" pos="wp" parent="1" relate="WP" />
+                <word id="25" cont="并" pos="c" parent="29" relate="ADV" />
+                <word id="26" cont="通过" pos="p" parent="29" relate="ADV" />
+                <word id="27" cont="初步" pos="b" parent="28" relate="ATT" />
+                <word id="28" cont="减值" pos="n" parent="26" relate="POB" />
+                <word id="29" cont="测试" pos="v" parent="1" relate="COO" />
+                <word id="30" cont="，" pos="wp" parent="29" relate="WP" />
+                <word id="31" cont="中" pos="j" parent="35" relate="ATT" />
+                <word id="32" cont="美" pos="j" parent="31" relate="COO" />
+                <word id="33" cont="康士" pos="nz" parent="35" relate="ATT" />
+                <word id="34" cont="单体" pos="n" parent="35" relate="ATT" />
+                <word id="35" cont="报表" pos="n" parent="36" relate="SBV" />
+                <word id="36" cont="计" pos="v" parent="29" relate="COO" />
+                <word id="37" cont="提" pos="v" parent="36" relate="VOB" />
+                <word id="38" cont="长期" pos="b" parent="39" relate="ATT" />
+                <word id="39" cont="股权" pos="n" parent="40" relate="ATT" />
+                <word id="40" cont="投资" pos="v" parent="37" relate="VOB" />
+                <word id="41" cont="减值" pos="v" parent="42" relate="ADV" />
+                <word id="42" cont="准备" pos="v" parent="37" relate="COO" />
+                <word id="43" cont="1422.75万" pos="m" parent="44" relate="ATT" />
+                <word id="44" cont="元" pos="q" parent="42" relate="VOB" />
+                <word id="45" cont="，" pos="wp" parent="42" relate="WP" />
+                <word id="46" cont="合并" pos="v" parent="47" relate="ATT" />
+                <word id="47" cont="报表" pos="n" parent="49" relate="SBV" />
+                <word id="48" cont="计" pos="v" parent="49" relate="ADV" />
+                <word id="49" cont="提" pos="v" parent="42" relate="COO" />
+                <word id="50" cont="商誉" pos="n" parent="49" relate="VOB" />
+                <word id="51" cont="减值" pos="v" parent="52" relate="ADV" />
+                <word id="52" cont="准备" pos="v" parent="49" relate="COO" />
+                <word id="53" cont="1327.59万" pos="m" parent="54" relate="ATT" />
+                <word id="54" cont="元" pos="q" parent="52" relate="VOB" />
+                <word id="55" cont="。" pos="wp" parent="1" relate="WP" />
+            </sent>
+            <sent id="1" cont="中美康士及其子公司实现的收入为6656.14万元，同比下降9.60%。">
+                <word id="0" cont="中" pos="j" parent="2" relate="ATT" />
+                <word id="1" cont="美" pos="j" parent="0" relate="COO" />
+                <word id="2" cont="康士" pos="n" parent="5" relate="SBV" />
+                <word id="3" cont="及其" pos="c" parent="4" relate="LAD" />
+                <word id="4" cont="子公司" pos="n" parent="2" relate="COO" />
+                <word id="5" cont="实现" pos="v" parent="7" relate="ATT" />
+                <word id="6" cont="的" pos="u" parent="5" relate="RAD" />
+                <word id="7" cont="收入" pos="n" parent="8" relate="SBV" />
+                <word id="8" cont="为" pos="v" parent="-1" relate="HED" />
+                <word id="9" cont="6656.14万" pos="m" parent="10" relate="ATT" />
+                <word id="10" cont="元" pos="q" parent="8" relate="VOB" />
+                <word id="11" cont="，" pos="wp" parent="8" relate="WP" />
+                <word id="12" cont="同比" pos="j" parent="13" relate="ADV" />
+                <word id="13" cont="下降" pos="v" parent="8" relate="COO" />
+                <word id="14" cont="9.60%" pos="m" parent="13" relate="CMP" />
+                <word id="15" cont="。" pos="wp" parent="8" relate="WP" />
+            </sent>
+        </para>
+    </doc>
+</xml4nlp>

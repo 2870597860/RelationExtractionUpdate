@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xml4nlp>
+    <note sent="y" word="y" pos="y" ne="n" parser="y" semparser="n" lstmsemparser="n" wsd="n" srl="n" />
+    <doc>
+        <para id="0">
+            <sent id="0" cont="深圳市雅视科技有限公司子公司软硬件1500000001598455756.88391449541.862195685399.51-50388325.43-53455151.83的设计、技术开发与购销及其它国内贸易。">
+                <word id="0" cont="深圳市" pos="ns" parent="3" relate="ATT" />
+                <word id="1" cont="雅视" pos="nz" parent="3" relate="ATT" />
+                <word id="2" cont="科技" pos="n" parent="3" relate="ATT" />
+                <word id="3" cont="有限公司" pos="n" parent="4" relate="ATT" />
+                <word id="4" cont="子公司" pos="n" parent="5" relate="ATT" />
+                <word id="5" cont="软硬件" pos="j" parent="8" relate="SBV" />
+                <word id="6" cont="1500000001598455756.88391449541.862195685399.51-50388325.43-53455151.83" pos="m" parent="8" relate="ATT" />
+                <word id="7" cont="的" pos="u" parent="6" relate="RAD" />
+                <word id="8" cont="设计" pos="v" parent="-1" relate="HED" />
+                <word id="9" cont="、" pos="wp" parent="11" relate="WP" />
+                <word id="10" cont="技术" pos="n" parent="11" relate="FOB" />
+                <word id="11" cont="开发" pos="v" parent="8" relate="COO" />
+                <word id="12" cont="与" pos="c" parent="13" relate="LAD" />
+                <word id="13" cont="购销" pos="v" parent="11" relate="COO" />
+                <word id="14" cont="及" pos="c" parent="17" relate="LAD" />
+                <word id="15" cont="其它" pos="r" parent="16" relate="ATT" />
+                <word id="16" cont="国内" pos="nl" parent="17" relate="ATT" />
+                <word id="17" cont="贸易" pos="v" parent="8" relate="COO" />
+                <word id="18" cont="。" pos="wp" parent="8" relate="WP" />
+            </sent>
+        </para>
+    </doc>
+</xml4nlp>

@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xml4nlp>
+    <note sent="y" word="y" pos="y" ne="n" parser="y" semparser="n" lstmsemparser="n" wsd="n" srl="n" />
+    <doc>
+        <para id="0">
+            <sent id="0" cont="逐步转型开始生产北方股份矿用车零部件，同时消化清理库存的挖掘机及零部件。">
+                <word id="0" cont="逐步" pos="d" parent="1" relate="ADV" />
+                <word id="1" cont="转型" pos="v" parent="-1" relate="HED" />
+                <word id="2" cont="开始" pos="v" parent="1" relate="COO" />
+                <word id="3" cont="生产" pos="v" parent="2" relate="VOB" />
+                <word id="4" cont="北方" pos="nl" parent="5" relate="ATT" />
+                <word id="5" cont="股份" pos="n" parent="6" relate="ATT" />
+                <word id="6" cont="矿用车" pos="n" parent="7" relate="ATT" />
+                <word id="7" cont="零部件" pos="n" parent="3" relate="VOB" />
+                <word id="8" cont="，" pos="wp" parent="1" relate="WP" />
+                <word id="9" cont="同时" pos="c" parent="10" relate="ADV" />
+                <word id="10" cont="消化" pos="v" parent="1" relate="COO" />
+                <word id="11" cont="清理" pos="v" parent="10" relate="COO" />
+                <word id="12" cont="库存" pos="v" parent="14" relate="ATT" />
+                <word id="13" cont="的" pos="u" parent="12" relate="RAD" />
+                <word id="14" cont="挖掘机" pos="n" parent="11" relate="VOB" />
+                <word id="15" cont="及" pos="c" parent="16" relate="LAD" />
+                <word id="16" cont="零部件" pos="n" parent="14" relate="COO" />
+                <word id="17" cont="。" pos="wp" parent="1" relate="WP" />
+            </sent>
+            <sent id="1" cont="导致北方股份合并报表亏损23652.89万元。">
+                <word id="0" cont="导致" pos="v" parent="-1" relate="HED" />
+                <word id="1" cont="北方" pos="nl" parent="2" relate="ATT" />
+                <word id="2" cont="股份" pos="n" parent="4" relate="ATT" />
+                <word id="3" cont="合并" pos="v" parent="4" relate="ATT" />
+                <word id="4" cont="报表" pos="n" parent="5" relate="SBV" />
+                <word id="5" cont="亏损" pos="v" parent="0" relate="VOB" />
+                <word id="6" cont="23652.89万" pos="m" parent="7" relate="ATT" />
+                <word id="7" cont="元" pos="q" parent="5" relate="VOB" />
+                <word id="8" cont="。" pos="wp" parent="0" relate="WP" />
+            </sent>
+            <sent id="2" cont="2、特雷克斯北方采矿有限公司，本公司持股50%，注册资本5000万元，成立于2006年3月份，主营电动轮矿用车整车及备件生产、销售、服务。">
+                <word id="0" cont="2" pos="m" parent="9" relate="ADV" />
+                <word id="1" cont="、" pos="wp" parent="5" relate="WP" />
+                <word id="2" cont="特雷克斯" pos="ns" parent="3" relate="ATT" />
+                <word id="3" cont="北方" pos="nd" parent="5" relate="ATT" />
+                <word id="4" cont="采矿" pos="v" parent="5" relate="ATT" />
+                <word id="5" cont="有限公司" pos="n" parent="9" relate="SBV" />
+                <word id="6" cont="，" pos="wp" parent="5" relate="WP" />
+                <word id="7" cont="本" pos="r" parent="8" relate="ATT" />
+                <word id="8" cont="公司" pos="n" parent="9" relate="SBV" />
+                <word id="9" cont="持" pos="v" parent="-1" relate="HED" />
+                <word id="10" cont="股" pos="n" parent="9" relate="VOB" />
+                <word id="11" cont="50%" pos="m" parent="9" relate="VOB" />
+                <word id="12" cont="，" pos="wp" parent="9" relate="WP" />
+                <word id="13" cont="注册" pos="v" parent="14" relate="ATT" />
+                <word id="14" cont="资本" pos="n" parent="16" relate="ATT" />
+                <word id="15" cont="5000万" pos="m" parent="16" relate="ATT" />
+                <word id="16" cont="元" pos="q" parent="9" relate="COO" />
+                <word id="17" cont="，" pos="wp" parent="16" relate="WP" />
+                <word id="18" cont="成立" pos="v" parent="9" relate="COO" />
+                <word id="19" cont="于" pos="p" parent="18" relate="CMP" />
+                <word id="20" cont="2006年" pos="nt" parent="21" relate="ATT" />
+                <word id="21" cont="3月份" pos="nt" parent="19" relate="POB" />
+                <word id="22" cont="，" pos="wp" parent="9" relate="WP" />
+                <word id="23" cont="主营" pos="v" parent="25" relate="ATT" />
+                <word id="24" cont="电动" pos="b" parent="25" relate="ATT" />
+                <word id="25" cont="轮矿" pos="n" parent="26" relate="SBV" />
+                <word id="26" cont="用" pos="v" parent="9" relate="COO" />
+                <word id="27" cont="车" pos="n" parent="26" relate="VOB" />
+                <word id="28" cont="整车" pos="n" parent="26" relate="VOB" />
+                <word id="29" cont="及" pos="c" parent="31" relate="LAD" />
+                <word id="30" cont="备件" pos="n" parent="31" relate="FOB" />
+                <word id="31" cont="生产" pos="v" parent="28" relate="COO" />
+                <word id="32" cont="、" pos="wp" parent="33" relate="WP" />
+                <word id="33" cont="销售" pos="v" parent="31" relate="COO" />
+                <word id="34" cont="、" pos="wp" parent="35" relate="WP" />
+                <word id="35" cont="服务" pos="v" parent="31" relate="COO" />
+                <word id="36" cont="。" pos="wp" parent="9" relate="WP" />
+            </sent>
+            <sent id="3" cont="主要控股参股公司分析1、阿特拉斯工程机械有限公司（以下简称“阿特拉斯”），本公司持股75%，主要业务为生产和销售ATLAS牌的液压挖掘机。">
+                <word id="0" cont="主要" pos="d" parent="3" relate="ATT" />
+                <word id="1" cont="控股" pos="v" parent="3" relate="ATT" />
+                <word id="2" cont="参股" pos="v" parent="3" relate="ATT" />
+                <word id="3" cont="公司" pos="n" parent="4" relate="SBV" />
+                <word id="4" cont="分析" pos="v" parent="-1" relate="HED" />
+                <word id="5" cont="1" pos="m" parent="10" relate="ATT" />
+                <word id="6" cont="、" pos="wp" parent="5" relate="WP" />
+                <word id="7" cont="阿特拉斯" pos="ns" parent="8" relate="ATT" />
+                <word id="8" cont="工程" pos="n" parent="10" relate="ATT" />
+                <word id="9" cont="机械" pos="n" parent="10" relate="ATT" />
+                <word id="10" cont="有限公司" pos="n" parent="4" relate="VOB" />
+                <word id="11" cont="（" pos="wp" parent="13" relate="WP" />
+                <word id="12" cont="以下" pos="nd" parent="13" relate="ADV" />
+                <word id="13" cont="简称" pos="v" parent="10" relate="COO" />
+                <word id="14" cont="“" pos="wp" parent="15" relate="WP" />
+                <word id="15" cont="阿特拉斯" pos="ns" parent="13" relate="VOB" />
+                <word id="16" cont="”" pos="wp" parent="15" relate="WP" />
+                <word id="17" cont="）" pos="wp" parent="13" relate="WP" />
+                <word id="18" cont="，" pos="wp" parent="4" relate="WP" />
+                <word id="19" cont="本" pos="r" parent="20" relate="ATT" />
+                <word id="20" cont="公司" pos="n" parent="21" relate="SBV" />
+                <word id="21" cont="持" pos="v" parent="4" relate="COO" />
+                <word id="22" cont="股" pos="n" parent="21" relate="VOB" />
+                <word id="23" cont="75%" pos="m" parent="21" relate="VOB" />
+                <word id="24" cont="，" pos="wp" parent="21" relate="WP" />
+                <word id="25" cont="主要" pos="b" parent="26" relate="ATT" />
+                <word id="26" cont="业务" pos="n" parent="27" relate="SBV" />
+                <word id="27" cont="为" pos="p" parent="21" relate="COO" />
+                <word id="28" cont="生产" pos="v" parent="27" relate="POB" />
+                <word id="29" cont="和" pos="c" parent="30" relate="LAD" />
+                <word id="30" cont="销售" pos="v" parent="28" relate="COO" />
+                <word id="31" cont="ATLAS" pos="ws" parent="32" relate="ATT" />
+                <word id="32" cont="牌" pos="n" parent="35" relate="ATT" />
+                <word id="33" cont="的" pos="u" parent="32" relate="RAD" />
+                <word id="34" cont="液压" pos="n" parent="35" relate="ATT" />
+                <word id="35" cont="挖掘机" pos="n" parent="28" relate="VOB" />
+                <word id="36" cont="。" pos="wp" parent="4" relate="WP" />
+            </sent>
+            <sent id="4" cont="主要控股参股公司分析1、阿特拉斯工程机械有限公司（以下简称“阿特拉斯”），本公司持股75%，主要业务为生产和销售ATLAS牌的液压挖掘机。">
+                <word id="0" cont="主要" pos="d" parent="3" relate="ATT" />
+                <word id="1" cont="控股" pos="v" parent="3" relate="ATT" />
+                <word id="2" cont="参股" pos="v" parent="3" relate="ATT" />
+                <word id="3" cont="公司" pos="n" parent="4" relate="SBV" />
+                <word id="4" cont="分析" pos="v" parent="-1" relate="HED" />
+                <word id="5" cont="1" pos="m" parent="10" relate="ATT" />
+                <word id="6" cont="、" pos="wp" parent="5" relate="WP" />
+                <word id="7" cont="阿特拉斯" pos="ns" parent="8" relate="ATT" />
+                <word id="8" cont="工程" pos="n" parent="10" relate="ATT" />
+                <word id="9" cont="机械" pos="n" parent="10" relate="ATT" />
+                <word id="10" cont="有限公司" pos="n" parent="4" relate="VOB" />
+                <word id="11" cont="（" pos="wp" parent="13" relate="WP" />
+                <word id="12" cont="以下" pos="nd" parent="13" relate="ADV" />
+                <word id="13" cont="简称" pos="v" parent="10" relate="COO" />
+                <word id="14" cont="“" pos="wp" parent="15" relate="WP" />
+                <word id="15" cont="阿特拉斯" pos="ns" parent="13" relate="VOB" />
+                <word id="16" cont="”" pos="wp" parent="15" relate="WP" />
+                <word id="17" cont="）" pos="wp" parent="13" relate="WP" />
+                <word id="18" cont="，" pos="wp" parent="4" relate="WP" />
+                <word id="19" cont="本" pos="r" parent="20" relate="ATT" />
+                <word id="20" cont="公司" pos="n" parent="21" relate="SBV" />
+                <word id="21" cont="持" pos="v" parent="4" relate="COO" />
+                <word id="22" cont="股" pos="n" parent="21" relate="VOB" />
+                <word id="23" cont="75%" pos="m" parent="21" relate="VOB" />
+                <word id="24" cont="，" pos="wp" parent="21" relate="WP" />
+                <word id="25" cont="主要" pos="b" parent="26" relate="ATT" />
+                <word id="26" cont="业务" pos="n" parent="27" relate="SBV" />
+                <word id="27" cont="为" pos="p" parent="21" relate="COO" />
+                <word id="28" cont="生产" pos="v" parent="27" relate="POB" />
+                <word id="29" cont="和" pos="c" parent="30" relate="LAD" />
+                <word id="30" cont="销售" pos="v" parent="28" relate="COO" />
+                <word id="31" cont="ATLAS" pos="ws" parent="32" relate="ATT" />
+                <word id="32" cont="牌" pos="n" parent="35" relate="ATT" />
+                <word id="33" cont="的" pos="u" parent="32" relate="RAD" />
+                <word id="34" cont="液压" pos="n" parent="35" relate="ATT" />
+                <word id="35" cont="挖掘机" pos="n" parent="28" relate="VOB" />
+                <word id="36" cont="。" pos="wp" parent="4" relate="WP" />
+            </sent>
+        </para>
+    </doc>
+</xml4nlp>

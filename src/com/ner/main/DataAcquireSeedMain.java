@@ -16,9 +16,14 @@ import com.ner.textpreprocess.OnlySentencesList;
 
 import cn.ner.readwrite.ReadFiles;
 import cn.ner.readwrite.WriteContent;
-
-public class TrainMain {
+/**
+ * 获取种子（其中100篇）
+ * @author xiaodai
+ *
+ */
+public class DataAcquireSeedMain {
 	static DepParsingMain dpm=new DepParsingMain();
+	static WriteContent wc=new WriteContent();
 	public static void main(String[] args) {
 		String entityPath="E:\\SES和企业信息\\股票期刊论文\\词频统计和分析\\report\\entity";
 		String textPath="E:\\SES和企业信息\\股票期刊论文\\词频统计和分析\\report\\testdoing\\";
@@ -27,15 +32,18 @@ public class TrainMain {
 			if (string.equals("biaoge")) {
 				biaoGe();
 			}
-			if (string.equals("text")) {
+			if (string.equals("dp")) { 
 				Text();
+			}
+			if (string.equals("re")) { 
+				relationPattern();
 			}
 		}
 	}
 	public static void biaoGe(){
 		FeatureVector fv=FeatureVector.getInstance();
 		List<String> fileLists=null;
-		WriteContent wc=new WriteContent();
+
 		OutputStreamWriter oswtrain=wc.writeConAppend("./data/seeds/seeddatafile");//表格特征
 		OutputStreamWriter osw=wc.writeConAppend("./data/seeds/datafileAll");
 		try {
@@ -91,11 +99,9 @@ public class TrainMain {
 		}
 	}
 	public static void Text(){
-		WriteContent wc=new WriteContent();
 		List<String> fileLists=null;
-		OutputStreamWriter  oswtrainTxt=wc.writeConAppend("./data/seeds/seedRelationPattern");//文本句子特征
-		OutputStreamWriter oswTxt=wc.writeConAppend("./data/seeds/RelationPatternAll");
 		try {
+			//fileLists = ReadFiles.readDirs("data/traincorpus/companys/");
 			fileLists = ReadFiles.readDirs("data/traincorpus/companyundo/");
 			int count=0;
 			for (String file : fileLists) {
@@ -104,12 +110,12 @@ public class TrainMain {
 				StringBuilder sbuilderText=new  StringBuilder();
 				String text=str.substring(str.indexOf("text->")+"text->\n".length());
 				String[] sentenceArr=text.split("\n");
-				
+
 				for (int i = 0; i < sentenceArr.length; i++) {
 					String[] senArr=sentenceArr[i].split(" : ");//数组中分别是实体、类型、句子
 					if (senArr.length>2) {
 						System.out.println("第"+(count++));
-						sbuilderText.append(senArr[2]);
+						sbuilderText.append(senArr[2].replace(",", ""));
 					}
 				}
 				if (company.equals("深圳市得润电子股份有限公司")) {
@@ -122,7 +128,7 @@ public class TrainMain {
 					}
 				}
 			}
-			
+
 			if (dpm.failSentence.size()>0) {
 				System.out.println("未处理的公司：");
 				for (String sentence : dpm.failSentence) {
@@ -133,25 +139,34 @@ public class TrainMain {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
+	}
+	public static void relationPattern(){
+		OutputStreamWriter  oswtrainTxt=wc.writeConAppend("./data/seeds/seedRelationPattern");//文本句子特征
+		OutputStreamWriter oswTxt=wc.writeConAppend("./data/seeds/RelationPatternAll");
 		//分析句子依存分析xml文件，获取关系模式
 		String xmlPath="data/xml";
 		HashMap<String, List<String>> xmlParseResults=new ParseXmlResult().getTextRelationPattern(xmlPath);
+		HashMap<String, TreeMap<String,String>> companys_entitys_types=ObjectAndDataCollection.companys_entitys_types;
 		Set<String> set=xmlParseResults.keySet();
 		StringBuilder sbRP=new StringBuilder();
 		for (String company : set) {
 			try {
+				TreeMap<String,String> entitys_types=companys_entitys_types.get(company);
+				StringBuilder sp=new StringBuilder();
 				oswTxt.write(company+"(:)\n");
 				List<String> value=xmlParseResults.get(company);
 				for (String rp : value) {
-					sbRP.append("<"+company+";"+rp+">\n");
+					if (entitys_types.containsKey(rp.split(":")[0])) {
+						sbRP.append("<"+company+";"+rp+">\n");
+						sp.append("<"+company+";"+rp+">\n");
+					}
 				}
-				oswTxt.write(sbRP.toString());
+				oswTxt.write(sp.toString());
 				oswTxt.flush();
 			} catch (IOException e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
 			}
-
 		}
 		try {
 			oswtrainTxt.write(sbRP.toString());

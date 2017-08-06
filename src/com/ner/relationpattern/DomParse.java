@@ -152,11 +152,38 @@ public class DomParse {
 				if (arr[0].contains("有限公司")) {
 					arr[0]=arr[0].substring(0, arr[0].indexOf("有限公司")+"有限公司".length());
 				}
+				arr[0] =  arr[0].replaceAll("[^\u4E00-\u9FA5]", "");
 				cache=arr[0]+":"+arr[1];
 			}
 		}
-		arrList.add(cache);
+		cache=zhengli(cache);
+		if (!cache.equals("")) {
+			
+			arrList.add(cache);
+		}
 		//===================================郑州炜盛电子科技有限公司:null SBV 为 VOB 全资子公司。
+	}
+	public String zhengli(String cache){
+		int numcount=0;
+		 char[] b = cache.toCharArray();  
+         for(int i = 0; i < b.length; i++){  
+            if(b[i]>='0'&&b[i]<='9'){  
+                 numcount++;  
+             }
+         }
+         if (numcount>30) {
+			cache="";
+		}       
+		String[] shuzi={"%","万元","万欧元","万美元","元","√"};
+		String[] xianghao={",  * "," * * "," * "," √* "};
+		cache=cache.replaceAll("([1-9]+[0-9]*|0)(\\.[\\d]+)?","").replaceAll("[0-9]*", "");
+		for (int i = 0; i < shuzi.length; i++) {
+			cache=cache.replace(shuzi[i], "");
+		}
+		for (int i = 0; i < xianghao.length; i++) {
+			cache=cache.replace(xianghao[i], " *");
+		}
+		return cache;
 	}
 	//获取sbv部分和VOB或者POB部分
 	public void getSBV_VOB(List<Element> wordNodeList,Element wordNode,boolean flag,

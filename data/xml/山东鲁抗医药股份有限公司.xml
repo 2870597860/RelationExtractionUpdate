@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xml4nlp>
+    <note sent="y" word="y" pos="y" ne="n" parser="y" semparser="n" lstmsemparser="n" wsd="n" srl="n" />
+    <doc>
+        <para id="0">
+            <sent id="0" cont="参股公司山东鲁抗中和环保科技有限公司:主营污水处理及技术服务。">
+                <word id="0" cont="参股" pos="v" parent="1" relate="ATT" />
+                <word id="1" cont="公司" pos="n" parent="3" relate="ATT" />
+                <word id="2" cont="山东" pos="ns" parent="3" relate="ATT" />
+                <word id="3" cont="鲁抗" pos="j" parent="4" relate="ATT" />
+                <word id="4" cont="中" pos="nd" parent="12" relate="ADV" />
+                <word id="5" cont="和" pos="c" parent="8" relate="LAD" />
+                <word id="6" cont="环保" pos="j" parent="7" relate="ATT" />
+                <word id="7" cont="科技" pos="n" parent="8" relate="ATT" />
+                <word id="8" cont="有限公司" pos="n" parent="12" relate="SBV" />
+                <word id="9" cont=":" pos="wp" parent="8" relate="WP" />
+                <word id="10" cont="主营" pos="v" parent="11" relate="ATT" />
+                <word id="11" cont="污水" pos="n" parent="12" relate="FOB" />
+                <word id="12" cont="处理" pos="v" parent="-1" relate="HED" />
+                <word id="13" cont="及" pos="c" parent="15" relate="LAD" />
+                <word id="14" cont="技术" pos="n" parent="15" relate="ATT" />
+                <word id="15" cont="服务" pos="v" parent="12" relate="COO" />
+                <word id="16" cont="。" pos="wp" parent="12" relate="WP" />
+            </sent>
+            <sent id="1" cont="全资子公司山东鲁抗生物制造有限公司:主营色氨酸的制造、销售。">
+                <word id="0" cont="全资" pos="n" parent="1" relate="ATT" />
+                <word id="1" cont="子公司" pos="n" parent="6" relate="ATT" />
+                <word id="2" cont="山东" pos="ns" parent="3" relate="ATT" />
+                <word id="3" cont="鲁抗" pos="nz" parent="6" relate="ATT" />
+                <word id="4" cont="生物" pos="n" parent="5" relate="FOB" />
+                <word id="5" cont="制造" pos="v" parent="6" relate="ATT" />
+                <word id="6" cont="有限公司" pos="n" parent="-1" relate="HED" />
+                <word id="7" cont=":" pos="wp" parent="6" relate="WP" />
+                <word id="8" cont="主营色" pos="n" parent="9" relate="ATT" />
+                <word id="9" cont="氨酸" pos="n" parent="11" relate="ATT" />
+                <word id="10" cont="的" pos="u" parent="9" relate="RAD" />
+                <word id="11" cont="制造" pos="v" parent="6" relate="COO" />
+                <word id="12" cont="、" pos="wp" parent="13" relate="WP" />
+                <word id="13" cont="销售" pos="v" parent="11" relate="COO" />
+                <word id="14" cont="。" pos="wp" parent="6" relate="WP" />
+            </sent>
+            <sent id="2" cont="全资子公司山东鲁抗舍里乐药业有限公司:主营兽用原料药、非无菌原料药、粉针剂的生产。">
+                <word id="0" cont="全资" pos="n" parent="1" relate="ATT" />
+                <word id="1" cont="子公司" pos="n" parent="6" relate="ATT" />
+                <word id="2" cont="山东" pos="ns" parent="3" relate="ATT" />
+                <word id="3" cont="鲁抗" pos="j" parent="6" relate="ATT" />
+                <word id="4" cont="舍里乐" pos="nz" parent="6" relate="ATT" />
+                <word id="5" cont="药业" pos="n" parent="6" relate="ATT" />
+                <word id="6" cont="有限公司" pos="n" parent="-1" relate="HED" />
+                <word id="7" cont=":" pos="wp" parent="6" relate="WP" />
+                <word id="8" cont="主营兽" pos="n" parent="17" relate="ATT" />
+                <word id="9" cont="用" pos="p" parent="17" relate="ATT" />
+                <word id="10" cont="原料药" pos="n" parent="9" relate="POB" />
+                <word id="11" cont="、" pos="wp" parent="10" relate="WP" />
+                <word id="12" cont="非无菌" pos="b" parent="13" relate="ATT" />
+                <word id="13" cont="原料药" pos="n" parent="10" relate="COO" />
+                <word id="14" cont="、" pos="wp" parent="13" relate="WP" />
+                <word id="15" cont="粉针剂" pos="n" parent="10" relate="COO" />
+                <word id="16" cont="的" pos="u" parent="10" relate="RAD" />
+                <word id="17" cont="生产" pos="v" parent="6" relate="COO" />
+                <word id="18" cont="。" pos="wp" parent="6" relate="WP" />
+            </sent>
+        </para>
+    </doc>
+</xml4nlp>

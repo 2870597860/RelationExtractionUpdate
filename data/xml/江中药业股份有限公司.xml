@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xml4nlp>
+    <note sent="y" word="y" pos="y" ne="n" parser="y" semparser="n" lstmsemparser="n" wsd="n" srl="n" />
+    <doc>
+        <para id="0">
+            <sent id="0" cont="市场推广费用同比大幅下降所致。">
+                <word id="0" cont="市场" pos="n" parent="1" relate="FOB" />
+                <word id="1" cont="推广" pos="v" parent="2" relate="ATT" />
+                <word id="2" cont="费用" pos="n" parent="5" relate="SBV" />
+                <word id="3" cont="同比" pos="j" parent="5" relate="ADV" />
+                <word id="4" cont="大幅" pos="d" parent="5" relate="ADV" />
+                <word id="5" cont="下降" pos="v" parent="-1" relate="HED" />
+                <word id="6" cont="所" pos="u" parent="7" relate="LAD" />
+                <word id="7" cont="致" pos="v" parent="5" relate="COO" />
+                <word id="8" cont="。" pos="wp" parent="5" relate="WP" />
+            </sent>
+            <sent id="1" cont="宁夏朴卡酒业有限公司（。">
+                <word id="0" cont="宁夏" pos="ns" parent="3" relate="ATT" />
+                <word id="1" cont="朴卡" pos="nz" parent="3" relate="ATT" />
+                <word id="2" cont="酒业" pos="n" parent="3" relate="ATT" />
+                <word id="3" cont="有限公司" pos="n" parent="-1" relate="HED" />
+                <word id="4" cont="（" pos="wp" parent="3" relate="WP" />
+                <word id="5" cont="。" pos="wp" parent="3" relate="WP" />
+            </sent>
+            <sent id="2" cont="市场推广费用同比大幅下降所致。">
+                <word id="0" cont="市场" pos="n" parent="1" relate="FOB" />
+                <word id="1" cont="推广" pos="v" parent="2" relate="ATT" />
+                <word id="2" cont="费用" pos="n" parent="5" relate="SBV" />
+                <word id="3" cont="同比" pos="j" parent="5" relate="ADV" />
+                <word id="4" cont="大幅" pos="d" parent="5" relate="ADV" />
+                <word id="5" cont="下降" pos="v" parent="-1" relate="HED" />
+                <word id="6" cont="所" pos="u" parent="7" relate="LAD" />
+                <word id="7" cont="致" pos="v" parent="5" relate="COO" />
+                <word id="8" cont="。" pos="wp" parent="5" relate="WP" />
+            </sent>
+            <sent id="3" cont="宁夏朴卡酒业有限公司（。">
+                <word id="0" cont="宁夏" pos="ns" parent="3" relate="ATT" />
+                <word id="1" cont="朴卡" pos="nz" parent="3" relate="ATT" />
+                <word id="2" cont="酒业" pos="n" parent="3" relate="ATT" />
+                <word id="3" cont="有限公司" pos="n" parent="-1" relate="HED" />
+                <word id="4" cont="（" pos="wp" parent="3" relate="WP" />
+                <word id="5" cont="。" pos="wp" parent="3" relate="WP" />
+            </sent>
+            <sent id="4" cont="但发生了费用开支所致。">
+                <word id="0" cont="但" pos="c" parent="1" relate="ADV" />
+                <word id="1" cont="发生" pos="v" parent="-1" relate="HED" />
+                <word id="2" cont="了" pos="u" parent="1" relate="RAD" />
+                <word id="3" cont="费用" pos="n" parent="4" relate="ATT" />
+                <word id="4" cont="开支" pos="n" parent="6" relate="SBV" />
+                <word id="5" cont="所" pos="u" parent="6" relate="LAD" />
+                <word id="6" cont="致" pos="v" parent="1" relate="VOB" />
+                <word id="7" cont="。" pos="wp" parent="1" relate="WP" />
+            </sent>
+            <sent id="5" cont="江西本草天工科技有限责任公司（。">
+                <word id="0" cont="江西" pos="ns" parent="1" relate="ATT" />
+                <word id="1" cont="本草天工" pos="nz" parent="5" relate="ATT" />
+                <word id="2" cont="科技" pos="n" parent="4" relate="ATT" />
+                <word id="3" cont="有限" pos="a" parent="4" relate="ATT" />
+                <word id="4" cont="责任" pos="n" parent="5" relate="ATT" />
+                <word id="5" cont="公司" pos="n" parent="-1" relate="HED" />
+                <word id="6" cont="（" pos="wp" parent="5" relate="WP" />
+                <word id="7" cont="。" pos="wp" parent="5" relate="WP" />
+            </sent>
+            <sent id="6" cont="主要控股参股公司分析江西江中医药贸易有限责任公司（以下简称：江中医贸）江中医贸注册资本7000万元，本公司持有其99.71%的股权。">
+                <word id="0" cont="主要" pos="d" parent="3" relate="ATT" />
+                <word id="1" cont="控股" pos="v" parent="3" relate="ATT" />
+                <word id="2" cont="参股" pos="v" parent="3" relate="ATT" />
+                <word id="3" cont="公司" pos="n" parent="4" relate="SBV" />
+                <word id="4" cont="分析" pos="v" parent="-1" relate="HED" />
+                <word id="5" cont="江西" pos="ns" parent="6" relate="ATT" />
+                <word id="6" cont="江" pos="n" parent="11" relate="ATT" />
+                <word id="7" cont="中医药" pos="n" parent="8" relate="ATT" />
+                <word id="8" cont="贸易" pos="v" parent="11" relate="ATT" />
+                <word id="9" cont="有限" pos="a" parent="10" relate="ATT" />
+                <word id="10" cont="责任" pos="n" parent="11" relate="ATT" />
+                <word id="11" cont="公司" pos="n" parent="14" relate="SBV" />
+                <word id="12" cont="（" pos="wp" parent="14" relate="WP" />
+                <word id="13" cont="以下" pos="nd" parent="14" relate="ADV" />
+                <word id="14" cont="简称" pos="v" parent="4" relate="VOB" />
+                <word id="15" cont="：" pos="wp" parent="14" relate="WP" />
+                <word id="16" cont="江" pos="j" parent="17" relate="ATT" />
+                <word id="17" cont="中医贸" pos="j" parent="14" relate="VOB" />
+                <word id="18" cont="）" pos="wp" parent="17" relate="WP" />
+                <word id="19" cont="江" pos="n" parent="20" relate="ATT" />
+                <word id="20" cont="中医贸" pos="j" parent="22" relate="ATT" />
+                <word id="21" cont="注册" pos="v" parent="22" relate="ATT" />
+                <word id="22" cont="资本" pos="n" parent="24" relate="ATT" />
+                <word id="23" cont="7000万" pos="m" parent="24" relate="ATT" />
+                <word id="24" cont="元" pos="q" parent="14" relate="COO" />
+                <word id="25" cont="，" pos="wp" parent="24" relate="WP" />
+                <word id="26" cont="本" pos="r" parent="27" relate="ATT" />
+                <word id="27" cont="公司" pos="n" parent="28" relate="SBV" />
+                <word id="28" cont="持有" pos="v" parent="24" relate="COO" />
+                <word id="29" cont="其" pos="r" parent="32" relate="ATT" />
+                <word id="30" cont="99.71%" pos="m" parent="32" relate="ATT" />
+                <word id="31" cont="的" pos="u" parent="30" relate="RAD" />
+                <word id="32" cont="股权" pos="n" parent="28" relate="VOB" />
+                <word id="33" cont="。" pos="wp" parent="4" relate="WP" />
+            </sent>
+            <sent id="7" cont="详见《公司关于计提存货跌价准备的公告》。">
+                <word id="0" cont="详见" pos="v" parent="-1" relate="HED" />
+                <word id="1" cont="《" pos="wp" parent="9" relate="WP" />
+                <word id="2" cont="公司" pos="n" parent="9" relate="ATT" />
+                <word id="3" cont="关于" pos="p" parent="7" relate="ADV" />
+                <word id="4" cont="计提" pos="v" parent="5" relate="ATT" />
+                <word id="5" cont="存货" pos="n" parent="3" relate="POB" />
+                <word id="6" cont="跌价" pos="v" parent="7" relate="SBV" />
+                <word id="7" cont="准备" pos="v" parent="9" relate="ATT" />
+                <word id="8" cont="的" pos="u" parent="7" relate="RAD" />
+                <word id="9" cont="公告" pos="n" parent="0" relate="VOB" />
+                <word id="10" cont="》" pos="wp" parent="9" relate="WP" />
+                <word id="11" cont="。" pos="wp" parent="0" relate="WP" />
+            </sent>
+            <sent id="8" cont="江中杞浓酒业有限责任公司（。">
+                <word id="0" cont="江" pos="n" parent="1" relate="ATT" />
+                <word id="1" cont="中杞" pos="j" parent="2" relate="ATT" />
+                <word id="2" cont="浓酒业" pos="n" parent="5" relate="ATT" />
+                <word id="3" cont="有限" pos="a" parent="4" relate="ATT" />
+                <word id="4" cont="责任" pos="n" parent="5" relate="ATT" />
+                <word id="5" cont="公司" pos="n" parent="-1" relate="HED" />
+                <word id="6" cont="（" pos="wp" parent="5" relate="WP" />
+                <word id="7" cont="。" pos="wp" parent="5" relate="WP" />
+            </sent>
+            <sent id="9" cont="详见《公司关于计提存货跌价准备的公告》。">
+                <word id="0" cont="详见" pos="v" parent="-1" relate="HED" />
+                <word id="1" cont="《" pos="wp" parent="9" relate="WP" />
+                <word id="2" cont="公司" pos="n" parent="9" relate="ATT" />
+                <word id="3" cont="关于" pos="p" parent="7" relate="ADV" />
+                <word id="4" cont="计提" pos="v" parent="5" relate="ATT" />
+                <word id="5" cont="存货" pos="n" parent="3" relate="POB" />
+                <word id="6" cont="跌价" pos="v" parent="7" relate="SBV" />
+                <word id="7" cont="准备" pos="v" parent="9" relate="ATT" />
+                <word id="8" cont="的" pos="u" parent="7" relate="RAD" />
+                <word id="9" cont="公告" pos="n" parent="0" relate="VOB" />
+                <word id="10" cont="》" pos="wp" parent="9" relate="WP" />
+                <word id="11" cont="。" pos="wp" parent="0" relate="WP" />
+            </sent>
+            <sent id="10" cont="江中杞浓酒业有限责任公司（。">
+                <word id="0" cont="江" pos="n" parent="1" relate="ATT" />
+                <word id="1" cont="中杞" pos="j" parent="2" relate="ATT" />
+                <word id="2" cont="浓酒业" pos="n" parent="5" relate="ATT" />
+                <word id="3" cont="有限" pos="a" parent="4" relate="ATT" />
+                <word id="4" cont="责任" pos="n" parent="5" relate="ATT" />
+                <word id="5" cont="公司" pos="n" parent="-1" relate="HED" />
+                <word id="6" cont="（" pos="wp" parent="5" relate="WP" />
+                <word id="7" cont="。" pos="wp" parent="5" relate="WP" />
+            </sent>
+            <sent id="11" cont="主要系报告期内公司费用开支减少所致。">
+                <word id="0" cont="主要" pos="d" parent="1" relate="ADV" />
+                <word id="1" cont="系" pos="v" parent="-1" relate="HED" />
+                <word id="2" cont="报告期" pos="n" parent="3" relate="ATT" />
+                <word id="3" cont="内" pos="nd" parent="4" relate="ATT" />
+                <word id="4" cont="公司" pos="n" parent="5" relate="ATT" />
+                <word id="5" cont="费用" pos="n" parent="6" relate="ATT" />
+                <word id="6" cont="开支" pos="n" parent="7" relate="SBV" />
+                <word id="7" cont="减少" pos="v" parent="1" relate="VOB" />
+                <word id="8" cont="所" pos="u" parent="9" relate="LAD" />
+                <word id="9" cont="致" pos="v" parent="7" relate="VOB" />
+                <word id="10" cont="。" pos="wp" parent="1" relate="WP" />
+            </sent>
+            <sent id="12" cont="江西江中食品有限责任公司（。">
+                <word id="0" cont="江西" pos="ns" parent="1" relate="ATT" />
+                <word id="1" cont="江" pos="n" parent="2" relate="ATT" />
+                <word id="2" cont="中" pos="nd" parent="6" relate="ATT" />
+                <word id="3" cont="食品" pos="n" parent="6" relate="ATT" />
+                <word id="4" cont="有限" pos="a" parent="5" relate="ATT" />
+                <word id="5" cont="责任" pos="n" parent="6" relate="ATT" />
+                <word id="6" cont="公司" pos="n" parent="-1" relate="HED" />
+                <word id="7" cont="（" pos="wp" parent="6" relate="WP" />
+                <word id="8" cont="。" pos="wp" parent="6" relate="WP" />
+            </sent>
+            <sent id="13" cont="但发生了费用开支所致。">
+                <word id="0" cont="但" pos="c" parent="1" relate="ADV" />
+                <word id="1" cont="发生" pos="v" parent="-1" relate="HED" />
+                <word id="2" cont="了" pos="u" parent="1" relate="RAD" />
+                <word id="3" cont="费用" pos="n" parent="4" relate="ATT" />
+                <word id="4" cont="开支" pos="n" parent="6" relate="SBV" />
+                <word id="5" cont="所" pos="u" parent="6" relate="LAD" />
+                <word id="6" cont="致" pos="v" parent="1" relate="VOB" />
+                <word id="7" cont="。" pos="wp" parent="1" relate="WP" />
+            </sent>
+            <sent id="14" cont="江西本草天工科技有限责任公司（。">
+                <word id="0" cont="江西" pos="ns" parent="1" relate="ATT" />
+                <word id="1" cont="本草天工" pos="nz" parent="5" relate="ATT" />
+                <word id="2" cont="科技" pos="n" parent="4" relate="ATT" />
+                <word id="3" cont="有限" pos="a" parent="4" relate="ATT" />
+                <word id="4" cont="责任" pos="n" parent="5" relate="ATT" />
+                <word id="5" cont="公司" pos="n" parent="-1" relate="HED" />
+                <word id="6" cont="（" pos="wp" parent="5" relate="WP" />
+                <word id="7" cont="。" pos="wp" parent="5" relate="WP" />
+            </sent>
+            <sent id="15" cont="主要控股参股公司分析江西江中医药贸易有限责任公司（。">
+                <word id="0" cont="主要" pos="d" parent="3" relate="ATT" />
+                <word id="1" cont="控股" pos="v" parent="3" relate="ATT" />
+                <word id="2" cont="参股" pos="v" parent="3" relate="ATT" />
+                <word id="3" cont="公司" pos="n" parent="4" relate="SBV" />
+                <word id="4" cont="分析" pos="v" parent="-1" relate="HED" />
+                <word id="5" cont="江西" pos="ns" parent="6" relate="ATT" />
+                <word id="6" cont="江" pos="n" parent="11" relate="ATT" />
+                <word id="7" cont="中医药" pos="n" parent="8" relate="ATT" />
+                <word id="8" cont="贸易" pos="v" parent="11" relate="ATT" />
+                <word id="9" cont="有限" pos="a" parent="10" relate="ATT" />
+                <word id="10" cont="责任" pos="n" parent="11" relate="ATT" />
+                <word id="11" cont="公司" pos="n" parent="4" relate="VOB" />
+                <word id="12" cont="（" pos="wp" parent="4" relate="WP" />
+                <word id="13" cont="。" pos="wp" parent="4" relate="WP" />
+            </sent>
+            <sent id="16" cont="主要系报告期内公司费用开支减少所致。">
+                <word id="0" cont="主要" pos="d" parent="1" relate="ADV" />
+                <word id="1" cont="系" pos="v" parent="-1" relate="HED" />
+                <word id="2" cont="报告期" pos="n" parent="3" relate="ATT" />
+                <word id="3" cont="内" pos="nd" parent="4" relate="ATT" />
+                <word id="4" cont="公司" pos="n" parent="5" relate="ATT" />
+                <word id="5" cont="费用" pos="n" parent="6" relate="ATT" />
+                <word id="6" cont="开支" pos="n" parent="7" relate="SBV" />
+                <word id="7" cont="减少" pos="v" parent="1" relate="VOB" />
+                <word id="8" cont="所" pos="u" parent="9" relate="LAD" />
+                <word id="9" cont="致" pos="v" parent="7" relate="VOB" />
+                <word id="10" cont="。" pos="wp" parent="1" relate="WP" />
+            </sent>
+            <sent id="17" cont="江西江中食品有限责任公司（。">
+                <word id="0" cont="江西" pos="ns" parent="1" relate="ATT" />
+                <word id="1" cont="江" pos="n" parent="2" relate="ATT" />
+                <word id="2" cont="中" pos="nd" parent="6" relate="ATT" />
+                <word id="3" cont="食品" pos="n" parent="6" relate="ATT" />
+                <word id="4" cont="有限" pos="a" parent="5" relate="ATT" />
+                <word id="5" cont="责任" pos="n" parent="6" relate="ATT" />
+                <word id="6" cont="公司" pos="n" parent="-1" relate="HED" />
+                <word id="7" cont="（" pos="wp" parent="6" relate="WP" />
+                <word id="8" cont="。" pos="wp" parent="6" relate="WP" />
+            </sent>
+        </para>
+    </doc>
+</xml4nlp>

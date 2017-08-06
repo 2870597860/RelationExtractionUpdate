@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xml4nlp>
+    <note sent="y" word="y" pos="y" ne="n" parser="y" semparser="n" lstmsemparser="n" wsd="n" srl="n" />
+    <doc>
+        <para id="0">
+            <sent id="0" cont="杭州澳亚生物技术有限公司于1993年2月23日经杭州市工商行政管理局核准成立。">
+                <word id="0" cont="杭州" pos="ns" parent="4" relate="ATT" />
+                <word id="1" cont="澳亚" pos="nz" parent="4" relate="ATT" />
+                <word id="2" cont="生物" pos="n" parent="3" relate="ATT" />
+                <word id="3" cont="技术" pos="n" parent="4" relate="ATT" />
+                <word id="4" cont="有限公司" pos="n" parent="14" relate="SBV" />
+                <word id="5" cont="于" pos="p" parent="14" relate="ADV" />
+                <word id="6" cont="1993年" pos="nt" parent="7" relate="ATT" />
+                <word id="7" cont="2月" pos="nt" parent="8" relate="ATT" />
+                <word id="8" cont="23日" pos="nt" parent="5" relate="POB" />
+                <word id="9" cont="经" pos="p" parent="14" relate="ADV" />
+                <word id="10" cont="杭州市" pos="ns" parent="13" relate="ATT" />
+                <word id="11" cont="工商" pos="n" parent="12" relate="ATT" />
+                <word id="12" cont="行政" pos="n" parent="13" relate="ATT" />
+                <word id="13" cont="管理局" pos="n" parent="14" relate="SBV" />
+                <word id="14" cont="核准" pos="v" parent="-1" relate="HED" />
+                <word id="15" cont="成立" pos="v" parent="14" relate="VOB" />
+                <word id="16" cont="。" pos="wp" parent="14" relate="WP" />
+            </sent>
+            <sent id="1" cont="海南维乐药业有限公司子公司药品销售2000万元29642836.0225233976.7033988850.195555215.864174618.14杭州澳亚生物技术有限公司参股公司药品生产6500万元250007748.88154557744.04162196275.7451734260.7151171457.61报告期内取得和处置子公司的情况主要控股参股公司情况说明杭州澳亚生物技术有限公司于1993年2月23日经杭州市工商行政管理局核准成立。">
+                <word id="0" cont="海南" pos="ns" parent="3" relate="ATT" />
+                <word id="1" cont="维乐" pos="nz" parent="3" relate="ATT" />
+                <word id="2" cont="药业" pos="n" parent="3" relate="ATT" />
+                <word id="3" cont="有限公司" pos="n" parent="4" relate="ATT" />
+                <word id="4" cont="子公司" pos="n" parent="5" relate="ATT" />
+                <word id="5" cont="药品" pos="n" parent="18" relate="SBV" />
+                <word id="6" cont="销售" pos="v" parent="18" relate="SBV" />
+                <word id="7" cont="2000万" pos="m" parent="8" relate="ATT" />
+                <word id="8" cont="元" pos="q" parent="18" relate="SBV" />
+                <word id="9" cont="29642836.02" pos="m" parent="18" relate="ADV" />
+                <word id="10" cont="25233976.70" pos="m" parent="11" relate="ATT" />
+                <word id="11" cont="33988850.195555215.86" pos="m" parent="12" relate="ATT" />
+                <word id="12" cont="4174618.14" pos="m" parent="18" relate="ADV" />
+                <word id="13" cont="杭州" pos="ns" parent="17" relate="ATT" />
+                <word id="14" cont="澳亚" pos="nz" parent="17" relate="ATT" />
+                <word id="15" cont="生物" pos="n" parent="16" relate="ATT" />
+                <word id="16" cont="技术" pos="n" parent="17" relate="ATT" />
+                <word id="17" cont="有限公司" pos="n" parent="18" relate="SBV" />
+                <word id="18" cont="参股" pos="v" parent="-1" relate="HED" />
+                <word id="19" cont="公司" pos="n" parent="20" relate="ATT" />
+                <word id="20" cont="药品" pos="n" parent="18" relate="VOB" />
+                <word id="21" cont="生产" pos="v" parent="31" relate="SBV" />
+                <word id="22" cont="6500万" pos="m" parent="23" relate="ATT" />
+                <word id="23" cont="元" pos="q" parent="29" relate="ATT" />
+                <word id="24" cont="250007748.88" pos="m" parent="29" relate="ATT" />
+                <word id="25" cont="154557744.04" pos="m" parent="26" relate="ATT" />
+                <word id="26" cont="162196275.74" pos="m" parent="27" relate="ATT" />
+                <word id="27" cont="51734260.7" pos="m" parent="28" relate="ATT" />
+                <word id="28" cont="151171457.61" pos="m" parent="29" relate="ATT" />
+                <word id="29" cont="报告期" pos="n" parent="30" relate="ATT" />
+                <word id="30" cont="内" pos="nd" parent="31" relate="ADV" />
+                <word id="31" cont="取得" pos="v" parent="42" relate="SBV" />
+                <word id="32" cont="和" pos="c" parent="34" relate="LAD" />
+                <word id="33" cont="处置" pos="v" parent="34" relate="ATT" />
+                <word id="34" cont="子公司" pos="n" parent="36" relate="ATT" />
+                <word id="35" cont="的" pos="u" parent="34" relate="RAD" />
+                <word id="36" cont="情况" pos="n" parent="40" relate="ATT" />
+                <word id="37" cont="主要" pos="d" parent="40" relate="ATT" />
+                <word id="38" cont="控股" pos="v" parent="40" relate="ATT" />
+                <word id="39" cont="参股" pos="v" parent="40" relate="ATT" />
+                <word id="40" cont="公司" pos="n" parent="41" relate="ATT" />
+                <word id="41" cont="情况" pos="n" parent="31" relate="VOB" />
+                <word id="42" cont="说明" pos="v" parent="18" relate="COO" />
+                <word id="43" cont="杭州" pos="ns" parent="47" relate="ATT" />
+                <word id="44" cont="澳亚" pos="nz" parent="47" relate="ATT" />
+                <word id="45" cont="生物" pos="n" parent="46" relate="ATT" />
+                <word id="46" cont="技术" pos="n" parent="47" relate="ATT" />
+                <word id="47" cont="有限公司" pos="n" parent="57" relate="SBV" />
+                <word id="48" cont="于" pos="p" parent="57" relate="ADV" />
+                <word id="49" cont="1993年" pos="nt" parent="50" relate="ATT" />
+                <word id="50" cont="2月" pos="nt" parent="51" relate="ATT" />
+                <word id="51" cont="23日" pos="nt" parent="48" relate="POB" />
+                <word id="52" cont="经" pos="p" parent="57" relate="ADV" />
+                <word id="53" cont="杭州市" pos="ns" parent="56" relate="ATT" />
+                <word id="54" cont="工商" pos="n" parent="55" relate="ATT" />
+                <word id="55" cont="行政" pos="n" parent="56" relate="ATT" />
+                <word id="56" cont="管理局" pos="n" parent="57" relate="SBV" />
+                <word id="57" cont="核准" pos="v" parent="42" relate="VOB" />
+                <word id="58" cont="成立" pos="v" parent="57" relate="VOB" />
+                <word id="59" cont="。" pos="wp" parent="18" relate="WP" />
+            </sent>
+        </para>
+    </doc>
+</xml4nlp>

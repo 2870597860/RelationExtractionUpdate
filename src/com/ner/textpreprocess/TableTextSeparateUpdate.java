@@ -67,6 +67,14 @@ public class TableTextSeparateUpdate {
 					if (flag) {
 						biaogeSentenceList.add(entity+"~"+entitySentence);
 					}else {
+						int xiaoqi=entitySentence.indexOf(entity);
+						if (xiaoqi>0) {
+							int xiaoqi1=entitySentence.indexOf("该公司", xiaoqi+entity.length());
+							if (xiaoqi1>0 && xiaoqi1-xiaoqi>2) {
+								entitySentence=entitySentence.replace("该公司", "");
+							}
+						}
+						entitySentence=entitySentence.replace(",", "").replace(" ", "");
 						textSentenceList.add(entity+"~"+entitySentence);
 					}
 				}

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xml4nlp>
+    <note sent="y" word="y" pos="y" ne="n" parser="y" semparser="n" lstmsemparser="n" wsd="n" srl="n" />
+    <doc>
+        <para id="0">
+            <sent id="0" cont="主要控股参股公司分析子公司宏昌电子材料有限公司，注册地香港，业务范围贸易与投资，注册资本港币10万元。">
+                <word id="0" cont="主要" pos="d" parent="3" relate="ATT" />
+                <word id="1" cont="控股" pos="v" parent="3" relate="ATT" />
+                <word id="2" cont="参股" pos="v" parent="3" relate="ATT" />
+                <word id="3" cont="公司" pos="n" parent="5" relate="ATT" />
+                <word id="4" cont="分析" pos="v" parent="5" relate="ATT" />
+                <word id="5" cont="子公司" pos="n" parent="9" relate="ATT" />
+                <word id="6" cont="宏昌" pos="nz" parent="9" relate="ATT" />
+                <word id="7" cont="电子" pos="n" parent="8" relate="ATT" />
+                <word id="8" cont="材料" pos="n" parent="9" relate="ATT" />
+                <word id="9" cont="有限公司" pos="n" parent="11" relate="SBV" />
+                <word id="10" cont="，" pos="wp" parent="9" relate="WP" />
+                <word id="11" cont="注册" pos="v" parent="-1" relate="HED" />
+                <word id="12" cont="地" pos="u" parent="11" relate="RAD" />
+                <word id="13" cont="香港" pos="ns" parent="11" relate="VOB" />
+                <word id="14" cont="，" pos="wp" parent="11" relate="WP" />
+                <word id="15" cont="业务" pos="n" parent="16" relate="ATT" />
+                <word id="16" cont="范围" pos="n" parent="17" relate="ATT" />
+                <word id="17" cont="贸易" pos="v" parent="11" relate="COO" />
+                <word id="18" cont="与" pos="c" parent="19" relate="LAD" />
+                <word id="19" cont="投资" pos="v" parent="17" relate="COO" />
+                <word id="20" cont="，" pos="wp" parent="17" relate="WP" />
+                <word id="21" cont="注册" pos="v" parent="22" relate="ATT" />
+                <word id="22" cont="资本" pos="n" parent="23" relate="ATT" />
+                <word id="23" cont="港币" pos="n" parent="25" relate="ATT" />
+                <word id="24" cont="10万" pos="m" parent="25" relate="ATT" />
+                <word id="25" cont="元" pos="q" parent="17" relate="COO" />
+                <word id="26" cont="。" pos="wp" parent="11" relate="WP" />
+            </sent>
+            <sent id="1" cont="元。">
+                <word id="0" cont="元" pos="q" parent="-1" relate="HED" />
+                <word id="1" cont="。" pos="wp" parent="0" relate="WP" />
+            </sent>
+            <sent id="2" cont="子公司珠海宏昌电子材料有限公司，注册地珠海，业务范围生产和销售自产的电子用高科技化学元品(电子级环氧树脂)，注册资本美元4348万元。">
+                <word id="0" cont="子公司" pos="n" parent="1" relate="ATT" />
+                <word id="1" cont="珠海" pos="ns" parent="5" relate="ATT" />
+                <word id="2" cont="宏昌" pos="nz" parent="5" relate="ATT" />
+                <word id="3" cont="电子" pos="n" parent="4" relate="ATT" />
+                <word id="4" cont="材料" pos="n" parent="5" relate="ATT" />
+                <word id="5" cont="有限公司" pos="n" parent="7" relate="SBV" />
+                <word id="6" cont="，" pos="wp" parent="5" relate="WP" />
+                <word id="7" cont="注册" pos="v" parent="-1" relate="HED" />
+                <word id="8" cont="地" pos="u" parent="7" relate="RAD" />
+                <word id="9" cont="珠海" pos="ns" parent="7" relate="VOB" />
+                <word id="10" cont="，" pos="wp" parent="7" relate="WP" />
+                <word id="11" cont="业务" pos="n" parent="12" relate="ATT" />
+                <word id="12" cont="范围" pos="n" parent="13" relate="ADV" />
+                <word id="13" cont="生产" pos="v" parent="7" relate="COO" />
+                <word id="14" cont="和" pos="c" parent="15" relate="LAD" />
+                <word id="15" cont="销售" pos="v" parent="13" relate="COO" />
+                <word id="16" cont="自" pos="r" parent="17" relate="SBV" />
+                <word id="17" cont="产" pos="v" parent="19" relate="ATT" />
+                <word id="18" cont="的" pos="u" parent="17" relate="RAD" />
+                <word id="19" cont="电子" pos="n" parent="31" relate="SBV" />
+                <word id="20" cont="用" pos="p" parent="31" relate="ADV" />
+                <word id="21" cont="高" pos="a" parent="22" relate="ATT" />
+                <word id="22" cont="科技" pos="n" parent="23" relate="ATT" />
+                <word id="23" cont="化学" pos="n" parent="24" relate="ATT" />
+                <word id="24" cont="元品" pos="n" parent="20" relate="POB" />
+                <word id="25" cont="(" pos="wp" parent="28" relate="WP" />
+                <word id="26" cont="电子级" pos="b" parent="27" relate="ATT" />
+                <word id="27" cont="环氧" pos="n" parent="28" relate="ATT" />
+                <word id="28" cont="树脂" pos="n" parent="24" relate="COO" />
+                <word id="29" cont=")" pos="wp" parent="28" relate="WP" />
+                <word id="30" cont="，" pos="wp" parent="20" relate="WP" />
+                <word id="31" cont="注册" pos="v" parent="13" relate="COO" />
+                <word id="32" cont="资本" pos="n" parent="33" relate="ATT" />
+                <word id="33" cont="美元" pos="n" parent="35" relate="ATT" />
+                <word id="34" cont="4348万" pos="m" parent="35" relate="ATT" />
+                <word id="35" cont="元" pos="q" parent="31" relate="VOB" />
+                <word id="36" cont="。" pos="wp" parent="7" relate="WP" />
+            </sent>
+            <sent id="3" cont="元。">
+                <word id="0" cont="元" pos="q" parent="-1" relate="HED" />
+                <word id="1" cont="。" pos="wp" parent="0" relate="WP" />
+            </sent>
+            <sent id="4" cont="子公司珠海宏昌电子材料有限公司，注册地珠海，业务范围生产和销售自产的电子用高科技化学元品(电子级环氧树脂)，注册资本美元4348万元。">
+                <word id="0" cont="子公司" pos="n" parent="1" relate="ATT" />
+                <word id="1" cont="珠海" pos="ns" parent="5" relate="ATT" />
+                <word id="2" cont="宏昌" pos="nz" parent="5" relate="ATT" />
+                <word id="3" cont="电子" pos="n" parent="4" relate="ATT" />
+                <word id="4" cont="材料" pos="n" parent="5" relate="ATT" />
+                <word id="5" cont="有限公司" pos="n" parent="7" relate="SBV" />
+                <word id="6" cont="，" pos="wp" parent="5" relate="WP" />
+                <word id="7" cont="注册" pos="v" parent="-1" relate="HED" />
+                <word id="8" cont="地" pos="u" parent="7" relate="RAD" />
+                <word id="9" cont="珠海" pos="ns" parent="7" relate="VOB" />
+                <word id="10" cont="，" pos="wp" parent="7" relate="WP" />
+                <word id="11" cont="业务" pos="n" parent="12" relate="ATT" />
+                <word id="12" cont="范围" pos="n" parent="13" relate="ADV" />
+                <word id="13" cont="生产" pos="v" parent="7" relate="COO" />
+                <word id="14" cont="和" pos="c" parent="15" relate="LAD" />
+                <word id="15" cont="销售" pos="v" parent="13" relate="COO" />
+                <word id="16" cont="自" pos="r" parent="17" relate="SBV" />
+                <word id="17" cont="产" pos="v" parent="19" relate="ATT" />
+                <word id="18" cont="的" pos="u" parent="17" relate="RAD" />
+                <word id="19" cont="电子" pos="n" parent="31" relate="SBV" />
+                <word id="20" cont="用" pos="p" parent="31" relate="ADV" />
+                <word id="21" cont="高" pos="a" parent="22" relate="ATT" />
+                <word id="22" cont="科技" pos="n" parent="23" relate="ATT" />
+                <word id="23" cont="化学" pos="n" parent="24" relate="ATT" />
+                <word id="24" cont="元品" pos="n" parent="20" relate="POB" />
+                <word id="25" cont="(" pos="wp" parent="28" relate="WP" />
+                <word id="26" cont="电子级" pos="b" parent="27" relate="ATT" />
+                <word id="27" cont="环氧" pos="n" parent="28" relate="ATT" />
+                <word id="28" cont="树脂" pos="n" parent="24" relate="COO" />
+                <word id="29" cont=")" pos="wp" parent="28" relate="WP" />
+                <word id="30" cont="，" pos="wp" parent="20" relate="WP" />
+                <word id="31" cont="注册" pos="v" parent="13" relate="COO" />
+                <word id="32" cont="资本" pos="n" parent="33" relate="ATT" />
+                <word id="33" cont="美元" pos="n" parent="35" relate="ATT" />
+                <word id="34" cont="4348万" pos="m" parent="35" relate="ATT" />
+                <word id="35" cont="元" pos="q" parent="31" relate="VOB" />
+                <word id="36" cont="。" pos="wp" parent="7" relate="WP" />
+            </sent>
+        </para>
+    </doc>
+</xml4nlp>

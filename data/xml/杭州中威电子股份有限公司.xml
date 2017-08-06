@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xml4nlp>
+    <note sent="y" word="y" pos="y" ne="n" parser="y" semparser="n" lstmsemparser="n" wsd="n" srl="n" />
+    <doc>
+        <para id="0">
+            <sent id="0" cont="广东中威电子科技有限公司子公司摄像机、光端机、安防产品508万元28471.91-16922.090.00-7228.61-9208.61的销售及安防工程和楼宇智能化工程的设计、施工、安装。">
+                <word id="0" cont="广东" pos="ns" parent="5" relate="ATT" />
+                <word id="1" cont="中威" pos="nz" parent="5" relate="ATT" />
+                <word id="2" cont="电子" pos="n" parent="3" relate="ATT" />
+                <word id="3" cont="科技" pos="n" parent="4" relate="ATT" />
+                <word id="4" cont="有限公司" pos="n" parent="5" relate="ATT" />
+                <word id="5" cont="子公司" pos="n" parent="6" relate="ATT" />
+                <word id="6" cont="摄像机" pos="n" parent="-1" relate="HED" />
+                <word id="7" cont="、" pos="wp" parent="6" relate="WP" />
+                <word id="8" cont="光端机" pos="n" parent="6" relate="COO" />
+                <word id="9" cont="、" pos="wp" parent="10" relate="WP" />
+                <word id="10" cont="安防" pos="v" parent="11" relate="ATT" />
+                <word id="11" cont="产品" pos="n" parent="6" relate="COO" />
+                <word id="12" cont="508万" pos="m" parent="13" relate="ATT" />
+                <word id="13" cont="元" pos="q" parent="14" relate="ATT" />
+                <word id="14" cont="28471.91-16922.090.00-7228.61-9208.61" pos="m" parent="16" relate="ATT" />
+                <word id="15" cont="的" pos="u" parent="14" relate="RAD" />
+                <word id="16" cont="销售" pos="v" parent="25" relate="ATT" />
+                <word id="17" cont="及" pos="c" parent="18" relate="LAD" />
+                <word id="18" cont="安防" pos="v" parent="19" relate="ATT" />
+                <word id="19" cont="工程" pos="n" parent="16" relate="COO" />
+                <word id="20" cont="和" pos="c" parent="23" relate="LAD" />
+                <word id="21" cont="楼宇" pos="n" parent="23" relate="ATT" />
+                <word id="22" cont="智能化" pos="v" parent="23" relate="ATT" />
+                <word id="23" cont="工程" pos="n" parent="19" relate="COO" />
+                <word id="24" cont="的" pos="u" parent="19" relate="RAD" />
+                <word id="25" cont="设计" pos="v" parent="6" relate="COO" />
+                <word id="26" cont="、" pos="wp" parent="27" relate="WP" />
+                <word id="27" cont="施工" pos="v" parent="25" relate="COO" />
+                <word id="28" cont="、" pos="wp" parent="29" relate="WP" />
+                <word id="29" cont="安装" pos="v" parent="25" relate="COO" />
+                <word id="30" cont="。" pos="wp" parent="6" relate="WP" />
+            </sent>
+        </para>
+    </doc>
+</xml4nlp>

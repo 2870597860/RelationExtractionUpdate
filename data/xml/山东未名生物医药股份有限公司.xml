@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xml4nlp>
+    <note sent="y" word="y" pos="y" ne="n" parser="y" semparser="n" lstmsemparser="n" wsd="n" srl="n" />
+    <doc>
+        <para id="0">
+            <sent id="0" cont='\&quot;根据未名医药2015年度合并报表，增未名生物医药有限公司以非公开发行股份并支付现金的形式加收入765178887.04元，增加净利润227574877.70元。'>
+                <word id="0" cont='\&quot;' pos="wp" parent="24" relate="WP" />
+                <word id="1" cont="根据" pos="p" parent="24" relate="ADV" />
+                <word id="2" cont="未名" pos="ns" parent="3" relate="ATT" />
+                <word id="3" cont="医药" pos="n" parent="5" relate="ATT" />
+                <word id="4" cont="2015" pos="nt" parent="5" relate="ATT" />
+                <word id="5" cont="年度" pos="n" parent="7" relate="ATT" />
+                <word id="6" cont="合并" pos="v" parent="7" relate="ATT" />
+                <word id="7" cont="报表" pos="n" parent="1" relate="POB" />
+                <word id="8" cont="，" pos="wp" parent="1" relate="WP" />
+                <word id="9" cont="增" pos="v" parent="14" relate="ATT" />
+                <word id="10" cont="未" pos="d" parent="14" relate="ATT" />
+                <word id="11" cont="名" pos="v" parent="14" relate="ATT" />
+                <word id="12" cont="生物" pos="n" parent="13" relate="ATT" />
+                <word id="13" cont="医药" pos="n" parent="14" relate="ATT" />
+                <word id="14" cont="有限公司" pos="n" parent="17" relate="SBV" />
+                <word id="15" cont="以" pos="p" parent="17" relate="ADV" />
+                <word id="16" cont="非公开" pos="j" parent="15" relate="POB" />
+                <word id="17" cont="发行" pos="v" parent="23" relate="ATT" />
+                <word id="18" cont="股份" pos="n" parent="17" relate="VOB" />
+                <word id="19" cont="并" pos="c" parent="20" relate="ADV" />
+                <word id="20" cont="支付" pos="v" parent="17" relate="COO" />
+                <word id="21" cont="现金" pos="n" parent="20" relate="VOB" />
+                <word id="22" cont="的" pos="u" parent="20" relate="RAD" />
+                <word id="23" cont="形式" pos="n" parent="24" relate="SBV" />
+                <word id="24" cont="加" pos="v" parent="-1" relate="HED" />
+                <word id="25" cont="收入" pos="n" parent="27" relate="ATT" />
+                <word id="26" cont="765178887.04" pos="m" parent="27" relate="ATT" />
+                <word id="27" cont="元" pos="q" parent="24" relate="VOB" />
+                <word id="28" cont="，" pos="wp" parent="24" relate="WP" />
+                <word id="29" cont="增加" pos="v" parent="24" relate="COO" />
+                <word id="30" cont="净利润" pos="n" parent="32" relate="ATT" />
+                <word id="31" cont="227574877.70" pos="m" parent="32" relate="ATT" />
+                <word id="32" cont="元" pos="q" parent="29" relate="VOB" />
+                <word id="33" cont="。" pos="wp" parent="24" relate="WP" />
+            </sent>
+        </para>
+    </doc>
+</xml4nlp>

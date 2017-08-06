@@ -91,4 +91,15 @@ public class ReadFiles {
 		br.close(); 
 		return sb.toString();
 	}
+	public static StringBuilder readRawDataStringBuilder(String file) throws FileNotFoundException, IOException {
+		StringBuilder sb = new StringBuilder();
+		InputStreamReader is = new InputStreamReader(new FileInputStream(file), "utf-8");
+		BufferedReader br = new BufferedReader(is);
+		String line =null;
+		while ((line=br.readLine()) != null) {
+			sb.append(line+"\n");
+		}
+		br.close(); 
+		return sb;
+	}
 }

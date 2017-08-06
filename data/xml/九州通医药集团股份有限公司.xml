@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xml4nlp>
+    <note sent="y" word="y" pos="y" ne="n" parser="y" semparser="n" lstmsemparser="n" wsd="n" srl="n" />
+    <doc>
+        <para id="0">
+            <sent id="0" cont="四川九州通医药有限公司医药销售10013;000949098525.13136717901.791416863555.025049014.444373871.86西藏三通医药科技有限公司医药销售100x10;0099998956.4426709349.77156537218.4116476050.4616380267.42九州天润中药产业有限公司中药产业投资60@000433644547.44403261160.972225406.61821261.30854898.28北京京丰制药集团有限公司医药生产100u00573461768.85113325960.46109835080.3015208342.7413554918.93九州通医药集团物流有限公司医药销售100P0093718229.0386331991.76103456835.988084215.796270201.73九州通医疗器械集团有限公司医疗器械销售100`00448513520.8164196733.72359161452.145064949.813804110.85好药师大药房连锁有限公司医药零售100x10;000154963898.82109531009.5775828786.992736175.832735586.69湖北九州通达科技开发有限公司软件开发100x10;0042063440.7926679641.3566712688.477337523.259219594.7。">
+                <word id="0" cont="四川" pos="ns" parent="4" relate="ATT" />
+                <word id="1" cont="九州" pos="n" parent="4" relate="ATT" />
+                <word id="2" cont="通" pos="v" parent="4" relate="ATT" />
+                <word id="3" cont="医药" pos="n" parent="4" relate="ATT" />
+                <word id="4" cont="有限公司" pos="n" parent="5" relate="ATT" />
+                <word id="5" cont="医药" pos="n" parent="6" relate="ATT" />
+                <word id="6" cont="销售" pos="v" parent="33" relate="SBV" />
+                <word id="7" cont="100" pos="m" parent="8" relate="ATT" />
+                <word id="8" cont="" pos="m" parent="33" relate="SBV" />
+                <word id="9" cont="136717901.79" pos="m" parent="10" relate="ATT" />
+                <word id="10" cont="1416863555.0" pos="m" parent="33" relate="ADV" />
+                <word id="11" cont="25049014.44" pos="m" parent="12" relate="ATT" />
+                <word id="12" cont="4373871.86" pos="m" parent="13" relate="ATT" />
+                <word id="13" cont="西藏" pos="ns" parent="18" relate="ATT" />
+                <word id="14" cont="三" pos="m" parent="15" relate="ATT" />
+                <word id="15" cont="通" pos="v" parent="18" relate="ATT" />
+                <word id="16" cont="医药" pos="n" parent="18" relate="ATT" />
+                <word id="17" cont="科技" pos="n" parent="18" relate="ATT" />
+                <word id="18" cont="有限公司" pos="n" parent="19" relate="ATT" />
+                <word id="19" cont="医药" pos="n" parent="20" relate="ATT" />
+                <word id="20" cont="销售" pos="v" parent="33" relate="SBV" />
+                <word id="21" cont="100" pos="m" parent="22" relate="ATT" />
+                <word id="22" cont="" pos="m" parent="33" relate="SBV" />
+                <word id="23" cont="156537218.41" pos="m" parent="24" relate="ATT" />
+                <word id="24" cont="16476050.46" pos="m" parent="25" relate="ATT" />
+                <word id="25" cont="16380267.42" pos="m" parent="33" relate="ADV" />
+                <word id="26" cont="九州" pos="n" parent="27" relate="ATT" />
+                <word id="27" cont="天润" pos="nz" parent="30" relate="ATT" />
+                <word id="28" cont="中药" pos="n" parent="29" relate="ATT" />
+                <word id="29" cont="产业" pos="n" parent="30" relate="ATT" />
+                <word id="30" cont="有限公司" pos="n" parent="33" relate="SBV" />
+                <word id="31" cont="中药" pos="n" parent="32" relate="ATT" />
+                <word id="32" cont="产业" pos="n" parent="33" relate="SBV" />
+                <word id="33" cont="投资" pos="v" parent="-1" relate="HED" />
+                <word id="34" cont="60" pos="m" parent="35" relate="ATT" />
+                <word id="35" cont="@000433644547.44" pos="m" parent="45" relate="SBV" />
+                <word id="36" cont="403261160.97" pos="m" parent="37" relate="ATT" />
+                <word id="37" cont="2225406.6" pos="m" parent="38" relate="ATT" />
+                <word id="38" cont="1821261.30854898.28" pos="m" parent="45" relate="ADV" />
+                <word id="39" cont="北京" pos="ns" parent="43" relate="ATT" />
+                <word id="40" cont="京丰" pos="nz" parent="43" relate="ATT" />
+                <word id="41" cont="制药" pos="v" parent="42" relate="ATT" />
+                <word id="42" cont="集团" pos="n" parent="43" relate="ATT" />
+                <word id="43" cont="有限公司" pos="n" parent="44" relate="ATT" />
+                <word id="44" cont="医药" pos="n" parent="45" relate="SBV" />
+                <word id="45" cont="生产" pos="v" parent="33" relate="COO" />
+                <word id="46" cont="100u00573461768.85113325960.46109835080.3015208342.7413554918.93" pos="m" parent="47" relate="ATT" />
+                <word id="47" cont="九州" pos="q" parent="48" relate="ATT" />
+                <word id="48" cont="通" pos="v" parent="45" relate="VOB" />
+                <word id="49" cont="医药" pos="n" parent="50" relate="ATT" />
+                <word id="50" cont="集团" pos="n" parent="52" relate="ATT" />
+                <word id="51" cont="物流" pos="n" parent="52" relate="ATT" />
+                <word id="52" cont="有限公司" pos="n" parent="53" relate="ATT" />
+                <word id="53" cont="医药" pos="n" parent="57" relate="SBV" />
+                <word id="54" cont="销售" pos="v" parent="57" relate="SBV" />
+                <word id="55" cont="100P0093718229.0386331991.76103456835.988084215.796270201.73" pos="m" parent="57" relate="ADV" />
+                <word id="56" cont="九州" pos="n" parent="57" relate="SBV" />
+                <word id="57" cont="通" pos="v" parent="48" relate="COO" />
+                <word id="58" cont="医疗" pos="n" parent="59" relate="ATT" />
+                <word id="59" cont="器械" pos="n" parent="60" relate="ATT" />
+                <word id="60" cont="集团" pos="n" parent="61" relate="ATT" />
+                <word id="61" cont="有限公司" pos="n" parent="63" relate="ATT" />
+                <word id="62" cont="医疗" pos="n" parent="63" relate="ATT" />
+                <word id="63" cont="器械" pos="n" parent="64" relate="FOB" />
+                <word id="64" cont="销售" pos="v" parent="57" relate="COO" />
+                <word id="65" cont="100" pos="m" parent="66" relate="ATT" />
+                <word id="66" cont="`" pos="q" parent="92" relate="SBV" />
+                <word id="67" cont="00448513520.81" pos="m" parent="68" relate="ATT" />
+                <word id="68" cont="64196733.72" pos="m" parent="69" relate="ATT" />
+                <word id="69" cont="359161452.145064949.81" pos="m" parent="70" relate="ATT" />
+                <word id="70" cont="38041" pos="m" parent="71" relate="ATT" />
+                <word id="71" cont="10.85" pos="m" parent="75" relate="ATT" />
+                <word id="72" cont="好" pos="a" parent="73" relate="ATT" />
+                <word id="73" cont="药师" pos="n" parent="75" relate="ATT" />
+                <word id="74" cont="大" pos="a" parent="75" relate="ATT" />
+                <word id="75" cont="药房" pos="n" parent="77" relate="ATT" />
+                <word id="76" cont="连锁" pos="v" parent="77" relate="ATT" />
+                <word id="77" cont="有限公司" pos="n" parent="78" relate="ATT" />
+                <word id="78" cont="医药" pos="n" parent="79" relate="ATT" />
+                <word id="79" cont="零售" pos="v" parent="92" relate="SBV" />
+                <word id="80" cont="100" pos="m" parent="81" relate="ATT" />
+                <word id="81" cont="x10;000154963898.82" pos="m" parent="92" relate="SBV" />
+                <word id="82" cont="109531009.5775828786.99" pos="m" parent="83" relate="ATT" />
+                <word id="83" cont="2736175.83" pos="m" parent="84" relate="ATT" />
+                <word id="84" cont="2735586.69" pos="m" parent="92" relate="ADV" />
+                <word id="85" cont="湖北" pos="ns" parent="90" relate="ATT" />
+                <word id="86" cont="九州" pos="nz" parent="87" relate="ATT" />
+                <word id="87" cont="通达" pos="nz" parent="90" relate="ATT" />
+                <word id="88" cont="科技" pos="n" parent="90" relate="ATT" />
+                <word id="89" cont="开发" pos="v" parent="90" relate="ATT" />
+                <word id="90" cont="有限公司" pos="n" parent="91" relate="ATT" />
+                <word id="91" cont="软件" pos="n" parent="92" relate="SBV" />
+                <word id="92" cont="开发" pos="v" parent="64" relate="COO" />
+                <word id="93" cont="100" pos="m" parent="94" relate="ATT" />
+                <word id="94" cont="x10;0042063440.79" pos="m" parent="95" relate="ATT" />
+                <word id="95" cont="26679641.3566712688.477337523.259219594.7" pos="m" parent="92" relate="VOB" />
+                <word id="96" cont="。" pos="wp" parent="33" relate="WP" />
+            </sent>
+            <sent id="1" cont="2、江西九州通医药有限公司于2015年12月并入本公司合并报表，其数据仅为2015年12月数据。">
+                <word id="0" cont="2" pos="m" parent="10" relate="ADV" />
+                <word id="1" cont="、" pos="wp" parent="0" relate="WP" />
+                <word id="2" cont="江西" pos="ns" parent="6" relate="ATT" />
+                <word id="3" cont="九州" pos="n" parent="6" relate="ATT" />
+                <word id="4" cont="通" pos="v" parent="6" relate="ATT" />
+                <word id="5" cont="医药" pos="n" parent="6" relate="ATT" />
+                <word id="6" cont="有限公司" pos="n" parent="10" relate="SBV" />
+                <word id="7" cont="于" pos="p" parent="10" relate="ADV" />
+                <word id="8" cont="2015年" pos="nt" parent="9" relate="ATT" />
+                <word id="9" cont="12月" pos="nt" parent="7" relate="POB" />
+                <word id="10" cont="并入" pos="v" parent="-1" relate="HED" />
+                <word id="11" cont="本" pos="r" parent="12" relate="ATT" />
+                <word id="12" cont="公司" pos="n" parent="14" relate="ATT" />
+                <word id="13" cont="合并" pos="v" parent="14" relate="ATT" />
+                <word id="14" cont="报表" pos="n" parent="10" relate="VOB" />
+                <word id="15" cont="，" pos="wp" parent="10" relate="WP" />
+                <word id="16" cont="其" pos="r" parent="17" relate="ATT" />
+                <word id="17" cont="数据" pos="n" parent="19" relate="SBV" />
+                <word id="18" cont="仅" pos="d" parent="19" relate="ADV" />
+                <word id="19" cont="为" pos="v" parent="10" relate="COO" />
+                <word id="20" cont="2015年" pos="nt" parent="21" relate="ATT" />
+                <word id="21" cont="12月" pos="nt" parent="22" relate="ATT" />
+                <word id="22" cont="数据" pos="n" parent="19" relate="VOB" />
+                <word id="23" cont="。" pos="wp" parent="10" relate="WP" />
+            </sent>
+        </para>
+    </doc>
+</xml4nlp>

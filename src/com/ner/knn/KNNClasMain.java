@@ -19,7 +19,7 @@ public class KNNClasMain {
 		return classifacResults;
 	}
 
-	public void getVectorDatas(){
+	public void testVectorDatas(){
 		//训练数据路径
 		String datafilePath = new File("").getAbsolutePath() + File.separator + "seeds"+File.separator+"seeddatafile";
 		//获取训练数据
@@ -28,7 +28,7 @@ public class KNNClasMain {
 		//测试数据路径
 		String datafiletestPath = new File("").getAbsolutePath() + File.separator + "testcorpus"+File.separator+"datafiletest";
 		HashMap<String, List<String>> testDatas = new HashMap<>();
-		readDatas(testDatas, datafilePath);
+		readDatas(testDatas, datafiletestPath);
 		Set<String> copmpanys=testDatas.keySet();
 		WriteContent wr=new WriteContent();	
 		StringBuffer parseResult=new StringBuffer();

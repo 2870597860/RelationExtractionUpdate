@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xml4nlp>
+    <note sent="y" word="y" pos="y" ne="n" parser="y" semparser="n" lstmsemparser="n" wsd="n" srl="n" />
+    <doc>
+        <para id="0">
+            <sent id="0" cont="公司控股子公司储翰科技，是一家专业从事信息通讯类光电器件产品研发、生产与销售的高新技术企业，现为全国中心企业股份转让系统挂牌公司，股票代码。">
+                <word id="0" cont="公司" pos="n" parent="2" relate="ATT" />
+                <word id="1" cont="控股" pos="v" parent="2" relate="ATT" />
+                <word id="2" cont="子公司" pos="n" parent="3" relate="SBV" />
+                <word id="3" cont="储翰" pos="v" parent="6" relate="SBV" />
+                <word id="4" cont="科技" pos="n" parent="3" relate="VOB" />
+                <word id="5" cont="，" pos="wp" parent="3" relate="WP" />
+                <word id="6" cont="是" pos="v" parent="-1" relate="HED" />
+                <word id="7" cont="一" pos="m" parent="8" relate="ATT" />
+                <word id="8" cont="家" pos="q" parent="10" relate="SBV" />
+                <word id="9" cont="专业" pos="n" parent="10" relate="SBV" />
+                <word id="10" cont="从事" pos="v" parent="6" relate="VOB" />
+                <word id="11" cont="信息" pos="n" parent="12" relate="ATT" />
+                <word id="12" cont="通讯" pos="n" parent="13" relate="ATT" />
+                <word id="13" cont="类光" pos="n" parent="14" relate="ATT" />
+                <word id="14" cont="电器" pos="n" parent="15" relate="ATT" />
+                <word id="15" cont="件" pos="q" parent="16" relate="ATT" />
+                <word id="16" cont="产品" pos="n" parent="17" relate="FOB" />
+                <word id="17" cont="研发" pos="v" parent="24" relate="ATT" />
+                <word id="18" cont="、" pos="wp" parent="19" relate="WP" />
+                <word id="19" cont="生产" pos="v" parent="17" relate="COO" />
+                <word id="20" cont="与" pos="c" parent="21" relate="LAD" />
+                <word id="21" cont="销售" pos="v" parent="17" relate="COO" />
+                <word id="22" cont="的" pos="u" parent="17" relate="RAD" />
+                <word id="23" cont="高新技术" pos="n" parent="24" relate="ATT" />
+                <word id="24" cont="企业" pos="n" parent="10" relate="VOB" />
+                <word id="25" cont="，" pos="wp" parent="10" relate="WP" />
+                <word id="26" cont="现" pos="nt" parent="27" relate="ADV" />
+                <word id="27" cont="为" pos="v" parent="10" relate="COO" />
+                <word id="28" cont="全国" pos="n" parent="29" relate="ATT" />
+                <word id="29" cont="中心" pos="n" parent="30" relate="ATT" />
+                <word id="30" cont="企业" pos="n" parent="31" relate="ATT" />
+                <word id="31" cont="股份" pos="n" parent="33" relate="ATT" />
+                <word id="32" cont="转让" pos="v" parent="33" relate="ATT" />
+                <word id="33" cont="系统" pos="n" parent="35" relate="ATT" />
+                <word id="34" cont="挂牌" pos="v" parent="35" relate="ATT" />
+                <word id="35" cont="公司" pos="n" parent="27" relate="VOB" />
+                <word id="36" cont="，" pos="wp" parent="27" relate="WP" />
+                <word id="37" cont="股票" pos="n" parent="38" relate="ATT" />
+                <word id="38" cont="代码" pos="n" parent="27" relate="COO" />
+                <word id="39" cont="。" pos="wp" parent="6" relate="WP" />
+            </sent>
+            <sent id="1" cont="但其中形成规模的企业不多。">
+                <word id="0" cont="但" pos="c" parent="7" relate="ADV" />
+                <word id="1" cont="其中" pos="r" parent="5" relate="ATT" />
+                <word id="2" cont="形成" pos="v" parent="5" relate="ATT" />
+                <word id="3" cont="规模" pos="n" parent="2" relate="VOB" />
+                <word id="4" cont="的" pos="u" parent="2" relate="RAD" />
+                <word id="5" cont="企业" pos="n" parent="7" relate="SBV" />
+                <word id="6" cont="不" pos="d" parent="7" relate="ADV" />
+                <word id="7" cont="多" pos="a" parent="-1" relate="HED" />
+                <word id="8" cont="。" pos="wp" parent="7" relate="WP" />
+            </sent>
+            <sent id="2" cont="目前在行业内与储翰科技定位相近的企业主要有武汉昱升、四川光恒、深圳亚派等，是国内主要的光电器件应商。">
+                <word id="0" cont="目前" pos="nt" parent="12" relate="ADV" />
+                <word id="1" cont="在" pos="p" parent="8" relate="ADV" />
+                <word id="2" cont="行业" pos="n" parent="3" relate="ATT" />
+                <word id="3" cont="内" pos="nd" parent="1" relate="POB" />
+                <word id="4" cont="与" pos="p" parent="8" relate="ADV" />
+                <word id="5" cont="储翰" pos="nz" parent="6" relate="ATT" />
+                <word id="6" cont="科技" pos="n" parent="4" relate="POB" />
+                <word id="7" cont="定位" pos="v" parent="8" relate="SBV" />
+                <word id="8" cont="相近" pos="a" parent="10" relate="ATT" />
+                <word id="9" cont="的" pos="u" parent="8" relate="RAD" />
+                <word id="10" cont="企业" pos="n" parent="12" relate="SBV" />
+                <word id="11" cont="主要" pos="d" parent="12" relate="ADV" />
+                <word id="12" cont="有" pos="v" parent="-1" relate="HED" />
+                <word id="13" cont="武汉" pos="ns" parent="14" relate="ATT" />
+                <word id="14" cont="昱升" pos="v" parent="12" relate="VOB" />
+                <word id="15" cont="、" pos="wp" parent="14" relate="WP" />
+                <word id="16" cont="四川" pos="ns" parent="17" relate="ATT" />
+                <word id="17" cont="光恒" pos="a" parent="14" relate="COO" />
+                <word id="18" cont="、" pos="wp" parent="20" relate="WP" />
+                <word id="19" cont="深圳" pos="ns" parent="20" relate="ATT" />
+                <word id="20" cont="亚派" pos="n" parent="14" relate="COO" />
+                <word id="21" cont="等" pos="u" parent="14" relate="RAD" />
+                <word id="22" cont="，" pos="wp" parent="12" relate="WP" />
+                <word id="23" cont="是" pos="v" parent="12" relate="COO" />
+                <word id="24" cont="国内" pos="nl" parent="28" relate="ATT" />
+                <word id="25" cont="主要" pos="b" parent="28" relate="ATT" />
+                <word id="26" cont="的" pos="u" parent="25" relate="RAD" />
+                <word id="27" cont="光电" pos="b" parent="28" relate="ATT" />
+                <word id="28" cont="器件" pos="n" parent="29" relate="SBV" />
+                <word id="29" cont="应" pos="v" parent="23" relate="VOB" />
+                <word id="30" cont="商" pos="n" parent="29" relate="VOB" />
+                <word id="31" cont="。" pos="wp" parent="12" relate="WP" />
+            </sent>
+            <sent id="3" cont="并已初步完成上下游产业协同发展的战略布局。">
+                <word id="0" cont="并" pos="c" parent="3" relate="ADV" />
+                <word id="1" cont="已" pos="d" parent="3" relate="ADV" />
+                <word id="2" cont="初步" pos="d" parent="3" relate="ADV" />
+                <word id="3" cont="完成" pos="v" parent="-1" relate="HED" />
+                <word id="4" cont="上下游" pos="j" parent="5" relate="ATT" />
+                <word id="5" cont="产业" pos="n" parent="7" relate="SBV" />
+                <word id="6" cont="协同" pos="v" parent="7" relate="ADV" />
+                <word id="7" cont="发展" pos="v" parent="10" relate="ATT" />
+                <word id="8" cont="的" pos="u" parent="7" relate="RAD" />
+                <word id="9" cont="战略" pos="n" parent="10" relate="ATT" />
+                <word id="10" cont="布局" pos="n" parent="3" relate="VOB" />
+                <word id="11" cont="。" pos="wp" parent="3" relate="WP" />
+            </sent>
+            <sent id="4" cont="2015年4月设立的成都欧普瑞斯通信技术有限公司，是业务向下游整合的重要举措。">
+                <word id="0" cont="2015年" pos="nt" parent="1" relate="ATT" />
+                <word id="1" cont="4月" pos="nt" parent="2" relate="ADV" />
+                <word id="2" cont="设立" pos="v" parent="8" relate="ATT" />
+                <word id="3" cont="的" pos="u" parent="2" relate="RAD" />
+                <word id="4" cont="成都" pos="ns" parent="8" relate="ATT" />
+                <word id="5" cont="欧普瑞斯" pos="nz" parent="8" relate="ATT" />
+                <word id="6" cont="通信" pos="v" parent="7" relate="ATT" />
+                <word id="7" cont="技术" pos="n" parent="8" relate="ATT" />
+                <word id="8" cont="有限公司" pos="n" parent="10" relate="SBV" />
+                <word id="9" cont="，" pos="wp" parent="8" relate="WP" />
+                <word id="10" cont="是" pos="v" parent="-1" relate="HED" />
+                <word id="11" cont="业务" pos="n" parent="14" relate="FOB" />
+                <word id="12" cont="向" pos="p" parent="14" relate="ADV" />
+                <word id="13" cont="下游" pos="nd" parent="12" relate="POB" />
+                <word id="14" cont="整合" pos="v" parent="17" relate="ATT" />
+                <word id="15" cont="的" pos="u" parent="14" relate="RAD" />
+                <word id="16" cont="重要" pos="a" parent="17" relate="ATT" />
+                <word id="17" cont="举措" pos="n" parent="10" relate="VOB" />
+                <word id="18" cont="。" pos="wp" parent="10" relate="WP" />
+            </sent>
+            <sent id="5" cont="但其中形成规模的企业不多。">
+                <word id="0" cont="但" pos="c" parent="7" relate="ADV" />
+                <word id="1" cont="其中" pos="r" parent="5" relate="ATT" />
+                <word id="2" cont="形成" pos="v" parent="5" relate="ATT" />
+                <word id="3" cont="规模" pos="n" parent="2" relate="VOB" />
+                <word id="4" cont="的" pos="u" parent="2" relate="RAD" />
+                <word id="5" cont="企业" pos="n" parent="7" relate="SBV" />
+                <word id="6" cont="不" pos="d" parent="7" relate="ADV" />
+                <word id="7" cont="多" pos="a" parent="-1" relate="HED" />
+                <word id="8" cont="。" pos="wp" parent="7" relate="WP" />
+            </sent>
+            <sent id="6" cont="目前在行业内与储翰科技定位相近的企业主要有武汉昱升、四川光恒、深圳亚派等，是国内主要的光电器件应商。">
+                <word id="0" cont="目前" pos="nt" parent="12" relate="ADV" />
+                <word id="1" cont="在" pos="p" parent="8" relate="ADV" />
+                <word id="2" cont="行业" pos="n" parent="3" relate="ATT" />
+                <word id="3" cont="内" pos="nd" parent="1" relate="POB" />
+                <word id="4" cont="与" pos="p" parent="8" relate="ADV" />
+                <word id="5" cont="储翰" pos="nz" parent="6" relate="ATT" />
+                <word id="6" cont="科技" pos="n" parent="4" relate="POB" />
+                <word id="7" cont="定位" pos="v" parent="8" relate="SBV" />
+                <word id="8" cont="相近" pos="a" parent="10" relate="ATT" />
+                <word id="9" cont="的" pos="u" parent="8" relate="RAD" />
+                <word id="10" cont="企业" pos="n" parent="12" relate="SBV" />
+                <word id="11" cont="主要" pos="d" parent="12" relate="ADV" />
+                <word id="12" cont="有" pos="v" parent="-1" relate="HED" />
+                <word id="13" cont="武汉" pos="ns" parent="14" relate="ATT" />
+                <word id="14" cont="昱升" pos="v" parent="12" relate="VOB" />
+                <word id="15" cont="、" pos="wp" parent="14" relate="WP" />
+                <word id="16" cont="四川" pos="ns" parent="17" relate="ATT" />
+                <word id="17" cont="光恒" pos="a" parent="14" relate="COO" />
+                <word id="18" cont="、" pos="wp" parent="20" relate="WP" />
+                <word id="19" cont="深圳" pos="ns" parent="20" relate="ATT" />
+                <word id="20" cont="亚派" pos="n" parent="14" relate="COO" />
+                <word id="21" cont="等" pos="u" parent="14" relate="RAD" />
+                <word id="22" cont="，" pos="wp" parent="12" relate="WP" />
+                <word id="23" cont="是" pos="v" parent="12" relate="COO" />
+                <word id="24" cont="国内" pos="nl" parent="28" relate="ATT" />
+                <word id="25" cont="主要" pos="b" parent="28" relate="ATT" />
+                <word id="26" cont="的" pos="u" parent="25" relate="RAD" />
+                <word id="27" cont="光电" pos="b" parent="28" relate="ATT" />
+                <word id="28" cont="器件" pos="n" parent="29" relate="SBV" />
+                <word id="29" cont="应" pos="v" parent="23" relate="VOB" />
+                <word id="30" cont="商" pos="n" parent="29" relate="VOB" />
+                <word id="31" cont="。" pos="wp" parent="12" relate="WP" />
+            </sent>
+        </para>
+    </doc>
+</xml4nlp>

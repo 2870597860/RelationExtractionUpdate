@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xml4nlp>
+    <note sent="y" word="y" pos="y" ne="n" parser="y" semparser="n" lstmsemparser="n" wsd="n" srl="n" />
+    <doc>
+        <para id="0">
+            <sent id="0" cont="有利于推进公司在智慧能源、新能源电站、工业节能和节能服务等领域的发展，提高公司整体盈利能力。">
+                <word id="0" cont="有利于" pos="v" parent="-1" relate="HED" />
+                <word id="1" cont="推进" pos="v" parent="0" relate="VOB" />
+                <word id="2" cont="公司" pos="n" parent="19" relate="SBV" />
+                <word id="3" cont="在" pos="p" parent="19" relate="ATT" />
+                <word id="4" cont="智慧" pos="n" parent="5" relate="ATT" />
+                <word id="5" cont="能源" pos="n" parent="17" relate="ATT" />
+                <word id="6" cont="、" pos="wp" parent="9" relate="WP" />
+                <word id="7" cont="新" pos="a" parent="9" relate="ATT" />
+                <word id="8" cont="能源" pos="n" parent="9" relate="ATT" />
+                <word id="9" cont="电站" pos="n" parent="5" relate="COO" />
+                <word id="10" cont="、" pos="wp" parent="12" relate="WP" />
+                <word id="11" cont="工业" pos="n" parent="12" relate="ATT" />
+                <word id="12" cont="节能" pos="v" parent="5" relate="COO" />
+                <word id="13" cont="和" pos="c" parent="15" relate="LAD" />
+                <word id="14" cont="节能" pos="v" parent="15" relate="ATT" />
+                <word id="15" cont="服务" pos="v" parent="5" relate="COO" />
+                <word id="16" cont="等" pos="u" parent="5" relate="RAD" />
+                <word id="17" cont="领域" pos="n" parent="3" relate="POB" />
+                <word id="18" cont="的" pos="u" parent="3" relate="RAD" />
+                <word id="19" cont="发展" pos="v" parent="1" relate="VOB" />
+                <word id="20" cont="，" pos="wp" parent="1" relate="WP" />
+                <word id="21" cont="提高" pos="v" parent="1" relate="COO" />
+                <word id="22" cont="公司" pos="n" parent="25" relate="ATT" />
+                <word id="23" cont="整体" pos="n" parent="25" relate="ATT" />
+                <word id="24" cont="盈利" pos="v" parent="25" relate="ATT" />
+                <word id="25" cont="能力" pos="n" parent="21" relate="VOB" />
+                <word id="26" cont="。" pos="wp" parent="0" relate="WP" />
+            </sent>
+            <sent id="1" cont="青岛积成电子有限公司子公司42000000动化7257114报告期内取得和处置子公司的情况√适用□不适用公司名称报告期内取得和处置对整体生产经营和业绩的影响子公司方式福建奥通迈胜电力科技有限公司股权收购有利于完善公司城乡配网的产业链，提高公司盈利能力。">
+                <word id="0" cont="青岛" pos="ns" parent="1" relate="SBV" />
+                <word id="1" cont="积" pos="v" parent="-1" relate="HED" />
+                <word id="2" cont="成" pos="v" parent="1" relate="CMP" />
+                <word id="3" cont="电子" pos="n" parent="4" relate="ATT" />
+                <word id="4" cont="有限公司" pos="n" parent="5" relate="ATT" />
+                <word id="5" cont="子公司" pos="n" parent="11" relate="SBV" />
+                <word id="6" cont="42000000" pos="m" parent="11" relate="ADV" />
+                <word id="7" cont="动化" pos="v" parent="11" relate="SBV" />
+                <word id="8" cont="7257114" pos="m" parent="9" relate="ATT" />
+                <word id="9" cont="报告期" pos="n" parent="10" relate="ATT" />
+                <word id="10" cont="内" pos="nd" parent="11" relate="ADV" />
+                <word id="11" cont="取得" pos="v" parent="1" relate="COO" />
+                <word id="12" cont="和" pos="c" parent="14" relate="LAD" />
+                <word id="13" cont="处置" pos="v" parent="14" relate="ATT" />
+                <word id="14" cont="子公司" pos="n" parent="16" relate="ATT" />
+                <word id="15" cont="的" pos="u" parent="14" relate="RAD" />
+                <word id="16" cont="情况" pos="n" parent="17" relate="SBV" />
+                <word id="17" cont="√" pos="a" parent="11" relate="VOB" />
+                <word id="18" cont="适用" pos="v" parent="17" relate="COO" />
+                <word id="19" cont="□" pos="wp" parent="17" relate="WP" />
+                <word id="20" cont="不" pos="d" parent="21" relate="ADV" />
+                <word id="21" cont="适用" pos="v" parent="47" relate="SBV" />
+                <word id="22" cont="公司" pos="n" parent="23" relate="ATT" />
+                <word id="23" cont="名称" pos="n" parent="24" relate="ATT" />
+                <word id="24" cont="报告期" pos="n" parent="25" relate="ATT" />
+                <word id="25" cont="内" pos="nd" parent="47" relate="SBV" />
+                <word id="26" cont="取得" pos="v" parent="47" relate="SBV" />
+                <word id="27" cont="和" pos="c" parent="28" relate="LAD" />
+                <word id="28" cont="处置" pos="v" parent="26" relate="COO" />
+                <word id="29" cont="对" pos="p" parent="38" relate="ATT" />
+                <word id="30" cont="整体" pos="n" parent="31" relate="ADV" />
+                <word id="31" cont="生产" pos="v" parent="29" relate="POB" />
+                <word id="32" cont="经营" pos="v" parent="31" relate="COO" />
+                <word id="33" cont="和" pos="c" parent="34" relate="LAD" />
+                <word id="34" cont="业绩" pos="n" parent="32" relate="COO" />
+                <word id="35" cont="的" pos="u" parent="32" relate="RAD" />
+                <word id="36" cont="影响" pos="v" parent="38" relate="ATT" />
+                <word id="37" cont="子公司" pos="n" parent="38" relate="ATT" />
+                <word id="38" cont="方式" pos="n" parent="47" relate="SBV" />
+                <word id="39" cont="福建" pos="ns" parent="40" relate="ATT" />
+                <word id="40" cont="奥通迈" pos="nz" parent="47" relate="SBV" />
+                <word id="41" cont="胜" pos="v" parent="47" relate="SBV" />
+                <word id="42" cont="电力" pos="n" parent="43" relate="ATT" />
+                <word id="43" cont="科技" pos="n" parent="44" relate="ATT" />
+                <word id="44" cont="有限公司" pos="n" parent="45" relate="ATT" />
+                <word id="45" cont="股权" pos="n" parent="46" relate="FOB" />
+                <word id="46" cont="收购" pos="v" parent="47" relate="SBV" />
+                <word id="47" cont="有利于" pos="v" parent="17" relate="COO" />
+                <word id="48" cont="完善" pos="v" parent="47" relate="VOB" />
+                <word id="49" cont="公司" pos="n" parent="51" relate="ATT" />
+                <word id="50" cont="城乡" pos="n" parent="51" relate="ATT" />
+                <word id="51" cont="配网" pos="n" parent="53" relate="ATT" />
+                <word id="52" cont="的" pos="u" parent="51" relate="RAD" />
+                <word id="53" cont="产业链" pos="n" parent="48" relate="VOB" />
+                <word id="54" cont="，" pos="wp" parent="47" relate="WP" />
+                <word id="55" cont="提高" pos="v" parent="47" relate="COO" />
+                <word id="56" cont="公司" pos="n" parent="58" relate="ATT" />
+                <word id="57" cont="盈利" pos="v" parent="58" relate="ATT" />
+                <word id="58" cont="能力" pos="n" parent="55" relate="VOB" />
+                <word id="59" cont="。" pos="wp" parent="1" relate="WP" />
+            </sent>
+        </para>
+    </doc>
+</xml4nlp>

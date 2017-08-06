@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xml4nlp>
+    <note sent="y" word="y" pos="y" ne="n" parser="y" semparser="n" lstmsemparser="n" wsd="n" srl="n" />
+    <doc>
+        <para id="0">
+            <sent id="0" cont="厦门金龙汽车车身。">
+                <word id="0" cont="厦门" pos="ns" parent="3" relate="ATT" />
+                <word id="1" cont="金龙" pos="nz" parent="2" relate="ATT" />
+                <word id="2" cont="汽车" pos="n" parent="3" relate="ATT" />
+                <word id="3" cont="车身" pos="n" parent="-1" relate="HED" />
+                <word id="4" cont="。" pos="wp" parent="3" relate="WP" />
+            </sent>
+        </para>
+    </doc>
+</xml4nlp>

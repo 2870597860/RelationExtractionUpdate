@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xml4nlp>
+    <note sent="y" word="y" pos="y" ne="n" parser="y" semparser="n" lstmsemparser="n" wsd="n" srl="n" />
+    <doc>
+        <para id="0">
+            <sent id="0" cont="南昌济顺制药有限公司12500000.091853196.080186305.853990657.1子公司剂、胶囊剂9632470.749597998.65037的生产等。">
+                <word id="0" cont="南昌" pos="ns" parent="3" relate="ATT" />
+                <word id="1" cont="济顺" pos="nz" parent="3" relate="ATT" />
+                <word id="2" cont="制药" pos="v" parent="3" relate="ATT" />
+                <word id="3" cont="有限公司" pos="n" parent="7" relate="ATT" />
+                <word id="4" cont="12500000.09" pos="m" parent="5" relate="ATT" />
+                <word id="5" cont="1853196.080186305.85" pos="m" parent="6" relate="ATT" />
+                <word id="6" cont="3990657.1子" pos="m" parent="7" relate="ATT" />
+                <word id="7" cont="公司剂" pos="n" parent="-1" relate="HED" />
+                <word id="8" cont="、" pos="wp" parent="7" relate="WP" />
+                <word id="9" cont="胶囊剂" pos="n" parent="13" relate="SBV" />
+                <word id="10" cont="9632470.74" pos="m" parent="11" relate="ATT" />
+                <word id="11" cont="9597998.65037" pos="m" parent="13" relate="ATT" />
+                <word id="12" cont="的" pos="u" parent="11" relate="RAD" />
+                <word id="13" cont="生产" pos="v" parent="7" relate="COO" />
+                <word id="14" cont="等" pos="u" parent="13" relate="RAD" />
+                <word id="15" cont="。" pos="wp" parent="7" relate="WP" />
+            </sent>
+            <sent id="1" cont="辽宁康辰药业有限公司子公司24000000.086390676.464664040.990224895.413042852.411958572.0胶囊剂、丸07562剂、片剂制造等。">
+                <word id="0" cont="辽宁" pos="ns" parent="3" relate="ATT" />
+                <word id="1" cont="康辰" pos="nz" parent="3" relate="ATT" />
+                <word id="2" cont="药业" pos="n" parent="3" relate="ATT" />
+                <word id="3" cont="有限公司" pos="n" parent="4" relate="ATT" />
+                <word id="4" cont="子公司" pos="n" parent="8" relate="ATT" />
+                <word id="5" cont="24000000.086390676.464664040.990224895.4" pos="m" parent="6" relate="ATT" />
+                <word id="6" cont="13042852.41" pos="m" parent="7" relate="ATT" />
+                <word id="7" cont="1958572.0" pos="m" parent="8" relate="ATT" />
+                <word id="8" cont="胶囊剂" pos="n" parent="-1" relate="HED" />
+                <word id="9" cont="、" pos="wp" parent="8" relate="WP" />
+                <word id="10" cont="丸07562剂" pos="n" parent="8" relate="COO" />
+                <word id="11" cont="、" pos="wp" parent="13" relate="WP" />
+                <word id="12" cont="片剂" pos="n" parent="13" relate="FOB" />
+                <word id="13" cont="制造" pos="v" parent="8" relate="COO" />
+                <word id="14" cont="等" pos="u" parent="8" relate="RAD" />
+                <word id="15" cont="。" pos="wp" parent="8" relate="WP" />
+            </sent>
+            <sent id="2" cont="南昌济顺制药有限公司12500000.091853196.080186305.853990657.1子公司剂、胶囊剂9632470.749597998.65037的生产等。">
+                <word id="0" cont="南昌" pos="ns" parent="3" relate="ATT" />
+                <word id="1" cont="济顺" pos="nz" parent="3" relate="ATT" />
+                <word id="2" cont="制药" pos="v" parent="3" relate="ATT" />
+                <word id="3" cont="有限公司" pos="n" parent="7" relate="ATT" />
+                <word id="4" cont="12500000.09" pos="m" parent="5" relate="ATT" />
+                <word id="5" cont="1853196.080186305.85" pos="m" parent="6" relate="ATT" />
+                <word id="6" cont="3990657.1子" pos="m" parent="7" relate="ATT" />
+                <word id="7" cont="公司剂" pos="n" parent="-1" relate="HED" />
+                <word id="8" cont="、" pos="wp" parent="7" relate="WP" />
+                <word id="9" cont="胶囊剂" pos="n" parent="13" relate="SBV" />
+                <word id="10" cont="9632470.74" pos="m" parent="11" relate="ATT" />
+                <word id="11" cont="9597998.65037" pos="m" parent="13" relate="ATT" />
+                <word id="12" cont="的" pos="u" parent="11" relate="RAD" />
+                <word id="13" cont="生产" pos="v" parent="7" relate="COO" />
+                <word id="14" cont="等" pos="u" parent="13" relate="RAD" />
+                <word id="15" cont="。" pos="wp" parent="7" relate="WP" />
+            </sent>
+            <sent id="3" cont="辽宁康辰药业有限公司子公司24000000.086390676.464664040.990224895.413042852.411958572.0胶囊剂、丸07562剂、片剂制造等。">
+                <word id="0" cont="辽宁" pos="ns" parent="3" relate="ATT" />
+                <word id="1" cont="康辰" pos="nz" parent="3" relate="ATT" />
+                <word id="2" cont="药业" pos="n" parent="3" relate="ATT" />
+                <word id="3" cont="有限公司" pos="n" parent="4" relate="ATT" />
+                <word id="4" cont="子公司" pos="n" parent="8" relate="ATT" />
+                <word id="5" cont="24000000.086390676.464664040.990224895.4" pos="m" parent="6" relate="ATT" />
+                <word id="6" cont="13042852.41" pos="m" parent="7" relate="ATT" />
+                <word id="7" cont="1958572.0" pos="m" parent="8" relate="ATT" />
+                <word id="8" cont="胶囊剂" pos="n" parent="-1" relate="HED" />
+                <word id="9" cont="、" pos="wp" parent="8" relate="WP" />
+                <word id="10" cont="丸07562剂" pos="n" parent="8" relate="COO" />
+                <word id="11" cont="、" pos="wp" parent="13" relate="WP" />
+                <word id="12" cont="片剂" pos="n" parent="13" relate="FOB" />
+                <word id="13" cont="制造" pos="v" parent="8" relate="COO" />
+                <word id="14" cont="等" pos="u" parent="8" relate="RAD" />
+                <word id="15" cont="。" pos="wp" parent="8" relate="WP" />
+            </sent>
+        </para>
+    </doc>
+</xml4nlp>

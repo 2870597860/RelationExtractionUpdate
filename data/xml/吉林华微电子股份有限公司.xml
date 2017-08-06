@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xml4nlp>
+    <note sent="y" word="y" pos="y" ne="n" parser="y" semparser="n" lstmsemparser="n" wsd="n" srl="n" />
+    <doc>
+        <para id="0">
+            <sent id="0" cont="上海稳先微电子有限公司，注册资本为5000000.00元。">
+                <word id="0" cont="上海" pos="ns" parent="3" relate="ATT" />
+                <word id="1" cont="稳先" pos="nz" parent="3" relate="ATT" />
+                <word id="2" cont="微电子" pos="n" parent="3" relate="ATT" />
+                <word id="3" cont="有限公司" pos="n" parent="7" relate="SBV" />
+                <word id="4" cont="，" pos="wp" parent="3" relate="WP" />
+                <word id="5" cont="注册" pos="v" parent="6" relate="ATT" />
+                <word id="6" cont="资本" pos="n" parent="7" relate="SBV" />
+                <word id="7" cont="为" pos="v" parent="-1" relate="HED" />
+                <word id="8" cont="5000000.00" pos="m" parent="9" relate="ATT" />
+                <word id="9" cont="元" pos="q" parent="7" relate="VOB" />
+                <word id="10" cont="。" pos="wp" parent="7" relate="WP" />
+            </sent>
+            <sent id="1" cont="华微电子持股比例为100%，经。">
+                <word id="0" cont="华微" pos="nz" parent="4" relate="ATT" />
+                <word id="1" cont="电子" pos="n" parent="2" relate="SBV" />
+                <word id="2" cont="持" pos="v" parent="4" relate="ATT" />
+                <word id="3" cont="股" pos="n" parent="2" relate="VOB" />
+                <word id="4" cont="比例" pos="n" parent="5" relate="SBV" />
+                <word id="5" cont="为" pos="v" parent="-1" relate="HED" />
+                <word id="6" cont="100%" pos="m" parent="5" relate="VOB" />
+                <word id="7" cont="，" pos="wp" parent="5" relate="WP" />
+                <word id="8" cont="经" pos="i" parent="5" relate="COO" />
+                <word id="9" cont="。" pos="wp" parent="5" relate="WP" />
+            </sent>
+            <sent id="2" cont="吉林华升电子有限责任公司，注册资本为10500000.00元。">
+                <word id="0" cont="吉林" pos="ns" parent="1" relate="ATT" />
+                <word id="1" cont="华升" pos="nz" parent="5" relate="ATT" />
+                <word id="2" cont="电子" pos="n" parent="4" relate="ATT" />
+                <word id="3" cont="有限" pos="a" parent="4" relate="ATT" />
+                <word id="4" cont="责任" pos="n" parent="5" relate="ATT" />
+                <word id="5" cont="公司" pos="n" parent="9" relate="SBV" />
+                <word id="6" cont="，" pos="wp" parent="5" relate="WP" />
+                <word id="7" cont="注册" pos="v" parent="8" relate="ATT" />
+                <word id="8" cont="资本" pos="n" parent="9" relate="SBV" />
+                <word id="9" cont="为" pos="v" parent="-1" relate="HED" />
+                <word id="10" cont="10500000.00" pos="m" parent="11" relate="ATT" />
+                <word id="11" cont="元" pos="q" parent="9" relate="VOB" />
+                <word id="12" cont="。" pos="wp" parent="9" relate="WP" />
+            </sent>
+            <sent id="3" cont="吉林华微斯帕克电气有限公司，注册资本为30000000.00元。">
+                <word id="0" cont="吉林" pos="ns" parent="3" relate="ATT" />
+                <word id="1" cont="华微斯帕克" pos="nz" parent="3" relate="ATT" />
+                <word id="2" cont="电气" pos="n" parent="3" relate="ATT" />
+                <word id="3" cont="有限公司" pos="n" parent="7" relate="SBV" />
+                <word id="4" cont="，" pos="wp" parent="3" relate="WP" />
+                <word id="5" cont="注册" pos="v" parent="6" relate="ATT" />
+                <word id="6" cont="资本" pos="n" parent="7" relate="SBV" />
+                <word id="7" cont="为" pos="v" parent="-1" relate="HED" />
+                <word id="8" cont="30000000.00" pos="m" parent="9" relate="ATT" />
+                <word id="9" cont="元" pos="q" parent="7" relate="VOB" />
+                <word id="10" cont="。" pos="wp" parent="7" relate="WP" />
+            </sent>
+            <sent id="4" cont="吉林麦吉柯半导体有限公司，注册资本为70000000.00元。">
+                <word id="0" cont="吉林" pos="ns" parent="3" relate="ATT" />
+                <word id="1" cont="麦吉柯" pos="nz" parent="3" relate="ATT" />
+                <word id="2" cont="半导体" pos="n" parent="3" relate="ATT" />
+                <word id="3" cont="有限公司" pos="n" parent="7" relate="SBV" />
+                <word id="4" cont="，" pos="wp" parent="3" relate="WP" />
+                <word id="5" cont="注册" pos="v" parent="6" relate="ATT" />
+                <word id="6" cont="资本" pos="n" parent="7" relate="SBV" />
+                <word id="7" cont="为" pos="v" parent="-1" relate="HED" />
+                <word id="8" cont="70000000.00" pos="m" parent="9" relate="ATT" />
+                <word id="9" cont="元" pos="q" parent="7" relate="VOB" />
+                <word id="10" cont="。" pos="wp" parent="7" relate="WP" />
+            </sent>
+            <sent id="5" cont="经营范围为：电子元器件、电气设备、应用软件开发及设计、开发、制造与销售；">
+                <word id="0" cont="经营" pos="v" parent="1" relate="ATT" />
+                <word id="1" cont="范围" pos="n" parent="2" relate="SBV" />
+                <word id="2" cont="为" pos="v" parent="-1" relate="HED" />
+                <word id="3" cont="：" pos="wp" parent="2" relate="WP" />
+                <word id="4" cont="电子" pos="n" parent="5" relate="ATT" />
+                <word id="5" cont="元器件" pos="n" parent="12" relate="SBV" />
+                <word id="6" cont="、" pos="wp" parent="8" relate="WP" />
+                <word id="7" cont="电气" pos="n" parent="8" relate="ATT" />
+                <word id="8" cont="设备" pos="n" parent="5" relate="COO" />
+                <word id="9" cont="、" pos="wp" parent="10" relate="WP" />
+                <word id="10" cont="应用" pos="v" parent="11" relate="ATT" />
+                <word id="11" cont="软件" pos="n" parent="12" relate="SBV" />
+                <word id="12" cont="开发" pos="v" parent="2" relate="VOB" />
+                <word id="13" cont="及" pos="c" parent="14" relate="LAD" />
+                <word id="14" cont="设计" pos="v" parent="12" relate="COO" />
+                <word id="15" cont="、" pos="wp" parent="16" relate="WP" />
+                <word id="16" cont="开发" pos="v" parent="12" relate="COO" />
+                <word id="17" cont="、" pos="wp" parent="18" relate="WP" />
+                <word id="18" cont="制造" pos="v" parent="12" relate="COO" />
+                <word id="19" cont="与" pos="c" parent="20" relate="LAD" />
+                <word id="20" cont="销售" pos="v" parent="12" relate="COO" />
+                <word id="21" cont="；" pos="wp" parent="2" relate="WP" />
+            </sent>
+            <sent id="6" cont="经营本企业自产产品及相关技术的出口业务（国家限定公司经营或禁止出口的商品除外）。">
+                <word id="0" cont="经营" pos="v" parent="2" relate="ATT" />
+                <word id="1" cont="本" pos="r" parent="2" relate="ATT" />
+                <word id="2" cont="企业" pos="n" parent="5" relate="ATT" />
+                <word id="3" cont="自" pos="p" parent="5" relate="ATT" />
+                <word id="4" cont="产" pos="v" parent="5" relate="ATT" />
+                <word id="5" cont="产品" pos="n" parent="11" relate="ATT" />
+                <word id="6" cont="及" pos="c" parent="8" relate="LAD" />
+                <word id="7" cont="相关" pos="v" parent="8" relate="ATT" />
+                <word id="8" cont="技术" pos="n" parent="5" relate="COO" />
+                <word id="9" cont="的" pos="u" parent="5" relate="RAD" />
+                <word id="10" cont="出口" pos="v" parent="11" relate="ATT" />
+                <word id="11" cont="业务" pos="n" parent="-1" relate="HED" />
+                <word id="12" cont="（" pos="wp" parent="14" relate="WP" />
+                <word id="13" cont="国家" pos="n" parent="14" relate="SBV" />
+                <word id="14" cont="限定" pos="v" parent="11" relate="COO" />
+                <word id="15" cont="公司" pos="n" parent="16" relate="SBV" />
+                <word id="16" cont="经营" pos="v" parent="21" relate="ATT" />
+                <word id="17" cont="或" pos="c" parent="18" relate="LAD" />
+                <word id="18" cont="禁止" pos="v" parent="16" relate="COO" />
+                <word id="19" cont="出口" pos="v" parent="18" relate="VOB" />
+                <word id="20" cont="的" pos="u" parent="16" relate="RAD" />
+                <word id="21" cont="商品" pos="n" parent="22" relate="SBV" />
+                <word id="22" cont="除外" pos="v" parent="14" relate="VOB" />
+                <word id="23" cont="）" pos="wp" parent="14" relate="WP" />
+                <word id="24" cont="。" pos="wp" parent="11" relate="WP" />
+            </sent>
+            <sent id="7" cont="广州华微电子有限公司，注册资本为40000000.00元深圳吉华微特电子有限公司，注册资本为10000000.00元。">
+                <word id="0" cont="广州" pos="ns" parent="3" relate="ATT" />
+                <word id="1" cont="华微" pos="nz" parent="3" relate="ATT" />
+                <word id="2" cont="电子" pos="n" parent="3" relate="ATT" />
+                <word id="3" cont="有限公司" pos="n" parent="7" relate="SBV" />
+                <word id="4" cont="，" pos="wp" parent="3" relate="WP" />
+                <word id="5" cont="注册" pos="v" parent="6" relate="ATT" />
+                <word id="6" cont="资本" pos="n" parent="7" relate="SBV" />
+                <word id="7" cont="为" pos="v" parent="-1" relate="HED" />
+                <word id="8" cont="40000000.00" pos="m" parent="9" relate="ATT" />
+                <word id="9" cont="元" pos="q" parent="14" relate="ATT" />
+                <word id="10" cont="深圳" pos="ns" parent="11" relate="ATT" />
+                <word id="11" cont="吉华" pos="nz" parent="14" relate="ATT" />
+                <word id="12" cont="微特" pos="nz" parent="14" relate="ATT" />
+                <word id="13" cont="电子" pos="n" parent="14" relate="ATT" />
+                <word id="14" cont="有限公司" pos="n" parent="7" relate="VOB" />
+                <word id="15" cont="，" pos="wp" parent="7" relate="WP" />
+                <word id="16" cont="注册" pos="v" parent="17" relate="ATT" />
+                <word id="17" cont="资本" pos="n" parent="18" relate="SBV" />
+                <word id="18" cont="为" pos="v" parent="7" relate="COO" />
+                <word id="19" cont="10000000.00" pos="m" parent="20" relate="ATT" />
+                <word id="20" cont="元" pos="q" parent="18" relate="VOB" />
+                <word id="21" cont="。" pos="wp" parent="7" relate="WP" />
+            </sent>
+            <sent id="8" cont="深圳斯帕克电机有限公司，注册资本为5000000.00元。">
+                <word id="0" cont="深圳" pos="ns" parent="3" relate="ATT" />
+                <word id="1" cont="斯帕克" pos="nz" parent="3" relate="ATT" />
+                <word id="2" cont="电机" pos="n" parent="3" relate="ATT" />
+                <word id="3" cont="有限公司" pos="n" parent="7" relate="SBV" />
+                <word id="4" cont="，" pos="wp" parent="3" relate="WP" />
+                <word id="5" cont="注册" pos="v" parent="6" relate="ATT" />
+                <word id="6" cont="资本" pos="n" parent="7" relate="SBV" />
+                <word id="7" cont="为" pos="v" parent="-1" relate="HED" />
+                <word id="8" cont="5000000.00" pos="m" parent="9" relate="ATT" />
+                <word id="9" cont="元" pos="q" parent="7" relate="VOB" />
+                <word id="10" cont="。" pos="wp" parent="7" relate="WP" />
+            </sent>
+        </para>
+    </doc>
+</xml4nlp>

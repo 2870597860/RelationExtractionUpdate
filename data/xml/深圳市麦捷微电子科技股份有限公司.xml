@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xml4nlp>
+    <note sent="y" word="y" pos="y" ne="n" parser="y" semparser="n" lstmsemparser="n" wsd="n" srl="n" />
+    <doc>
+        <para id="0">
+            <sent id="0" cont="星源电子科技（深圳）有限公司子公司产品的研84000005593716发、制造与销售。">
+                <word id="0" cont="星源" pos="nz" parent="11" relate="SBV" />
+                <word id="1" cont="电子" pos="n" parent="2" relate="ATT" />
+                <word id="2" cont="科技" pos="n" parent="11" relate="SBV" />
+                <word id="3" cont="（" pos="wp" parent="4" relate="WP" />
+                <word id="4" cont="深圳" pos="ns" parent="2" relate="COO" />
+                <word id="5" cont="）" pos="wp" parent="4" relate="WP" />
+                <word id="6" cont="有限公司" pos="n" parent="7" relate="ATT" />
+                <word id="7" cont="子公司" pos="n" parent="8" relate="ATT" />
+                <word id="8" cont="产品" pos="n" parent="11" relate="ATT" />
+                <word id="9" cont="的" pos="u" parent="8" relate="RAD" />
+                <word id="10" cont="研84000005593716" pos="m" parent="11" relate="ATT" />
+                <word id="11" cont="发" pos="q" parent="-1" relate="HED" />
+                <word id="12" cont="、" pos="wp" parent="13" relate="WP" />
+                <word id="13" cont="制造" pos="v" parent="11" relate="COO" />
+                <word id="14" cont="与" pos="c" parent="15" relate="LAD" />
+                <word id="15" cont="销售" pos="v" parent="13" relate="COO" />
+                <word id="16" cont="。" pos="wp" parent="11" relate="WP" />
+            </sent>
+            <sent id="1" cont="苏州麦捷灿勤电子元件有限公司子公司100000008320324.0779268.95-143581.63及介质滤波2器等新型电子元器件。">
+                <word id="0" cont="苏州" pos="ns" parent="1" relate="ATT" />
+                <word id="1" cont="麦捷" pos="nz" parent="5" relate="ATT" />
+                <word id="2" cont="灿勤" pos="nz" parent="3" relate="ATT" />
+                <word id="3" cont="电子元件" pos="n" parent="4" relate="ATT" />
+                <word id="4" cont="有限公司" pos="n" parent="5" relate="ATT" />
+                <word id="5" cont="子公司" pos="n" parent="14" relate="ATT" />
+                <word id="6" cont="100000008320324.0779268.95-143581.63" pos="m" parent="14" relate="ATT" />
+                <word id="7" cont="及" pos="c" parent="10" relate="LAD" />
+                <word id="8" cont="介质" pos="n" parent="9" relate="ATT" />
+                <word id="9" cont="滤波" pos="v" parent="10" relate="ATT" />
+                <word id="10" cont="2器" pos="n" parent="6" relate="COO" />
+                <word id="11" cont="等" pos="u" parent="6" relate="RAD" />
+                <word id="12" cont="新型" pos="b" parent="14" relate="ATT" />
+                <word id="13" cont="电子" pos="n" parent="14" relate="ATT" />
+                <word id="14" cont="元器件" pos="n" parent="-1" relate="HED" />
+                <word id="15" cont="。" pos="wp" parent="14" relate="WP" />
+            </sent>
+            <sent id="2" cont="浙江长兴电子厂有限公司股权协议转让司业绩产生影响。">
+                <word id="0" cont="浙江" pos="ns" parent="3" relate="ATT" />
+                <word id="1" cont="长兴" pos="nz" parent="2" relate="ATT" />
+                <word id="2" cont="电子厂" pos="n" parent="3" relate="ATT" />
+                <word id="3" cont="有限公司" pos="n" parent="5" relate="ATT" />
+                <word id="4" cont="股权" pos="n" parent="5" relate="ATT" />
+                <word id="5" cont="协议" pos="n" parent="7" relate="ATT" />
+                <word id="6" cont="转让司" pos="v" parent="7" relate="ATT" />
+                <word id="7" cont="业绩" pos="n" parent="8" relate="SBV" />
+                <word id="8" cont="产生" pos="v" parent="-1" relate="HED" />
+                <word id="9" cont="影响" pos="v" parent="8" relate="VOB" />
+                <word id="10" cont="。" pos="wp" parent="8" relate="WP" />
+            </sent>
+            <sent id="3" cont="香港麦捷电子贸易有限公司子公司司境外货款84004550270.27293296.530.00282572.03282572.03业务。">
+                <word id="0" cont="香港" pos="ns" parent="6" relate="ATT" />
+                <word id="1" cont="麦捷" pos="nz" parent="6" relate="ATT" />
+                <word id="2" cont="电子" pos="n" parent="3" relate="ATT" />
+                <word id="3" cont="贸易" pos="v" parent="4" relate="ATT" />
+                <word id="4" cont="有限公司" pos="n" parent="5" relate="ATT" />
+                <word id="5" cont="子公司" pos="n" parent="6" relate="ATT" />
+                <word id="6" cont="司" pos="n" parent="8" relate="ATT" />
+                <word id="7" cont="境外" pos="nl" parent="8" relate="ATT" />
+                <word id="8" cont="货款" pos="n" parent="12" relate="ATT" />
+                <word id="9" cont="84004550270.27293296.53" pos="m" parent="10" relate="ATT" />
+                <word id="10" cont="0.00282572.03" pos="m" parent="11" relate="ATT" />
+                <word id="11" cont="282572.03" pos="m" parent="12" relate="ATT" />
+                <word id="12" cont="业务" pos="n" parent="-1" relate="HED" />
+                <word id="13" cont="。" pos="wp" parent="12" relate="WP" />
+            </sent>
+        </para>
+    </doc>
+</xml4nlp>
